@@ -95,5 +95,3 @@ first time a detail panel with a map is opened.
   carry the name, as the design shows, because those are short; event titles are full sentences
   in every language and are unreadable at that size, so they sit beside the circle instead.
 
-
-
