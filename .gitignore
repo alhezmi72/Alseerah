@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Office lock files
+~$*
+
+# Local build output (the workflow assembles this; never commit it)
+_site/

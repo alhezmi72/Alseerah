@@ -4,7 +4,7 @@
     python3 tools/build_content.py
 
 Reads  : prophets-content, Mohammed-historical-events
-Writes : content/prophets.ar.json, content/muhammad.ar.json
+Writes : web/content/*.json  (the published site serves these directly)
 
 Arabic is the source of record. Every Arabic string in the output is copied
 verbatim from the markdown — nothing is rewritten, summarised or re-dated here.
@@ -22,7 +22,7 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "content"
+OUT = ROOT / "web" / "content"
 I18N = ROOT / "i18n"
 
 LANGS = ("en", "de")
@@ -391,7 +391,7 @@ def build_prophets(md: str) -> dict:
     if len(out) != 25:
         raise ValueError(f"expected 25 prophets, parsed {len(out)}")
     return {
-        "$schema": "../schema/prophets.schema.json",
+        "$schema": "../../schema/prophets.schema.json",
         "version": 1,
         "lang": "ar",
         "dir": "rtl",
@@ -468,7 +468,7 @@ def build_events(md: str) -> dict:
     if [e["id"] for e in events] != list(range(1, 109)):
         raise ValueError("events are not exactly 1..108 in order")
     return {
-        "$schema": "../schema/muhammad.schema.json",
+        "$schema": "../../schema/muhammad.schema.json",
         "version": 1,
         "lang": "ar",
         "dir": "rtl",

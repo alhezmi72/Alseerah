@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema/muhammad.schema.json",
+  "$schema": "../../schema/muhammad.schema.json",
   "version": 1,
   "lang": "en",
   "dir": "ltr",

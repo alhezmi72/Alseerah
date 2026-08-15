@@ -19,7 +19,7 @@ except ImportError:
     sys.exit("jsonschema is not installed — see the docstring")
 
 ROOT = Path(__file__).resolve().parent.parent
-CONTENT = ROOT / "content"
+CONTENT = ROOT / "web" / "content"
 SCHEMA = ROOT / "schema"
 
 PAIRS = [("locations.json", "locations.schema.json"), ("routes.json", "routes.schema.json")]

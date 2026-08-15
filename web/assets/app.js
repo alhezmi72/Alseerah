@@ -3,6 +3,7 @@
  * There is no backend. Content is fetched per language on demand:
  *   content/prophets.<lang>.json   content/muhammad.<lang>.json
  *   content/locations.json         (language-neutral, fetched once)
+ *   content/routes.json            (journeys, fetched once)
  *
  * Route: #/<lang>/<view>[/<id>]   e.g. #/en/muhammad/61
  * Zoom is a view density, not a route — it is remembered in localStorage.
@@ -10,7 +11,9 @@
 
 import { UI, LANGS, DIR } from "./ui.js";
 
-const CONTENT = "../content";
+// content/ sits beside index.html both in the repo and in the published site,
+// so this one relative path is correct in dev and in production.
+const CONTENT = "content";
 const ZOOM_MIN = 1, ZOOM_MAX = 3;
 
 const state = {

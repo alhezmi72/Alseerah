@@ -1,0 +1,104 @@
+name: Build, verify and publish
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Allow one deploy at a time; let a running one finish rather than cancelling it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Content matches its source
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install jsonschema
+
+      # The generated JSON is committed so Pages can serve it directly. That
+      # only stays trustworthy if it is provably a build of the current source,
+      # so rebuild and fail on any difference. This is what enforces the rule
+      # "never hand-edit web/content".
+      - name: Rebuild from the Arabic markdown
+        run: python3 tools/build_content.py
+
+      - name: Fail if the committed content has drifted
+        run: |
+          if ! git diff --quiet -- web/content; then
+            echo "::error::web/content is out of date. Run 'python3 tools/build_content.py' and commit the result."
+            git diff --stat -- web/content
+            git diff -- web/content | head -80
+            exit 1
+          fi
+          echo "web/content matches a fresh build."
+
+      - name: Validate against the schemas
+        run: python3 tools/validate_content.py
+
+      # Every image must still resolve. Wikimedia is reliable, but a file can be
+      # renamed or deleted upstream, and a broken image would ship silently.
+      - name: Check the Wikimedia images still resolve
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, time, sys
+          UA = "AlseerahCI/1.0 (+https://github.com/${{ github.repository }})"
+          locs = [l for l in json.load(open("web/content/locations.json", encoding="utf-8"))["locations"] if l["image"]]
+          bad = []
+          for l in locs:
+              req = urllib.request.Request(l["image"]["thumbUrl"], method="HEAD", headers={"User-Agent": UA})
+              try:
+                  r = urllib.request.urlopen(req, timeout=20)
+                  if r.status != 200 or not r.headers.get("Content-Type", "").startswith("image/"):
+                      bad.append((l["id"], r.status))
+              except Exception as e:
+                  bad.append((l["id"], str(e)[:60]))
+              time.sleep(0.5)          # stay well inside Wikimedia's rate limit
+          print(f"{len(locs) - len(bad)}/{len(locs)} images OK")
+          for i in bad:
+              print("  broken:", *i)
+          sys.exit(1 if bad else 0)
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: verify
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # web/ is already the complete site: index.html, assets, vendor and
+      # content sit beside each other exactly as they do in the repo. Only the
+      # authoring machinery — tools, schema, i18n, the source markdown and the
+      # design deck — is left behind.
+      - name: Assemble the site
+        run: |
+          cp -R web _site
+          touch _site/.nojekyll
+          cp LICENSE LICENSE-CONTENT ATTRIBUTION.md _site/
+          du -sh _site && find _site -maxdepth 1
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -3,20 +3,26 @@
 A static frontend over the generated JSON. No build step, no framework, no backend.
 
 ```bash
-python3 -m http.server 8173
+python3 -m http.server 8173 --directory web
 ```
 
-Then open <http://localhost:8173/web/>. Any static host works — the whole site is files.
-Serve from the **project root**, not from `web/`, because the app fetches `../content/*.json`.
+Then open <http://localhost:8173>. Any static host works — the whole site is files.
+`web/` **is** the site root, in development and in production alike, so a path that
+works locally works when deployed.
 
 ```
 web/
 ├── index.html
+├── .nojekyll           GitHub Pages serves the files as-is
 ├── assets/app.css      layout and theme
 ├── assets/app.js       router, timeline, detail panel, map
 ├── assets/ui.js        interface chrome in ar/en/de (content strings never live here)
+├── content/            the generated JSON this page fetches
 └── vendor/leaflet/     Leaflet 1.9.4, vendored — no CDN dependency
 ```
+
+The whole of `web/` is what gets deployed, and nothing outside it is — the build
+tools, schemas, translation sources and design deck stay in the repo unpublished.
 
 ## How it works
 
@@ -88,3 +94,6 @@ first time a detail panel with a map is opened.
 - The event circles carry the sequence number rather than the event name. The prophets' circles
   carry the name, as the design shows, because those are short; event titles are full sentences
   in every language and are unreadable at that size, so they sit beside the circle instead.
+
+
+

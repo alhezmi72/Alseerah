@@ -1,0 +1,54 @@
+Content licence — CC BY-SA 4.0
+=============================
+
+The CONTENT of this project is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+This covers the material authored for this project:
+
+    prophets-content                 the Arabic source table of the prophets
+    Mohammed-historical-events       the Arabic source table of the 108 events
+    i18n/*.json                      the English and German translations
+    web/content/locations.json       the geographic registry (coordinates, certainty)
+    web/content/routes.json          the journey itineraries
+    web/content/*.{ar,en,de}.json    the generated files built from the above
+
+You are free to share and adapt this content, for any purpose including
+commercially, provided you give appropriate credit and license your
+derivative work under the same terms.
+
+Attribute as:
+
+    Alseerah — https://github.com/alhezmi72/Alseerah — CC BY-SA 4.0
+
+
+What this licence does NOT cover
+--------------------------------
+
+1. THE QUR'AN. The Arabic text of the Qur'an is not the property of this
+   project. The English and German renderings quoted here are published
+   translations reproduced under their own terms — see ATTRIBUTION.md.
+
+2. LOCATION PHOTOGRAPHS. Every image is hosted by Wikimedia Commons and
+   carries its own free licence and its own author. These are listed
+   individually in ATTRIBUTION.md and displayed in the interface. Reusing a
+   photograph means honouring that photograph's licence, not this one.
+
+3. MAP TILES. Supplied by OpenStreetMap under the Open Database Licence.
+
+4. THE CODE. Licensed under MIT — see LICENSE.
+
+
+A note on accuracy
+------------------
+
+This content records how well each report is attested rather than presenting
+everything as equally certain: events carry the source's own ✓ / ≈ marks and
+its A/B/C date grades, dates keep their original hedges, and places are marked
+established, traditional or disputed. The English and German translations are
+machine-produced and NOT yet reviewed by a human — every generated file says so
+in its `translation.status` field, and the interface shows a banner. Please
+keep those signals intact in any derivative work; stripping them would
+misrepresent the material.

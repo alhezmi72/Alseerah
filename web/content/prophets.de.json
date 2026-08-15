@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema/prophets.schema.json",
+  "$schema": "../../schema/prophets.schema.json",
   "version": 1,
   "lang": "de",
   "dir": "ltr",
