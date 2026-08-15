@@ -11,14 +11,18 @@ verbatim from the markdown — nothing is rewritten, summarised or re-dated here
 Everything this script adds (ids, slugs, location refs, sort years, categories)
 is derived, and is either mechanical or comes from an explicit table below.
 
-Re-runnable: delete the output and run again. Never hand-edit the Arabic JSON —
-edit the markdown and rebuild, or the two drift apart.
+Re-runnable and REPRODUCIBLE: the same inputs always produce byte-identical
+output. Nothing timestamped goes into the files — git records when they changed,
+more accurately than a build date would — because CI proves the committed JSON is
+a build of the current source by rebuilding and diffing. A build date would make
+that check fail every day after the commit.
+
+Never hand-edit the generated JSON — edit the markdown or i18n/ and rebuild.
 """
 
 import json
 import re
 import sys
-from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -399,7 +403,6 @@ def build_prophets(md: str) -> dict:
         "source": {
             "file": "prophets-content",
             "generatedBy": "tools/build_content.py",
-            "generatedAt": date.today().isoformat(),
         },
         "sources": QURAN_SOURCE,
         "prophets": out,
@@ -476,7 +479,6 @@ def build_events(md: str) -> dict:
         "source": {
             "file": "Mohammed-historical-events",
             "generatedBy": "tools/build_content.py",
-            "generatedAt": date.today().isoformat(),
         },
         "dateCaveat": DATE_CAVEAT,
         "sources": SOURCES,

@@ -74,7 +74,12 @@ Then open <http://localhost:8173> — the same layout the published site uses.
 ```bash
 python3 tools/build_content.py        # markdown + i18n -> web/content/*.json
 python3 tools/make_attribution.py     # regenerate ATTRIBUTION.md from the data
+python3 tools/check_images.py         # are the Wikimedia files still there and still free?
 ```
+
+The build is reproducible: the same inputs always give byte-identical output, so
+CI can prove the committed JSON is a build of the current source simply by
+rebuilding and diffing. Nothing timestamped goes into the files.
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install jsonschema && .venv/bin/python tools/validate_content.py

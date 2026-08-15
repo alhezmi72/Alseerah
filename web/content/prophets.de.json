@@ -11,8 +11,7 @@
   },
   "source": {
     "file": "prophets-content",
-    "generatedBy": "tools/build_content.py",
-    "generatedAt": "2026-08-15"
+    "generatedBy": "tools/build_content.py"
   },
   "sources": [
     {

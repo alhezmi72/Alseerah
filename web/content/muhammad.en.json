@@ -11,8 +11,7 @@
   },
   "source": {
     "file": "Mohammed-historical-events",
-    "generatedBy": "tools/build_content.py",
-    "generatedAt": "2026-08-15"
+    "generatedBy": "tools/build_content.py"
   },
   "dateCaveat": "The Hijri calendar is lunar, and an early Hijri date cannot be converted to a Gregorian one as though it had been calculated precisely from a fixed calendar; modern sources differ in how they align the two. The Gregorian dates given here are approximate.",
   "sources": [

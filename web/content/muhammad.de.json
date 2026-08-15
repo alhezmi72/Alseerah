@@ -11,8 +11,7 @@
   },
   "source": {
     "file": "Mohammed-historical-events",
-    "generatedBy": "tools/build_content.py",
-    "generatedAt": "2026-08-15"
+    "generatedBy": "tools/build_content.py"
   },
   "dateCaveat": "Der Hidschri-Kalender ist ein Mondkalender; ein frühes Hidschri-Datum lässt sich nicht so in ein gregorianisches umrechnen, als wäre es exakt aus einem festen Kalender berechnet worden. Moderne Quellen weichen in der Zuordnung voneinander ab. Die hier angegebenen gregorianischen Daten sind ungefähre Angaben.",
   "sources": [
