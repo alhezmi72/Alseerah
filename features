@@ -1,0 +1,19 @@
+The solution should support the following features:
+Landing Page:
+1.	Display all prophets in an incremental timeline, beginning with Adam and concluding with Mohammed, as per the diagram attached.
+2.	Present all prophets on a timeline, with each circle representing the name of the prophet.
+3.	Allow users to click on circles or buttons to view detailed information about each prophet.
+4.	Based on the content of the attached landing page file, provide information for each prophet, including their name, their people, their book, the most prominent sins of their people and their punishments, a summary of their message, and their location.
+5.	Include an image of the related location, such as Mecca, Medina, Jerusalem, or Hegra.
+6.	Display the map location using OpenStreetMap, if location is availble
+
+From the landing page to the Mohammed page:
+1.	Follow the same design timeline. The page should present all the primary historical events of Mohammed’s life as described in the attached file in Arabic. 
+2.	These events should be presented on an incremental timeline, with each circle containing the name of the historical event, such as “Year of the Elephant,” “His birth,” “His mother’s death,” and so on. 
+3.	Allow users to click on circles or buttons to view detailed information of the historical event.
+4.	Based on the content of the attached file in arabic, provide information for each historical event, including: name of the evnet, Gregorian and Hijri calendar, location, sommary of the evnet.
+5.	Include an image of the related location, such as Mecca, Medina, Jerusalem, or Hegra.
+6.	Display the map event location using OpenStreetMap, search for the related location on the web, e.g. الأطلس التاريخي لسيرة الرسول
+General requirements: 
+1.	Support multiple languages, beginning with Arabic, German, and English, and enable users to switch between these languages. The attached content is in Arabic and needs to be translated into German and English.
+2.	Provide a user-friendly browsing experience with a modern design.

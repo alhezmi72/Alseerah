@@ -1,0 +1,652 @@
+{
+  "$schema": "../schema/prophets.schema.json",
+  "version": 1,
+  "lang": "en",
+  "dir": "ltr",
+  "translation": {
+    "status": "machine",
+    "from": "ar",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "source": {
+    "file": "prophets-content",
+    "generatedBy": "tools/build_content.py",
+    "generatedAt": "2026-08-15"
+  },
+  "sources": [
+    {
+      "id": "quran-com",
+      "label": "Quran.com",
+      "url": "https://quran.com/"
+    }
+  ],
+  "prophets": [
+    {
+      "id": "adam",
+      "order": 1,
+      "name": "Adam, peace be upon him",
+      "shortName": "Adam",
+      "people": "His descendants; the Qur'an does not mention a particular people for him",
+      "book": {
+        "text": "No book is named for him",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "He had no denying people in the usual sense; what occurred was the account of Iblis and the whispering to Adam and Eve",
+      "message": "The oneness of God, obedience to Him, and repentance when one errs",
+      "placeText": "Paradise, then the earth; the Qur'an does not specify where he descended",
+      "locations": [
+        "paradise"
+      ],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "idris",
+      "order": 2,
+      "name": "Idris, peace be upon him",
+      "shortName": "Idris",
+      "people": "Not specified in the Qur'an",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions neither his people nor any punishment of a denying people",
+      "message": "Truthfulness, uprightness and worship; God says: “Lo! he was a saint, a prophet” (Maryam 19:56)",
+      "placeText": "Not specified in the Qur'an",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      },
+      "quranRefs": [
+        "19:56"
+      ]
+    },
+    {
+      "id": "nuh",
+      "order": 3,
+      "name": "Nuh (Noah), peace be upon him",
+      "shortName": "Nuh",
+      "people": "**The people of Nuh**",
+      "book": {
+        "text": "No book is named for him",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Associating partners with God and idol worship, denial and arrogance; **they were drowned in the flood**",
+      "message": "The oneness of God, abandoning idol worship, seeking forgiveness, and warning of the punishment",
+      "placeText": "The Qur'an does not specify his land precisely",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "hud",
+      "order": 4,
+      "name": "Hud, peace be upon him",
+      "shortName": "Hud",
+      "people": "**'Ad**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Associating partners with God, arrogance, force and violence, and denial; they were destroyed **by the barren wind**",
+      "message": "Worship of God alone, abandoning arrogance, and gratitude for blessings",
+      "placeText": "**Al-Ahqaf**; most probably the south of the Arabian Peninsula",
+      "locations": [
+        "al-ahqaf"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "salih",
+      "order": 5,
+      "name": "Salih, peace be upon him",
+      "shortName": "Salih",
+      "people": "**Thamud**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Associating partners with God, denial, and **the hamstringing of the she-camel**; the blast and the earthquake seized them, and they perished",
+      "message": "Oneness of God, abandoning corruption, and respect for God's sign, the she-camel",
+      "placeText": "**Al-Hijr** in the north-west of the Arabian Peninsula",
+      "locations": [
+        "al-hijr"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "ibrahim",
+      "order": 6,
+      "name": "Ibrahim (Abraham), peace be upon him",
+      "shortName": "Ibrahim",
+      "people": "His people, among them idol worshippers; he then called to the oneness of God",
+      "book": {
+        "text": "**The Scriptures of Ibrahim**, mentioned in the Qur'an",
+        "namedInQuran": true,
+        "bookId": "suhuf-ibrahim"
+      },
+      "sinsAndPunishment": "Associating partners with God and idol worship; his people tried to burn him, and God saved him",
+      "message": "Debating the polytheists, dismantling the arguments of association, devoting worship purely to God, and building the Sacred House",
+      "placeText": "Iraq / Mesopotamia, then al-Sham and Mecca",
+      "locations": [
+        "mesopotamia",
+        "ash-sham",
+        "mecca"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "lut",
+      "order": 7,
+      "name": "Lut (Lot), peace be upon him",
+      "shortName": "Lut",
+      "people": "**The people of Lut**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Indecency, waylaying travellers, open display of wrongdoing, and denial; **their cities were overturned and rained upon with stones**",
+      "message": "Oneness of God, purity, and abandoning indecency",
+      "placeText": "The cities of the people of Lut, in the Dead Sea region according to the best-known view",
+      "locations": [
+        "cities-of-lut"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "moral-corruption"
+      ],
+      "lineage": {
+        "branch": "other",
+        "contemporaryOf": [
+          "ibrahim"
+        ]
+      }
+    },
+    {
+      "id": "ismail",
+      "order": 8,
+      "name": "Isma'il (Ishmael), peace be upon him",
+      "shortName": "Isma'il",
+      "people": "His descendants, the people of Mecca and those around them",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no people who denied him, and no collective punishment for them",
+      "message": "Prayer and almsgiving, truthfulness and keeping one's covenant: “he was a keeper of his promise” (Maryam 19:54)",
+      "placeText": "**Mecca**",
+      "locations": [
+        "mecca"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "ismaili",
+        "parentId": "ibrahim"
+      },
+      "quranRefs": [
+        "19:54"
+      ]
+    },
+    {
+      "id": "ishaq",
+      "order": 9,
+      "name": "Ishaq (Isaac), peace be upon him",
+      "shortName": "Ishaq",
+      "people": "His descendants",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no particular people who denied him",
+      "message": "A continuation of the call of Ibrahim and of the oneness of God",
+      "placeText": "Greater Syria (al-Sham)",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ibrahim"
+      }
+    },
+    {
+      "id": "yaqub",
+      "order": 10,
+      "name": "Ya'qub (Jacob, Israel), peace be upon him",
+      "shortName": "Ya'qub",
+      "people": "His descendants, **the Children of Israel**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no punishment of his people in his time",
+      "message": "Oneness of God, worship, and his charge to his sons to hold fast to the religion of God",
+      "placeText": "Greater Syria (al-Sham)",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ishaq"
+      }
+    },
+    {
+      "id": "yusuf",
+      "order": 11,
+      "name": "Yusuf (Joseph), peace be upon him",
+      "shortName": "Yusuf",
+      "people": "The people of Egypt, and his household from the Children of Israel",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no people punished for denying him",
+      "message": "Oneness of God, chastity, trustworthiness, patience, forgiveness, and the administration of the affairs of state",
+      "placeText": "**Egypt**",
+      "locations": [
+        "egypt"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "yaqub"
+      }
+    },
+    {
+      "id": "ayyub",
+      "order": 12,
+      "name": "Ayyub (Job), peace be upon him",
+      "shortName": "Ayyub",
+      "people": "His people are not specified",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no punishment of his people",
+      "message": "Patience in affliction, turning to God, and not despairing",
+      "placeText": "Not specified in the Qur'an; traditionally attributed to the region of al-Sham",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "shuayb",
+      "order": 13,
+      "name": "Shu'ayb, peace be upon him",
+      "shortName": "Shu'ayb",
+      "people": "**Midian and the Companions of the Thicket**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Associating partners with God, **giving short measure and weight, depriving people of their due, and spreading corruption in the land**; the earthquake and the punishment of the Day of the Shadow seized them, according to the Qur'anic context",
+      "message": "Oneness of God, economic justice, giving full measure and weight, and refraining from corruption",
+      "placeText": "**Midian**, in the north-west of the Arabian Peninsula according to the best-known view",
+      "locations": [
+        "midyan"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "economic-corruption"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "musa",
+      "order": 14,
+      "name": "Musa (Moses), peace be upon him",
+      "shortName": "Musa",
+      "people": "**Pharaoh and his people, and the Children of Israel**",
+      "book": {
+        "text": "**The Torah**",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "Pharaoh: tyranny, the claim to supremacy, the killing of the sons, and the enslavement of the Children of Israel; God destroyed him **by drowning**. Among the Children of Israel there occurred association with God in the worship of the calf, and other things",
+      "message": "Oneness of God, freeing the Children of Israel from oppression, and establishing the law of God",
+      "placeText": "**Egypt and Sinai**",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance",
+        "tyranny"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "harun",
+      "order": 15,
+      "name": "Harun (Aaron), peace be upon him",
+      "shortName": "Harun",
+      "people": "**The Children of Israel**; together with Musa he called Pharaoh and his people",
+      "book": {
+        "text": "The Torah, together with Musa",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "The same context as the mission of Musa; among the most prominent events among his people was the worship of the calf",
+      "message": "Oneness of God, supporting Musa, and leading the Children of Israel upon the law of God",
+      "placeText": "Egypt and Sinai",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite",
+        "contemporaryOf": [
+          "musa"
+        ]
+      }
+    },
+    {
+      "id": "dawud",
+      "order": 16,
+      "name": "Dawud (David), peace be upon him",
+      "shortName": "Dawud",
+      "people": "The Children of Israel",
+      "book": {
+        "text": "**The Psalms (al-Zabur)**",
+        "namedInQuran": true,
+        "bookId": "zabur"
+      },
+      "sinsAndPunishment": "The Qur'an mentions no particular people punished for denying him",
+      "message": "Worship and ruling with justice, glorifying God, and justice among people",
+      "placeText": "Greater Syria (al-Sham) and Jerusalem",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "sulayman",
+      "order": 17,
+      "name": "Sulayman (Solomon), peace be upon him",
+      "shortName": "Sulayman",
+      "people": "The Children of Israel; he ruled over a wide realm of humans, jinn and birds",
+      "book": {
+        "text": "No book is named for him",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no people punished for denying him; among the events is his encounter with the Queen of Sheba and her people, and their worship of the sun",
+      "message": "Oneness of God, gratitude for blessing, justice, and using kingship in obedience to God",
+      "placeText": "**Al-Sham and Jerusalem**",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "dawud"
+      }
+    },
+    {
+      "id": "ilyas",
+      "order": 18,
+      "name": "Ilyas (Elijah), peace be upon him",
+      "shortName": "Ilyas",
+      "people": "His people from the Children of Israel, who worshipped **Baal**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The worship of Baal and denial; the Qur'an gives no detail of a collective punishment for them",
+      "message": "Oneness of God and abandoning the worship of Baal",
+      "placeText": "Greater Syria (al-Sham) according to the best-known view",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "al-yasa",
+      "order": 19,
+      "name": "Al-Yasa' (Elisha), peace be upon him",
+      "shortName": "Al-Yasa'",
+      "people": "His people are not specified in detail; from the Children of Israel according to the best-known view",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions neither the disobedience of his people nor their punishment",
+      "message": "Uprightness and righteousness; the Qur'an describes him as among the best",
+      "placeText": "Greater Syria (al-Sham) according to the best-known view",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yunus",
+      "order": 20,
+      "name": "Yunus (Jonah), peace be upon him",
+      "shortName": "Yunus",
+      "people": "**The people of Yunus**",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "They denied at first, then **believed before the punishment came down**, and so God lifted the punishment from them",
+      "message": "Oneness of God, warning and repentance; his people are a rare example of a people who believed after their prophet's warning, so that God lifted the punishment from them",
+      "placeText": "**Nineveh, Iraq** according to the best-known view",
+      "locations": [
+        "nineveh"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "dhul-kifl",
+      "order": 21,
+      "name": "Dhu al-Kifl, peace be upon him",
+      "shortName": "Dhu al-Kifl",
+      "people": "Not specified",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no people and no punishment for them",
+      "message": "Patience, righteousness and faithfulness; God says: “All were of the steadfast” (Al-Anbiya 21:85)",
+      "placeText": "Not specified",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "other"
+      },
+      "quranRefs": [
+        "21:85"
+      ]
+    },
+    {
+      "id": "zakariya",
+      "order": 22,
+      "name": "Zakariyya (Zechariah), peace be upon him",
+      "shortName": "Zakariyya",
+      "people": "The Children of Israel",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an mentions no people punished for denying Zakariyya",
+      "message": "Worship, supplication, the care of Maryam, and holding fast to obedience to God",
+      "placeText": "Jerusalem / Greater Syria (al-Sham)",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yahya",
+      "order": 23,
+      "name": "Yahya (John), peace be upon him",
+      "shortName": "Yahya",
+      "people": "The Children of Israel",
+      "book": {
+        "text": "No book is mentioned",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "The Qur'an gives no detail of a punishment of his people; a faction of the Children of Israel killed him according to the historical reports, but the details of that are not in the Qur'an",
+      "message": "God-consciousness, chastity, righteousness, and holding fast to the Book of God",
+      "placeText": "Jerusalem / Greater Syria (al-Sham)",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "zakariya"
+      }
+    },
+    {
+      "id": "isa",
+      "order": 24,
+      "name": "'Isa (Jesus), peace be upon him",
+      "shortName": "'Isa",
+      "people": "**The Children of Israel**",
+      "book": {
+        "text": "**The Gospel (al-Injil)**",
+        "namedInQuran": true,
+        "bookId": "injil"
+      },
+      "sinsAndPunishment": "Denial, the killing of prophets, and the attempt to kill 'Isa; God raised 'Isa to Himself, and they did not kill him",
+      "message": "Oneness of God, confirming the Torah, correcting deviation, giving glad tidings of the Messenger Muhammad ﷺ, mercy and worship",
+      "placeText": "**Jerusalem and Greater Syria (al-Sham)**",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "distortion-of-religion"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "muhammad",
+      "order": 25,
+      "name": "Muhammad ﷺ",
+      "shortName": "Muhammad",
+      "people": "First **Quraysh and the Arabs**, then **all people**",
+      "book": {
+        "text": "**The Noble Qur'an**",
+        "namedInQuran": true,
+        "bookId": "quran"
+      },
+      "sinsAndPunishment": "Associating partners with God, idol worship, injustice, and various forms of social corruption; God granted victory to His Messenger and Mecca was conquered, and then people entered Islam in throngs",
+      "message": "Oneness of God, the seal of prophethood, the Qur'an, worship, moral character, justice, the reform of society, and belief in all the prophets",
+      "placeText": "**Mecca and Medina**",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "ismaili"
+      },
+      "detailPage": "muhammad"
+    }
+  ],
+  "quranTranslation": {
+    "title": "The Meaning of the Glorious Koran",
+    "translator": "Marmaduke Pickthall",
+    "year": 1930,
+    "license": "public-domain",
+    "licenseNote": "Published 1930; in the public domain. No permission or fee required, which is why it was chosen over more modern renderings that are still in copyright.",
+    "attribution": "Qur'an translation: Marmaduke Pickthall, The Meaning of the Glorious Koran (1930).",
+    "verifiedAgainst": "https://api.quran.com/api/v4/quran/translations/19"
+  }
+}

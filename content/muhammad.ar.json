@@ -1,0 +1,2722 @@
+{
+  "$schema": "../schema/muhammad.schema.json",
+  "version": 1,
+  "lang": "ar",
+  "dir": "rtl",
+  "translation": {
+    "status": "source",
+    "from": "ar",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "source": {
+    "file": "Mohammed-historical-events",
+    "generatedBy": "tools/build_content.py",
+    "generatedAt": "2026-08-15"
+  },
+  "dateCaveat": "التاريخ الهجري قمري، ولا يصح تحويل كل تاريخ هجري قديم إلى تاريخ ميلادي وكأنه محسوب بدقة من تقويم ثابت؛ فالمصادر الحديثة تختلف في المقابلة بين التاريخين. والتواريخ الميلادية هنا تقريبية.",
+  "sources": [
+    {
+      "id": "worldhistory",
+      "label": "Weltgeschichte Enzyklopädie / World History Encyclopedia",
+      "url": "https://www.worldhistory.org/timeline/Prophet_Muhammad/"
+    },
+    {
+      "id": "pbs",
+      "label": "PBS — Muhammad: Legacy of a Prophet",
+      "url": "https://www.pbs.org/muhammad/timeline_html.shtml"
+    },
+    {
+      "id": "islamicchronicles",
+      "label": "Muslim History Chronicles",
+      "url": "https://islamicchronicles.com/islamic-history/rise-of-islam/chronological-biography-of-prophet-muhammad/"
+    }
+  ],
+  "eras": [
+    {
+      "id": "pre-birth-and-childhood",
+      "order": 1,
+      "title": "أولًا: ما قبل مولد النبي ﷺ والولادة والطفولة",
+      "firstEvent": 1,
+      "lastEvent": 21
+    },
+    {
+      "id": "prophethood-and-meccan-daawah",
+      "order": 2,
+      "title": "ثانيًا: بداية النبوة والدعوة المكية",
+      "firstEvent": 22,
+      "lastEvent": 50
+    },
+    {
+      "id": "hijrah-and-medina",
+      "order": 3,
+      "title": "ثالثًا: الهجرة وتأسيس مجتمع المدينة",
+      "firstEvent": 51,
+      "lastEvent": 74
+    },
+    {
+      "id": "hudaybiyah-khaybar-and-beyond",
+      "order": 4,
+      "title": "رابعًا: الحديبية وخيبر والمرحلة الدولية",
+      "firstEvent": 75,
+      "lastEvent": 84
+    },
+    {
+      "id": "conquest-of-mecca",
+      "order": 5,
+      "title": "خامسًا: فتح مكة وما بعده",
+      "firstEvent": 85,
+      "lastEvent": 92
+    },
+    {
+      "id": "tabuk-and-the-completed-state",
+      "order": 6,
+      "title": "سادسًا: تبوك وعام الوفود واكتمال الدولة",
+      "firstEvent": 93,
+      "lastEvent": 108
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "slug": "quraysh-and-mecca",
+      "eraId": "pre-birth-and-childhood",
+      "order": 1,
+      "title": "مكانة قريش ومكة",
+      "summary": "كانت مكة مركزًا دينيًا وتجاريًا مهمًا بسبب الكعبة وموقعها في طرق التجارة. وكانت قريش صاحبة نفوذ كبير في إدارة الحج وخدمة الحرم.",
+      "date": {
+        "hijri": "نحو 70–60 ق.هـ",
+        "gregorian": "القرن السادس م",
+        "sortYearHijri": -70,
+        "sortYearGregorian": null
+      },
+      "authenticity": {
+        "mark": "unmarked",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 2,
+      "slug": "year-of-the-elephant",
+      "eraId": "pre-birth-and-childhood",
+      "order": 2,
+      "title": "عام الفيل",
+      "summary": "أرسل أبرهة، حاكم اليمن التابع لمملكة أكسوم، جيشًا باتجاه مكة لهدم الكعبة. يذكر القرآن قصة أصحاب الفيل، وانتهى الأمر بهلاك الجيش وعدم تمكنه من هدم البيت.",
+      "date": {
+        "hijri": "نحو 53 ق.هـ",
+        "gregorian": "570/571م",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة واليمن",
+      "locations": [
+        "mecca",
+        "yemen"
+      ],
+      "movement": false
+    },
+    {
+      "id": 3,
+      "slug": "death-of-abdullah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 3,
+      "title": "وفاة عبد الله بن عبد المطلب",
+      "summary": "والد النبي ﷺ توفي قبل ولادته على المشهور، وكان قد خرج في تجارة ثم مرض في يثرب. وبذلك ولد النبي ﷺ يتيم الأب.",
+      "date": {
+        "hijri": "نحو 53 ق.هـ",
+        "gregorian": "570/571م",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة/مكة",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 4,
+      "slug": "birth-of-the-prophet",
+      "eraId": "pre-birth-and-childhood",
+      "order": 4,
+      "title": "مولد النبي ﷺ",
+      "summary": "ولد يوم الاثنين في عام الفيل. أما اليوم الدقيق من الشهر ففيه خلاف كبير؛ و12 ربيع الأول هو الأشهر عند العامة، لكنه ليس تاريخًا قطعيًا.",
+      "date": {
+        "hijri": "ربيع الأول، 53 ق.هـ تقريبًا",
+        "gregorian": "570/571م",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "B"
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 5,
+      "slug": "naming-muhammad",
+      "eraId": "pre-birth-and-childhood",
+      "order": 5,
+      "title": "تسميته محمدًا",
+      "summary": "سماه جده عبد المطلب محمدًا، وهو اسم كان أقل شيوعًا في العرب آنذاك.",
+      "date": {
+        "hijri": "53 ق.هـ",
+        "gregorian": "570/571م",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 6,
+      "slug": "nursing-with-halimah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 6,
+      "title": "رضاعته عند حليمة السعدية",
+      "summary": "جرت عادة أشراف مكة بإرسال أطفالهم إلى البادية طلبًا للفصاحة وصحة البيئة، فأخذته حليمة السعدية من بني سعد وأقام عندها في طفولته.",
+      "date": {
+        "hijri": "53–51 ق.هـ",
+        "gregorian": "570–572م",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → بادية بني سعد",
+      "locations": [
+        "mecca",
+        "badiyat-bani-saad"
+      ],
+      "movement": true
+    },
+    {
+      "id": 7,
+      "slug": "first-splitting-of-the-breast",
+      "eraId": "pre-birth-and-childhood",
+      "order": 7,
+      "title": "حادثة شق الصدر الأولى",
+      "summary": "ورد في صحيح مسلم وغيره أن جبريل عليه السلام شق صدره ﷺ وهو صغير، وغسل قلبه وطهره، ثم أعيد كما كان.",
+      "date": {
+        "hijri": "نحو 49 ق.هـ",
+        "gregorian": "نحو 574م",
+        "sortYearHijri": -49,
+        "sortYearGregorian": 574
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "من حيث أصل الرواية",
+        "grade": null
+      },
+      "placeText": "بادية بني سعد",
+      "locations": [
+        "badiyat-bani-saad"
+      ],
+      "movement": false
+    },
+    {
+      "id": 8,
+      "slug": "return-to-his-mother",
+      "eraId": "pre-birth-and-childhood",
+      "order": 8,
+      "title": "عودته إلى أمه",
+      "summary": "بعد فترة الرضاعة في بني سعد عاد ﷺ إلى أمه آمنة.",
+      "date": {
+        "hijri": "نحو 47 ق.هـ",
+        "gregorian": "نحو 576/577م",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 576
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "بادية بني سعد → مكة",
+      "locations": [
+        "badiyat-bani-saad",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 9,
+      "slug": "aminah-visits-medina",
+      "eraId": "pre-birth-and-childhood",
+      "order": 9,
+      "title": "زيارة آمنة للمدينة",
+      "summary": "خرجت آمنة بالنبي ﷺ لزيارة أخواله من بني النجار، ثم عادت به.",
+      "date": {
+        "hijri": "نحو 47 ق.هـ",
+        "gregorian": "نحو 577م",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → المدينة",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 10,
+      "slug": "death-of-aminah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 10,
+      "title": "وفاة آمنة بنت وهب",
+      "summary": "توفيت أمه ﷺ في الأبواء وهو في نحو السادسة، فأصبح يتيم الأب والأم.",
+      "date": {
+        "hijri": "نحو 47 ق.هـ",
+        "gregorian": "نحو 577م",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الأبواء",
+      "locations": [
+        "al-abwa"
+      ],
+      "movement": false
+    },
+    {
+      "id": 11,
+      "slug": "guardianship-of-abd-al-muttalib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 11,
+      "title": "كفالة عبد المطلب",
+      "summary": "تولى جده عبد المطلب رعايته بعد وفاة أمه.",
+      "date": {
+        "hijri": "نحو 47–45 ق.هـ",
+        "gregorian": "577–579م",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 12,
+      "slug": "death-of-abd-al-muttalib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 12,
+      "title": "وفاة عبد المطلب",
+      "summary": "توفي جده وهو في نحو الثامنة، وانتقلت كفالته إلى عمه أبي طالب.",
+      "date": {
+        "hijri": "نحو 45 ق.هـ",
+        "gregorian": "نحو 579م",
+        "sortYearHijri": -45,
+        "sortYearGregorian": 579
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 13,
+      "slug": "guardianship-of-abu-talib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 13,
+      "title": "كفالة أبي طالب",
+      "summary": "عاش ﷺ في بيت عمه أبي طالب، الذي كان يحبه ويحميه رغم أنه لم يدخل الإسلام.",
+      "date": {
+        "hijri": "نحو 45–28 ق.هـ",
+        "gregorian": "579–595م",
+        "sortYearHijri": -45,
+        "sortYearGregorian": 579
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 14,
+      "slug": "journey-to-al-sham-with-abu-talib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 14,
+      "title": "الرحلة إلى الشام مع أبي طالب",
+      "summary": "خرج ﷺ في تجارة مع عمه وهو صغير. وتذكر كتب السيرة قصة الراهب بحيرى، لكن تفاصيلها محل نقاش حديثي، لذلك لا ينبغي تقديم كل تفاصيلها على أنها قطعية.",
+      "date": {
+        "hijri": "نحو 41 ق.هـ",
+        "gregorian": "نحو 582/583م",
+        "sortYearHijri": -41,
+        "sortYearGregorian": 582
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "طريق الشام",
+      "locations": [
+        "sham-route"
+      ],
+      "movement": false
+    },
+    {
+      "id": 15,
+      "slug": "harb-al-fijar",
+      "eraId": "pre-birth-and-childhood",
+      "order": 15,
+      "title": "حرب الفِجَار",
+      "summary": "شهد ﷺ جانبًا من أحداثها في شبابه، ولم يكن مقاتلًا رئيسيًا فيها.",
+      "date": {
+        "hijri": "نحو 33 ق.هـ",
+        "gregorian": "نحو 590م",
+        "sortYearHijri": -33,
+        "sortYearGregorian": 590
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 16,
+      "slug": "hilf-al-fudul",
+      "eraId": "pre-birth-and-childhood",
+      "order": 16,
+      "title": "حلف الفضول",
+      "summary": "تحالفت مجموعة من بطون قريش على نصرة المظلوم ورد الحقوق، وقد أثنى النبي ﷺ على هذا المبدأ بعد النبوة.",
+      "date": {
+        "hijri": "نحو 33 ق.هـ",
+        "gregorian": "نحو 590م",
+        "sortYearHijri": -33,
+        "sortYearGregorian": 590
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "من حيث أصل الحلف",
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 17,
+      "slug": "trading-for-khadijah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 17,
+      "title": "تجارة خديجة",
+      "summary": "عمل ﷺ في تجارة خديجة بنت خويلد رضي الله عنها، وخرج بمالها إلى الشام، واشتهر بالأمانة والصدق.",
+      "date": {
+        "hijri": "نحو 28 ق.هـ",
+        "gregorian": "نحو 595م",
+        "sortYearHijri": -28,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "مكة → الشام",
+      "locations": [
+        "mecca",
+        "ash-sham"
+      ],
+      "movement": true
+    },
+    {
+      "id": 18,
+      "slug": "marriage-to-khadijah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 18,
+      "title": "زواجه من خديجة رضي الله عنها",
+      "summary": "تزوجها وهو في نحو الخامسة والعشرين، وكانت أكبر منه سنًا على المشهور. وكانت أول زوجاته، ولم يتزوج عليها حتى توفيت.",
+      "date": {
+        "hijri": "نحو 28 ق.هـ",
+        "gregorian": "نحو 595م",
+        "sortYearHijri": -28,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 19,
+      "slug": "family-and-trade-life",
+      "eraId": "pre-birth-and-childhood",
+      "order": 19,
+      "title": "الحياة الأسرية والتجارية",
+      "summary": "عاش ﷺ مع خديجة حياة مستقرة، وأنجب منها أبناءه وبناته، ومنهم القاسم وعبد الله وزينب ورقية وأم كلثوم وفاطمة رضي الله عنهم.",
+      "date": {
+        "hijri": "نحو 25–18 ق.هـ",
+        "gregorian": "595–605م",
+        "sortYearHijri": -25,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "unmarked",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 20,
+      "slug": "rebuilding-the-kaaba",
+      "eraId": "pre-birth-and-childhood",
+      "order": 20,
+      "title": "إعادة بناء الكعبة",
+      "summary": "أعادت قريش بناء الكعبة بعد تضررها. ولما اختلفت القبائل فيمن يضع الحجر الأسود، احتكموا إلى النبي ﷺ، فوضع الحجر على ثوب، وأمر رؤساء القبائل برفعه، ثم وضعه بيده.",
+      "date": {
+        "hijri": "نحو 18 ق.هـ",
+        "gregorian": "نحو 605م",
+        "sortYearHijri": -18,
+        "sortYearGregorian": 605
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 21,
+      "slug": "seclusion-in-hira",
+      "eraId": "pre-birth-and-childhood",
+      "order": 21,
+      "title": "الخلوة والتعبد في حراء",
+      "summary": "كان ﷺ يختلي في غار حراء ويتعبد قبل نزول الوحي.",
+      "date": {
+        "hijri": "نحو 12 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -12,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة – غار حراء",
+      "locations": [
+        "cave-hira"
+      ],
+      "movement": false
+    },
+    {
+      "id": 22,
+      "slug": "first-revelation",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 22,
+      "title": "نزول الوحي الأول",
+      "summary": "جاء جبريل عليه السلام إلى النبي ﷺ، ونزلت أوائل سورة العلق: **﴿اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ﴾**. بدأت بذلك النبوة.",
+      "date": {
+        "hijri": "رمضان، 13 ق.هـ تقريبًا",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "غار حراء، مكة",
+      "locations": [
+        "cave-hira"
+      ],
+      "movement": false,
+      "quranRefs": [
+        "96:1"
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "return-to-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 23,
+      "title": "رجوع النبي ﷺ إلى خديجة",
+      "summary": "عاد ﷺ متأثرًا بما حدث، فطمأنته خديجة رضي الله عنها، ثم ذهبت به إلى ورقة بن نوفل.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 24,
+      "slug": "waraqah-ibn-nawfal",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 24,
+      "title": "ورقة بن نوفل",
+      "summary": "أخبر ورقة أن الذي جاءه هو الناموس الذي جاء الأنبياء، وأن قومه سيعادونه.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "في أصل القصة",
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 25,
+      "slug": "islam-of-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 25,
+      "title": "إسلام خديجة",
+      "summary": "كانت أول من آمن به ﷺ من الناس.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 26,
+      "slug": "islam-of-ali",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 26,
+      "title": "إسلام علي بن أبي طالب",
+      "summary": "أسلم وهو صغير، وكان في بيت النبي ﷺ في تلك الفترة.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 27,
+      "slug": "islam-of-zayd-ibn-harithah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 27,
+      "title": "إسلام زيد بن حارثة",
+      "summary": "كان من أقرب الناس إلى النبي ﷺ ومن أوائل المسلمين.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 28,
+      "slug": "islam-of-abu-bakr",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 28,
+      "title": "إسلام أبي بكر الصديق",
+      "summary": "من أوائل السابقين إلى الإسلام، وأسهم بعد ذلك في إسلام عدد من كبار الصحابة.",
+      "date": {
+        "hijri": "13 ق.هـ",
+        "gregorian": "610م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 29,
+      "slug": "secret-daawah-phase",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 29,
+      "title": "مرحلة الدعوة السرية",
+      "summary": "استمرت الدعوة في نطاق محدود، وبدأ تكوين الجماعة الأولى من المسلمين.",
+      "date": {
+        "hijri": "13–10 ق.هـ",
+        "gregorian": "610–613م",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 30,
+      "slug": "islam-of-uthman-zubayr-talhah-saad",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 30,
+      "title": "إسلام عثمان بن عفان والزبير وطلحة وسعد وغيرهم",
+      "summary": "دخل عدد من كبار الصحابة في الإسلام خلال السنوات الأولى.",
+      "date": {
+        "hijri": "نحو 11–10 ق.هـ",
+        "gregorian": "611–612م",
+        "sortYearHijri": -11,
+        "sortYearGregorian": 611
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 31,
+      "slug": "public-proclamation",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 31,
+      "title": "الجهر بالدعوة",
+      "summary": "نزل الأمر بإنذار الأقربين والجهر بالدعوة، فبدأ النبي ﷺ دعوة قريش علنًا.",
+      "date": {
+        "hijri": "نحو 10 ق.هـ",
+        "gregorian": "613م",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 32,
+      "slug": "calling-quraysh-at-al-safa",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 32,
+      "title": "دعوة قريش على الصفا",
+      "summary": "جمع النبي ﷺ قريشًا وأنذرهم، وبدأت مرحلة المواجهة العلنية.",
+      "date": {
+        "hijri": "نحو 10 ق.هـ",
+        "gregorian": "613م",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "جبل الصفا، مكة",
+      "locations": [
+        "mount-safa"
+      ],
+      "movement": false
+    },
+    {
+      "id": 33,
+      "slug": "intensifying-persecution",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 33,
+      "title": "اشتداد اضطهاد المسلمين",
+      "summary": "تعرض المسلمون للتعذيب والمقاطعة والضغط الاجتماعي، وكان المستضعفون أشد تعرضًا لذلك.",
+      "date": {
+        "hijri": "10–7 ق.هـ",
+        "gregorian": "613–616م",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 34,
+      "slug": "first-migration-to-abyssinia",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 34,
+      "title": "الهجرة الأولى إلى الحبشة",
+      "summary": "أذن النبي ﷺ لبعض أصحابه بالهجرة إلى الحبشة لأن فيها ملكًا لا يُظلم عنده أحد.",
+      "date": {
+        "hijri": "نحو 8–7 ق.هـ",
+        "gregorian": "615م",
+        "sortYearHijri": -8,
+        "sortYearGregorian": 615
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → الحبشة",
+      "locations": [
+        "mecca",
+        "abyssinia"
+      ],
+      "movement": true
+    },
+    {
+      "id": 35,
+      "slug": "second-migration-to-abyssinia",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 35,
+      "title": "الهجرة الثانية إلى الحبشة",
+      "summary": "هاجر عدد أكبر من المسلمين، وأصبحت الحبشة ملجأً للمستضعفين.",
+      "date": {
+        "hijri": "نحو 7 ق.هـ",
+        "gregorian": "616م",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الحبشة",
+      "locations": [
+        "abyssinia"
+      ],
+      "movement": false
+    },
+    {
+      "id": 36,
+      "slug": "islam-of-hamzah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 36,
+      "title": "إسلام حمزة بن عبد المطلب",
+      "summary": "كان إسلام حمزة تحولًا مهمًا؛ إذ أصبح للنبي ﷺ سند قوي من بني هاشم.",
+      "date": {
+        "hijri": "نحو 7–6 ق.هـ",
+        "gregorian": "616–617م",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 37,
+      "slug": "islam-of-umar",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 37,
+      "title": "إسلام عمر بن الخطاب",
+      "summary": "أسلم عمر رضي الله عنه، وكان لإسلامه أثر كبير في قوة المسلمين وظهورهم في مكة.",
+      "date": {
+        "hijri": "نحو 6 ق.هـ",
+        "gregorian": "616م",
+        "sortYearHijri": -6,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 38,
+      "slug": "the-negus-and-the-migrants",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 38,
+      "title": "إسلام النجاشي/موقفه من المهاجرين",
+      "summary": "رفض تسليم المسلمين لقريش، وأمّنهم في الحبشة.",
+      "date": {
+        "hijri": "نحو 7 ق.هـ",
+        "gregorian": "616م تقريبًا",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "في أصل موقفه",
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 39,
+      "slug": "boycott-of-banu-hashim",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 39,
+      "title": "حصار بني هاشم",
+      "summary": "فرضت قريش مقاطعة اجتماعية واقتصادية على بني هاشم ومن تحالف معهم، واضطروا للإقامة في شِعب أبي طالب.",
+      "date": {
+        "hijri": "نحو 7–4 ق.هـ",
+        "gregorian": "616–619م",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 40,
+      "slug": "end-of-the-boycott",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 40,
+      "title": "انتهاء المقاطعة",
+      "summary": "انتهى الحصار بعد سنوات من المشقة.",
+      "date": {
+        "hijri": "نحو 4 ق.هـ",
+        "gregorian": "619م",
+        "sortYearHijri": -4,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 41,
+      "slug": "death-of-abu-talib",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 41,
+      "title": "وفاة أبي طالب",
+      "summary": "توفي عم النبي ﷺ وحاميه السياسي والاجتماعي في مكة، دون أن يثبت إسلامه في الروايات الصحيحة.",
+      "date": {
+        "hijri": "نحو 3 ق.هـ",
+        "gregorian": "619م",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 42,
+      "slug": "death-of-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 42,
+      "title": "وفاة خديجة رضي الله عنها",
+      "summary": "توفيت خديجة، وكانت أعظم سند للنبي ﷺ في بداية الدعوة.",
+      "date": {
+        "hijri": "نحو 3 ق.هـ",
+        "gregorian": "619م",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 43,
+      "slug": "year-of-sorrow",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 43,
+      "title": "عام الحزن",
+      "summary": "اشتهرت تسمية تلك الفترة بعام الحزن بسبب وفاة أبي طالب وخديجة، وهما حدثان كان لهما أثر كبير على النبي ﷺ.",
+      "date": {
+        "hijri": "نحو 3 ق.هـ",
+        "gregorian": "619م",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 44,
+      "slug": "journey-to-taif",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 44,
+      "title": "رحلة الطائف",
+      "summary": "ذهب ﷺ إلى الطائف يدعو ثقيفًا إلى الإسلام، فلم يستجيبوا له، وعاد إلى مكة.",
+      "date": {
+        "hijri": "نحو 3 ق.هـ",
+        "gregorian": "619/620م",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → الطائف",
+      "locations": [
+        "mecca",
+        "taif"
+      ],
+      "movement": true
+    },
+    {
+      "id": 45,
+      "slug": "islam-of-people-of-yathrib",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 45,
+      "title": "إسلام مجموعة من أهل يثرب",
+      "summary": "بدأ بعض أهل يثرب في قبول الإسلام بعد لقاء النبي ﷺ في مواسم الحج.",
+      "date": {
+        "hijri": "نحو 2–1 ق.هـ",
+        "gregorian": "620–621م",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 620
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 46,
+      "slug": "first-pledge-of-aqabah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 46,
+      "title": "بيعة العقبة الأولى",
+      "summary": "بايع عدد من أهل يثرب النبي ﷺ على الإسلام والطاعة وترك بعض المحرمات، وكانت خطوة مهمة نحو الهجرة.",
+      "date": {
+        "hijri": "نحو 2 ق.هـ",
+        "gregorian": "621م",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "العقبة، منى",
+      "locations": [
+        "al-aqabah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 47,
+      "slug": "sending-musab-ibn-umayr",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 47,
+      "title": "إرسال مصعب بن عمير",
+      "summary": "أرسل النبي ﷺ مصعبًا بن عمير ليعلم أهل يثرب القرآن والإسلام، وأسلم على يديه عدد من أهلها.",
+      "date": {
+        "hijri": "نحو 2–1 ق.هـ",
+        "gregorian": "621م",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "يثرب",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 48,
+      "slug": "second-pledge-of-aqabah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 48,
+      "title": "بيعة العقبة الثانية",
+      "summary": "بايع عدد كبير من أهل يثرب النبي ﷺ، وتعهدوا بنصرته وحمايته، وكان ذلك الأساس السياسي والاجتماعي للهجرة.",
+      "date": {
+        "hijri": "نحو 1 ق.هـ",
+        "gregorian": "621/622م",
+        "sortYearHijri": -1,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "العقبة",
+      "locations": [
+        "al-aqabah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 49,
+      "slug": "permission-to-migrate",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 49,
+      "title": "إذن الهجرة إلى المدينة",
+      "summary": "بدأ المسلمون بالهجرة إلى يثرب فرادى وجماعات.",
+      "date": {
+        "hijri": "نحو 1 ق.هـ",
+        "gregorian": "621/622م",
+        "sortYearHijri": -1,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 50,
+      "slug": "quraysh-conspiracy",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 50,
+      "title": "مؤامرة قريش",
+      "summary": "اجتمعت قريش للتخلص من النبي ﷺ، فنزل الإذن بالخروج، وخرج النبي ﷺ مع أبي بكر رضي الله عنه.",
+      "date": {
+        "hijri": "صفر 1 هـ",
+        "gregorian": "سبتمبر 622م تقريبًا",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 51,
+      "slug": "the-hijrah",
+      "eraId": "hijrah-and-medina",
+      "order": 51,
+      "title": "الهجرة النبوية",
+      "summary": "خرج النبي ﷺ مع أبي بكر رضي الله عنه، واتجها إلى غار ثور، ثم سلكا طريقًا غير معتاد نحو المدينة.",
+      "date": {
+        "hijri": "ربيع الأول 1 هـ",
+        "gregorian": "سبتمبر 622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → غار ثور",
+      "locations": [
+        "mecca",
+        "cave-thawr"
+      ],
+      "movement": true,
+      "routeId": "hijrah"
+    },
+    {
+      "id": 52,
+      "slug": "stay-in-cave-thawr",
+      "eraId": "hijrah-and-medina",
+      "order": 52,
+      "title": "المكث في الغار",
+      "summary": "مكث النبي ﷺ وأبو بكر في الغار عدة ليالٍ، ثم تابعا الطريق.",
+      "date": {
+        "hijri": "ربيع الأول 1 هـ",
+        "gregorian": "سبتمبر 622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "غار ثور",
+      "locations": [
+        "cave-thawr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 53,
+      "slug": "suraqah-ibn-malik",
+      "eraId": "hijrah-and-medina",
+      "order": 53,
+      "title": "قصة سراقة بن مالك",
+      "summary": "خرج سراقة في طلب النبي ﷺ طمعًا في الجائزة، ثم أدرك أن الله يحمي نبيه، وعاد دون أن يدل قريشًا عليه.",
+      "date": {
+        "hijri": "ربيع الأول 1 هـ",
+        "gregorian": "سبتمبر 622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "في أصلها",
+        "grade": null
+      },
+      "placeText": "طريق مكة–المدينة",
+      "locations": [
+        "mecca-medina-road"
+      ],
+      "movement": false
+    },
+    {
+      "id": 54,
+      "slug": "arrival-at-quba",
+      "eraId": "hijrah-and-medina",
+      "order": 54,
+      "title": "الوصول إلى قباء",
+      "summary": "وصل النبي ﷺ إلى قباء، وأقام عدة أيام، وبُني مسجد قباء.",
+      "date": {
+        "hijri": "ربيع الأول 1 هـ",
+        "gregorian": "سبتمبر 622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "قباء",
+      "locations": [
+        "quba"
+      ],
+      "movement": false
+    },
+    {
+      "id": 55,
+      "slug": "entering-medina",
+      "eraId": "hijrah-and-medina",
+      "order": 55,
+      "title": "دخول المدينة",
+      "summary": "دخل النبي ﷺ يثرب، واستقبله أهلها، وأصبحت تعرف بالمدينة.",
+      "date": {
+        "hijri": "ربيع الأول 1 هـ",
+        "gregorian": "سبتمبر 622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 56,
+      "slug": "building-the-prophets-mosque",
+      "eraId": "hijrah-and-medina",
+      "order": 56,
+      "title": "بناء المسجد النبوي",
+      "summary": "بدأ بناء المسجد الذي أصبح مركز العبادة والتعليم والإدارة في المجتمع الإسلامي الجديد.",
+      "date": {
+        "hijri": "1 هـ",
+        "gregorian": "622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 57,
+      "slug": "brotherhood-muhajirun-ansar",
+      "eraId": "hijrah-and-medina",
+      "order": 57,
+      "title": "المؤاخاة بين المهاجرين والأنصار",
+      "summary": "آخى النبي ﷺ بين المهاجرين والأنصار، لتقوية الروابط الاجتماعية والاقتصادية.",
+      "date": {
+        "hijri": "1 هـ",
+        "gregorian": "622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 58,
+      "slug": "constitution-of-medina",
+      "eraId": "hijrah-and-medina",
+      "order": 58,
+      "title": "تنظيم مجتمع المدينة/الصحيفة",
+      "summary": "نُظمت العلاقات بين الجماعات المختلفة في المدينة، وحددت حقوق وواجبات ومسؤوليات متبادلة.",
+      "date": {
+        "hijri": "1 هـ",
+        "gregorian": "622م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 59,
+      "slug": "beginning-of-medinan-legislation",
+      "eraId": "hijrah-and-medina",
+      "order": 59,
+      "title": "بداية مرحلة التشريع المدني",
+      "summary": "بدأت الأحكام المتعلقة بالمجتمع والصلاة والصيام والزكاة والجهاد والأسرة والمعاملات تنزل بصورة أكثر تفصيلًا.",
+      "date": {
+        "hijri": "1–2 هـ",
+        "gregorian": "622–624م",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 60,
+      "slug": "change-of-qiblah",
+      "eraId": "hijrah-and-medina",
+      "order": 60,
+      "title": "تحويل القبلة",
+      "summary": "تحولت القبلة من بيت المقدس إلى المسجد الحرام، في حدث له دلالة دينية كبيرة في تكوين هوية المجتمع الإسلامي.",
+      "date": {
+        "hijri": "2 هـ",
+        "gregorian": "624م",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 61,
+      "slug": "battle-of-badr",
+      "eraId": "hijrah-and-medina",
+      "order": 61,
+      "title": "غزوة بدر الكبرى",
+      "summary": "خرج المسلمون في الأصل لاعتراض قافلة قريش، ثم تحولت المواجهة إلى معركة مع جيش قريش. كان المسلمون نحو 300، وانتهت المعركة بانتصارهم. تاريخها المشهور **17 رمضان 2 هـ / 13 مارس 624م**.",
+      "date": {
+        "hijri": "رمضان 2 هـ",
+        "gregorian": "مارس 624م",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "بدر",
+      "locations": [
+        "badr"
+      ],
+      "movement": false,
+      "sources": [
+        "worldhistory"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "captives-and-losses-of-quraysh",
+      "eraId": "hijrah-and-medina",
+      "order": 62,
+      "title": "أسر عدد من قريش ومقتل عدد من قادتها",
+      "summary": "قُتل عدد من أبرز قادة قريش، وأُسر آخرون، وكان لذلك أثر سياسي كبير على الصراع.",
+      "date": {
+        "hijri": "رمضان 2 هـ",
+        "gregorian": "مارس 624م",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "بدر",
+      "locations": [
+        "badr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 63,
+      "slug": "banu-qaynuqa",
+      "eraId": "hijrah-and-medina",
+      "order": 63,
+      "title": "غزوة بني قينقاع",
+      "summary": "وقعت بعد بدر في سياق تصاعد التوتر السياسي والعسكري داخل المدينة، وانتهت بخروج بني قينقاع من المدينة وفق الروايات التاريخية التقليدية.",
+      "date": {
+        "hijri": "شوال 2 هـ",
+        "gregorian": "أبريل 624م تقريبًا",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 64,
+      "slug": "quraysh-prepares-for-uhud",
+      "eraId": "hijrah-and-medina",
+      "order": 64,
+      "title": "إعداد قريش لغزوة أحد",
+      "summary": "بعد بدر جمعت قريش جيشًا كبيرًا بقيادة أبي سفيان متجهًا إلى المدينة.",
+      "date": {
+        "hijri": "3 هـ",
+        "gregorian": "625م",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → المدينة",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 65,
+      "slug": "battle-of-uhud",
+      "eraId": "hijrah-and-medina",
+      "order": 65,
+      "title": "غزوة أحد",
+      "summary": "خرج المسلمون لمواجهة جيش قريش. أدى تغير موقف بعض الرماة من مواقعهم إلى اختلال صف المسلمين، واستشهد حمزة رضي الله عنه وعدد من الصحابة، وأصيب النبي ﷺ.",
+      "date": {
+        "hijri": "شوال 3 هـ",
+        "gregorian": "مارس 625م",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "جبل أحد",
+      "locations": [
+        "mount-uhud"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "hamra-al-asad",
+      "eraId": "hijrah-and-medina",
+      "order": 66,
+      "title": "غزوة حمراء الأسد",
+      "summary": "خرج النبي ﷺ والمسلمون بعد أحد لملاحقة معنوية لقريش وإظهار أن المسلمين لم ينهاروا.",
+      "date": {
+        "hijri": "شوال 3 هـ",
+        "gregorian": "مارس 625م",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "حمراء الأسد",
+      "locations": [
+        "hamra-al-asad"
+      ],
+      "movement": false
+    },
+    {
+      "id": 67,
+      "slug": "banu-al-nadir",
+      "eraId": "hijrah-and-medina",
+      "order": 67,
+      "title": "غزوة بني النضير",
+      "summary": "انتهت بإجلاء بني النضير من المدينة في سياق نزاع حول العهد والعلاقات السياسية.",
+      "date": {
+        "hijri": "4 هـ",
+        "gregorian": "625–626م",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 68,
+      "slug": "dhat-al-riqa",
+      "eraId": "hijrah-and-medina",
+      "order": 68,
+      "title": "غزوة ذات الرقاع",
+      "summary": "خرج النبي ﷺ في حملة في نجد، وتذكر الروايات أحداثًا متعددة مرتبطة بها.",
+      "date": {
+        "hijri": "4 هـ",
+        "gregorian": "626م",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "نجد",
+      "locations": [
+        "najd"
+      ],
+      "movement": false
+    },
+    {
+      "id": 69,
+      "slug": "badr-al-mawid",
+      "eraId": "hijrah-and-medina",
+      "order": 69,
+      "title": "غزوة بدر الموعد",
+      "summary": "خرج المسلمون إلى بدر تنفيذًا لموعد سابق مع قريش، لكن قريش لم تدخل في مواجهة.",
+      "date": {
+        "hijri": "4 هـ",
+        "gregorian": "626م",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "بدر",
+      "locations": [
+        "badr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 70,
+      "slug": "dumat-al-jandal",
+      "eraId": "hijrah-and-medina",
+      "order": 70,
+      "title": "غزوة دومة الجندل",
+      "summary": "خرج النبي ﷺ شمالًا بعد أخبار عن تجمعات معادية، ثم عاد دون معركة كبرى.",
+      "date": {
+        "hijri": "5 هـ",
+        "gregorian": "626/627م",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 71,
+      "slug": "battle-of-the-trench",
+      "eraId": "hijrah-and-medina",
+      "order": 71,
+      "title": "غزوة الأحزاب/الخندق",
+      "summary": "تحالفت قريش وقبائل عديدة وحاصرت المدينة. أشار سلمان الفارسي بحفر الخندق، وهو أسلوب دفاعي غير مألوف للعرب آنذاك.",
+      "date": {
+        "hijri": "شوال 5 هـ",
+        "gregorian": "مارس/أبريل 627م",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 72,
+      "slug": "failure-of-the-siege",
+      "eraId": "hijrah-and-medina",
+      "order": 72,
+      "title": "فشل حصار الأحزاب",
+      "summary": "استمر الحصار ثم انصرف الأحزاب دون تحقيق هدفهم، وكانت هذه نقطة تحول كبيرة في ميزان القوى.",
+      "date": {
+        "hijri": "شوال/ذو القعدة 5 هـ",
+        "gregorian": "627م",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 73,
+      "slug": "banu-qurayzah",
+      "eraId": "hijrah-and-medina",
+      "order": 73,
+      "title": "غزوة بني قريظة",
+      "summary": "وقعت بعد الأحزاب مباشرة في سياق الروايات المتعلقة بنقض العهد أثناء الحصار، وانتهت بمحاكمة رجال القبيلة وفق الحكم الذي تذكره المصادر التقليدية. وهذه الواقعة تحديدًا لها تفاصيل تاريخية وفقهية وروايات متعددة، لذا ينبغي دراستها منفردة إذا أردت التوسع فيها.",
+      "date": {
+        "hijri": "5 هـ",
+        "gregorian": "627م",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null,
+        "needsSeparateStudy": true
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 74,
+      "slug": "shift-to-negotiation",
+      "eraId": "hijrah-and-medina",
+      "order": 74,
+      "title": "بداية التحول من المواجهة إلى التفاوض",
+      "summary": "بعد الأحزاب تغير ميزان القوى، وأصبح النبي ﷺ قادرًا على المبادرة السياسية بدل الاكتفاء بالدفاع.",
+      "date": {
+        "hijri": "6 هـ",
+        "gregorian": "627/628م",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 75,
+      "slug": "setting-out-to-hudaybiyah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 75,
+      "title": "الخروج إلى الحديبية",
+      "summary": "خرج النبي ﷺ مع نحو 1,400 من أصحابه يريدون العمرة، وليس القتال.",
+      "date": {
+        "hijri": "ذو القعدة 6 هـ",
+        "gregorian": "مارس 628م تقريبًا",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة → الحديبية",
+      "locations": [
+        "medina",
+        "al-hudaybiyah"
+      ],
+      "movement": true
+    },
+    {
+      "id": 76,
+      "slug": "quraysh-blocks-entry",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 76,
+      "title": "منع قريش المسلمين من دخول مكة",
+      "summary": "أرسلت قريش ممثلين للتفاوض، وحدثت مفاوضات طويلة.",
+      "date": {
+        "hijri": "ذو القعدة 6 هـ",
+        "gregorian": "628م",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الحديبية",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 77,
+      "slug": "pledge-of-ridwan",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 77,
+      "title": "بيعة الرضوان",
+      "summary": "بايع الصحابة النبي ﷺ تحت الشجرة على الثبات، بعد انتشار خبر غير مؤكد عن قتل عثمان بن عفان رضي الله عنه.",
+      "date": {
+        "hijri": "ذو القعدة 6 هـ",
+        "gregorian": "628م",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الحديبية",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 78,
+      "slug": "treaty-of-hudaybiyah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 78,
+      "title": "صلح الحديبية",
+      "summary": "تم الاتفاق على هدنة، ومن أبرز بنوده عودة المسلمين ذلك العام، والسماح لهم بالعمرة في العام التالي. وكان الصلح في ظاهره تنازلًا لبعض الصحابة، لكنه فتح مرحلة واسعة من التواصل والانتشار. وقد وصف القرآن الصلح بأنه **فتح مبين**.",
+      "date": {
+        "hijri": "ذو القعدة 6 هـ",
+        "gregorian": "628م",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "الحديبية",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ],
+      "quranRefs": [
+        "48:1"
+      ]
+    },
+    {
+      "id": 79,
+      "slug": "letters-to-kings",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 79,
+      "title": "إرسال الرسائل إلى الملوك والحكام",
+      "summary": "أرسل النبي ﷺ رسائل تدعو عددًا من الحكام إلى الإسلام، ومنهم هرقل وكسرى والمقوقس والنجاشي.",
+      "date": {
+        "hijri": "أواخر 6 هـ / 7 هـ",
+        "gregorian": "628م",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 80,
+      "slug": "battle-of-khaybar",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 80,
+      "title": "غزوة خيبر",
+      "summary": "توجه المسلمون إلى خيبر، وانتهت المعارك بفتح حصونها وإبرام ترتيبات تتعلق بأهلها وأراضيهم.",
+      "date": {
+        "hijri": "محرم/صفر 7 هـ",
+        "gregorian": "628م",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "خيبر",
+      "locations": [
+        "khaybar"
+      ],
+      "movement": false
+    },
+    {
+      "id": 81,
+      "slug": "ali-at-khaybar",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 81,
+      "title": "قصة علي رضي الله عنه في خيبر",
+      "summary": "أعطى النبي ﷺ الراية لعلي رضي الله عنه في إحدى مراحل القتال، ووقعت على يديه أحداث مهمة في فتح الحصون.",
+      "date": {
+        "hijri": "7 هـ",
+        "gregorian": "629م",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "خيبر",
+      "locations": [
+        "khaybar"
+      ],
+      "movement": false
+    },
+    {
+      "id": 82,
+      "slug": "umrat-al-qada",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 82,
+      "title": "عمرة القضاء",
+      "summary": "دخل النبي ﷺ وأصحابه مكة وأدوا العمرة وفق ما اتفق عليه في صلح الحديبية.",
+      "date": {
+        "hijri": "ذو القعدة 7 هـ",
+        "gregorian": "629م",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 83,
+      "slug": "battle-of-mutah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 83,
+      "title": "غزوة مؤتة",
+      "summary": "أرسل النبي ﷺ جيشًا شمالًا، وقُتل قادته الثلاثة زيد بن حارثة وجعفر بن أبي طالب وعبد الله بن رواحة رضي الله عنهم، ثم تولى خالد بن الوليد قيادة الجيش وأعاد تنظيمه.",
+      "date": {
+        "hijri": "8 هـ",
+        "gregorian": "629م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مؤتة",
+      "locations": [
+        "mutah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 84,
+      "slug": "islam-of-khalid-and-amr",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 84,
+      "title": "إسلام خالد بن الوليد وعمرو بن العاص",
+      "summary": "أسلم عدد من الشخصيات المهمة في أواخر المرحلة المكية وبداية المدنية المتأخرة، وكان لإسلام خالد وعمرو أثر كبير في المرحلة التالية.",
+      "date": {
+        "hijri": "8 هـ",
+        "gregorian": "629م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 85,
+      "slug": "breach-of-the-treaty",
+      "eraId": "conquest-of-mecca",
+      "order": 85,
+      "title": "نقض صلح الحديبية",
+      "summary": "اعتدى حلفاء قريش على حلفاء المسلمين، وهو ما اعتُبر خرقًا للصلح، وبدأت قريش تفقد قدرتها على الحفاظ على الاتفاق.",
+      "date": {
+        "hijri": "شعبان 8 هـ",
+        "gregorian": "ديسمبر 629م/يناير 630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 86,
+      "slug": "march-to-mecca",
+      "eraId": "conquest-of-mecca",
+      "order": 86,
+      "title": "التوجه إلى مكة",
+      "summary": "خرج النبي ﷺ بجيش كبير نحو مكة، وقيل كان قرابة 10,000 مقاتل.",
+      "date": {
+        "hijri": "رمضان 8 هـ",
+        "gregorian": "ديسمبر 629–يناير 630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة → مكة",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 87,
+      "slug": "conquest-of-mecca",
+      "eraId": "conquest-of-mecca",
+      "order": 87,
+      "title": "فتح مكة",
+      "summary": "دخل المسلمون مكة، وكان الدخول في معظمه دون معركة كبيرة. أعلن النبي ﷺ الأمان، ودخل المسجد الحرام، وأزيلت الأصنام من حول الكعبة.",
+      "date": {
+        "hijri": "رمضان 8 هـ",
+        "gregorian": "يناير 630م تقريبًا",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 88,
+      "slug": "islam-of-abu-sufyan",
+      "eraId": "conquest-of-mecca",
+      "order": 88,
+      "title": "إسلام أبي سفيان",
+      "summary": "أسلم أبو سفيان قبل دخول المسلمين مكة، ثم أصبح من كبار الصحابة بعد ذلك.",
+      "date": {
+        "hijri": "رمضان 8 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 89,
+      "slug": "general-amnesty",
+      "eraId": "conquest-of-mecca",
+      "order": 89,
+      "title": "العفو العام",
+      "summary": "أعلن النبي ﷺ الأمان لكثير ممن كانوا يحاربونه، وهو من أبرز الأحداث الأخلاقية والسياسية في فتح مكة.",
+      "date": {
+        "hijri": "رمضان 8 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 90,
+      "slug": "battle-of-hunayn",
+      "eraId": "conquest-of-mecca",
+      "order": 90,
+      "title": "غزوة حنين",
+      "summary": "خرجت هوازن وثقيف في مواجهة المسلمين، وحدث اضطراب في بداية المعركة، ثم أعاد المسلمون تنظيم صفوفهم وانتهت المعركة بانتصارهم.",
+      "date": {
+        "hijri": "شوال 8 هـ",
+        "gregorian": "يناير/فبراير 630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "حنين",
+      "locations": [
+        "hunayn"
+      ],
+      "movement": false
+    },
+    {
+      "id": 91,
+      "slug": "siege-of-taif",
+      "eraId": "conquest-of-mecca",
+      "order": 91,
+      "title": "حصار الطائف",
+      "summary": "توجه المسلمون إلى الطائف بعد حنين وحاصروها، ثم عادوا دون فتحها في تلك الحملة.",
+      "date": {
+        "hijri": "شوال 8 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الطائف",
+      "locations": [
+        "taif"
+      ],
+      "movement": false
+    },
+    {
+      "id": 92,
+      "slug": "tribal-delegations-after-the-conquest",
+      "eraId": "conquest-of-mecca",
+      "order": 92,
+      "title": "إسلام وفود من القبائل بعد فتح مكة",
+      "summary": "أدى فتح مكة إلى تحول سريع في موازين القوى، وبدأت القبائل تدخل في الإسلام أو ترسل وفودًا إلى المدينة.",
+      "date": {
+        "hijri": "8 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 93,
+      "slug": "expedition-of-tabuk",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 93,
+      "title": "غزوة تبوك",
+      "summary": "خرج النبي ﷺ بجيش كبير شمالًا بسبب أخبار عن تهديد بيزنطي/غساسنة. لم تقع معركة كبرى مباشرة، لكن الحملة أظهرت اتساع نفوذ الدولة الإسلامية.",
+      "date": {
+        "hijri": "9 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "routeId": "medina-tabuk"
+    },
+    {
+      "id": 94,
+      "slug": "those-who-stayed-behind-at-tabuk",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 94,
+      "title": "محنة المتخلفين عن تبوك",
+      "summary": "تذكر سورة التوبة قصة ثلاثة من الصحابة تخلفوا ثم صدقوا النبي ﷺ فيما حدث، ونزل قبول توبتهم بعد ذلك.",
+      "date": {
+        "hijri": "9 هـ",
+        "gregorian": "630م",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 95,
+      "slug": "year-of-delegations",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 95,
+      "title": "عام الوفود",
+      "summary": "بدأت الوفود تتوافد على المدينة من أنحاء الجزيرة العربية لإعلان الإسلام أو الاتفاق مع الدولة الإسلامية.",
+      "date": {
+        "hijri": "9 هـ",
+        "gregorian": "631م",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 96,
+      "slug": "abu-bakr-leads-the-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 96,
+      "title": "حجة أبي بكر رضي الله عنه",
+      "summary": "خرج أبو بكر أميرًا على الحج، ثم أرسل النبي ﷺ عليًا رضي الله عنه بآيات من سورة التوبة لإعلان انتهاء بعض العهود والشروط المتعلقة بالمشركين.",
+      "date": {
+        "hijri": "9 هـ",
+        "gregorian": "631م",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "routeId": "medina-mecca-hajj"
+    },
+    {
+      "id": 97,
+      "slug": "islam-spreads-across-arabia",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 97,
+      "title": "انتشار الإسلام في معظم الجزيرة",
+      "summary": "أصبحت المدينة مركزًا سياسيًا ودينيًا تتصل به غالبية قبائل الجزيرة، وتوافدت الوفود لإعلان الإسلام والولاء.",
+      "date": {
+        "hijri": "9–10 هـ",
+        "gregorian": "631–632م",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "الجزيرة العربية",
+      "locations": [
+        "arabian-peninsula"
+      ],
+      "movement": false
+    },
+    {
+      "id": 98,
+      "slug": "expedition-of-usamah-ibn-zayd",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 98,
+      "title": "بعثة أسامة بن زيد",
+      "summary": "جهز النبي ﷺ جيشًا بقيادة أسامة بن زيد نحو الشمال، وكان ذلك في آخر أيام حياته، ولم يخرج الجيش في حياته بسبب مرضه.",
+      "date": {
+        "hijri": "10 هـ",
+        "gregorian": "631/632م",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "routeId": "medina-balqa"
+    },
+    {
+      "id": 99,
+      "slug": "setting-out-for-the-farewell-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 99,
+      "title": "الخروج إلى حجة الوداع",
+      "summary": "خرج النبي ﷺ من المدينة للحج، وانضم إليه جمع ضخم من المسلمين.",
+      "date": {
+        "hijri": "ذو القعدة 10 هـ",
+        "gregorian": "فبراير/مارس 632م تقريبًا",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة → مكة",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 100,
+      "slug": "farewell-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 100,
+      "title": "حجة الوداع",
+      "summary": "أدى النبي ﷺ مناسك الحج وعلّم الناس المناسك، وكانت آخر حجة له.",
+      "date": {
+        "hijri": "ذو الحجة 10 هـ",
+        "gregorian": "مارس 632م تقريبًا",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "مكة وعرفات ومزدلفة ومنى",
+      "locations": [
+        "mecca",
+        "arafat",
+        "muzdalifah",
+        "mina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 101,
+      "slug": "farewell-sermon",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 101,
+      "title": "خطبة حجة الوداع",
+      "summary": "أكد حرمة الدماء والأموال والأعراض، وأوصى بالنساء، وأعلن إبطال كثير من ممارسات الجاهلية، وأكد الأخوة الإسلامية.",
+      "date": {
+        "hijri": "9 ذو الحجة 10 هـ",
+        "gregorian": "مارس 632م تقريبًا",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "عرفات",
+      "locations": [
+        "arafat"
+      ],
+      "movement": false
+    },
+    {
+      "id": 102,
+      "slug": "verse-of-completion-of-the-religion",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 102,
+      "title": "نزول آية إكمال الدين",
+      "summary": "نزلت آية: **﴿الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ...﴾** في سياق حجة الوداع.",
+      "date": {
+        "hijri": "ذو الحجة 10 هـ",
+        "gregorian": "مارس 632م",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "quranRefs": [
+        "5:3"
+      ]
+    },
+    {
+      "id": 103,
+      "slug": "return-to-medina",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 103,
+      "title": "العودة إلى المدينة",
+      "summary": "عاد النبي ﷺ إلى المدينة بعد إتمام الحج.",
+      "date": {
+        "hijri": "أواخر 10 هـ",
+        "gregorian": "632م",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "مكة → المدينة",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 104,
+      "slug": "onset-of-the-prophets-illness",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 104,
+      "title": "بداية مرض النبي ﷺ",
+      "summary": "اشتد عليه المرض، واستأذن زوجاته أن يُمرض في بيت عائشة رضي الله عنها، فأذنّ له.",
+      "date": {
+        "hijri": "صفر/ربيع الأول 11 هـ",
+        "gregorian": "مايو/يونيو 632م",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 105,
+      "slug": "abu-bakr-leads-the-prayer",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 105,
+      "title": "إمامة أبي بكر للصلاة",
+      "summary": "عندما اشتد مرض النبي ﷺ أمر أبا بكر أن يصلي بالناس، وكان ذلك من الأحداث المهمة في الأيام الأخيرة.",
+      "date": {
+        "hijri": "11 هـ",
+        "gregorian": "يونيو 632م",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 106,
+      "slug": "the-prophet-looks-upon-the-praying-muslims",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 106,
+      "title": "إطلالة النبي ﷺ على المسلمين وهم يصلون",
+      "summary": "في أحد أيام مرضه كشف الستار ونظر إلى الصحابة وهم يصلون خلف أبي بكر، ثم عاد إلى حجرته.",
+      "date": {
+        "hijri": "11 هـ",
+        "gregorian": "يونيو 632م",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 107,
+      "slug": "death-of-the-prophet",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 107,
+      "title": "وفاة النبي ﷺ",
+      "summary": "توفي ﷺ في بيت عائشة رضي الله عنها، وكان عمره نحو 63 سنة قمرية. تاريخ 12 ربيع الأول هو الأشهر، لكن تحديد اليوم الهجري محل خلاف. وتؤرخ مصادر تاريخية حديثة الوفاة إلى 8 يونيو 632م.",
+      "date": {
+        "hijri": "12 ربيع الأول 11 هـ على المشهور",
+        "gregorian": "8 يونيو 632م تقريبًا",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 108,
+      "slug": "burial-of-the-prophet",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 108,
+      "title": "دفنه ﷺ",
+      "summary": "دُفن في المكان الذي توفي فيه، في حجرة عائشة رضي الله عنها، والتي أصبحت لاحقًا ضمن المسجد النبوي.",
+      "date": {
+        "hijri": "11 هـ",
+        "gregorian": "يونيو 632م",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "المدينة",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    }
+  ]
+}

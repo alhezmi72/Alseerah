@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alseerah.local/schema/prophets.schema.json",
+  "title": "Prophets timeline (one file per language)",
+  "description": "Content for the landing-page timeline: Adam through Muhammad. One file per language (prophets.ar.json, prophets.en.json, prophets.de.json). Every file has identical ids and identical ordering; only the strings differ.",
+  "type": "object",
+  "required": ["version", "lang", "dir", "source", "sources", "prophets"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "lang": {
+      "enum": ["ar", "en", "de"],
+      "description": "BCP-47 language of every string in this file."
+    },
+    "dir": {
+      "enum": ["rtl", "ltr"],
+      "description": "Writing direction the UI must apply when this file is active."
+    },
+    "translation": {
+      "type": "object",
+      "description": "Provenance of non-Arabic files. Arabic is the source of record.",
+      "required": ["status", "from"],
+      "properties": {
+        "status": { "enum": ["source", "machine", "reviewed"] },
+        "from": { "enum": ["ar"] },
+        "reviewedBy": { "type": ["string", "null"] },
+        "reviewedAt": { "type": ["string", "null"], "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "quranTranslation": {
+      "$ref": "#/$defs/quranEdition",
+      "description": "The published Qur'an edition every verse in this file is quoted from. Present on translated files only — the Arabic file carries the Qur'anic text itself, which is not a translation. Its `attribution` string must be displayed wherever a verse appears."
+    },
+    "source": {
+      "type": "object",
+      "description": "The authored file this JSON was generated from.",
+      "required": ["file", "generatedBy"],
+      "properties": {
+        "file": { "type": "string" },
+        "generatedBy": { "type": "string" },
+        "generatedAt": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "description": "Bibliography referenced by prophet.sources[].",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "url"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "url": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "prophets": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/prophet" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "quranEdition": {
+      "type": "object",
+      "required": ["translator", "license", "attribution"],
+      "properties": {
+        "title": { "type": "string" },
+        "translator": { "type": "string" },
+        "year": { "type": "integer" },
+        "license": { "enum": ["public-domain", "free-distribution"] },
+        "licenseNote": { "type": "string" },
+        "attribution": { "type": "string" },
+        "verifiedAgainst": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "prophet": {
+      "type": "object",
+      "required": [
+        "id", "order", "name", "shortName", "people", "book",
+        "sinsAndPunishment", "message", "placeText", "locations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable slug, identical across languages. Used in URLs and as the React key."
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Position on the timeline. Narrative sequence as given in the source, NOT a claim about absolute dates — the Qur'an does not date most prophets."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full honorific form, e.g. 'موسى عليه السلام'. Shown in the detail panel."
+        },
+        "shortName": {
+          "type": "string",
+          "description": "Bare name for the timeline circle, e.g. 'موسى'. Must stay short enough to fit inside the circle at all zoom levels."
+        },
+        "people": { "type": "string", "description": "قومه / من دعاهم" },
+        "book": {
+          "type": "object",
+          "required": ["text", "namedInQuran", "bookId"],
+          "properties": {
+            "text": { "type": "string", "description": "Verbatim cell text." },
+            "namedInQuran": {
+              "type": "boolean",
+              "description": "True only for the five books the Qur'an names explicitly. The source document is emphatic that revelation and a named book are different claims."
+            },
+            "bookId": {
+              "type": ["string", "null"],
+              "enum": ["suhuf-ibrahim", "tawrah", "zabur", "injil", "quran", null]
+            }
+          },
+          "additionalProperties": false
+        },
+        "sinsAndPunishment": {
+          "type": "string",
+          "description": "أبرز معاصي القوم والعقوبة. Inline markdown; ** marks key terms."
+        },
+        "message": { "type": "string", "description": "خلاصة الدعوة. Inline markdown." },
+        "placeText": {
+          "type": "string",
+          "description": "Verbatim place cell, including hedges like 'غير محدد قرآنيًا'. Always displayed; the map is secondary to it."
+        },
+        "locations": {
+          "type": "array",
+          "description": "Resolved ids into locations.json. Empty when the source says the place is not specified — the UI must then show no map, not a guess.",
+          "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+        },
+        "locationCertainty": {
+          "enum": ["quranic", "traditional", "unspecified"],
+          "description": "quranic = the text itself names the place; traditional = attributed by later sources; unspecified = the source declines to locate it."
+        },
+        "sins": {
+          "type": "array",
+          "description": "Categories from section 6 of the source document. Used for filtering and for the zoomed-out overview.",
+          "items": {
+            "enum": [
+              "shirk", "arrogance", "economic-corruption",
+              "moral-corruption", "tyranny", "distortion-of-religion", "none-recorded"
+            ]
+          }
+        },
+        "lineage": {
+          "type": "object",
+          "description": "Optional edges for the zoomed-out lineage view (section 3/4 of the source). Absent where the source gives no lineage.",
+          "properties": {
+            "parentId": { "type": ["string", "null"] },
+            "branch": { "enum": ["ismaili", "israelite", "pre-abrahamic", "other"] },
+            "contemporaryOf": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
+        "detailPage": {
+          "type": ["string", "null"],
+          "description": "Id of a dedicated deep-dive page. Only 'muhammad' has one; the timeline renders that circle as a link into muhammad.*.json."
+        },
+        "quranRefs": {
+          "type": "array",
+          "description": "Qur'an references quoted in this entry, as \"sura:ayah\". Lets the UI link a quotation to its source. Identical across languages.",
+          "items": { "type": "string", "pattern": "^\\d+:\\d+$" }
+        },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

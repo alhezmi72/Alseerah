@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alseerah.local/schema/muhammad.schema.json",
+  "title": "Muhammad ﷺ event timeline (one file per language)",
+  "description": "The 108 events of the Prophet's life, grouped into six eras. One file per language (muhammad.ar.json, muhammad.en.json, muhammad.de.json). Identical ids and ordering across languages; only strings differ.",
+  "type": "object",
+  "required": ["version", "lang", "dir", "source", "sources", "eras", "events"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "lang": { "enum": ["ar", "en", "de"] },
+    "dir": { "enum": ["rtl", "ltr"] },
+    "translation": {
+      "type": "object",
+      "required": ["status", "from"],
+      "properties": {
+        "status": { "enum": ["source", "machine", "reviewed"] },
+        "from": { "enum": ["ar"] },
+        "reviewedBy": { "type": ["string", "null"] },
+        "reviewedAt": { "type": ["string", "null"], "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["file", "generatedBy"],
+      "properties": {
+        "file": { "type": "string" },
+        "generatedBy": { "type": "string" },
+        "generatedAt": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "quranTranslation": {
+      "$ref": "#/$defs/quranEdition",
+      "description": "The published Qur'an edition every verse in this file is quoted from. Present on translated files only. Its `attribution` string must be displayed wherever a verse appears."
+    },
+    "dateCaveat": {
+      "type": "string",
+      "description": "The source document's warning about Hijri→Gregorian conversion. The UI must surface this wherever Gregorian dates appear, so they are not read as astronomically exact."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "url"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "url": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "eras": {
+      "type": "array",
+      "description": "The six sections of the source document. Rendered as the outermost (most zoomed-out) level of the timeline.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "order", "title", "firstEvent", "lastEvent"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "order": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "firstEvent": { "type": "integer", "minimum": 1 },
+          "lastEvent": { "type": "integer", "minimum": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/event" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "quranEdition": {
+      "type": "object",
+      "required": ["translator", "license", "attribution"],
+      "properties": {
+        "title": { "type": "string" },
+        "translator": { "type": "string" },
+        "year": { "type": "integer" },
+        "license": { "enum": ["public-domain", "free-distribution"] },
+        "licenseNote": { "type": "string" },
+        "attribution": { "type": "string" },
+        "verifiedAgainst": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "required": ["id", "slug", "eraId", "order", "title", "summary", "date", "authenticity", "placeText", "locations"],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 108,
+          "description": "Row number in the source document. Stable identifier used in URLs."
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Language-neutral readable id, identical across languages."
+        },
+        "eraId": { "type": "string" },
+        "order": { "type": "integer", "minimum": 1, "description": "Chronological position; equals id in the current dataset." },
+        "title": {
+          "type": "string",
+          "description": "Event name for the timeline circle, e.g. 'عام الفيل'. Taken from the bolded lead of the source cell."
+        },
+        "summary": {
+          "type": "string",
+          "description": "Event detail. Inline markdown; ** marks key terms and quoted verses."
+        },
+        "date": {
+          "type": "object",
+          "required": ["hijri", "gregorian", "sortYearHijri", "sortYearGregorian"],
+          "properties": {
+            "hijri": {
+              "type": "string",
+              "description": "Verbatim Hijri expression, including hedges ('نحو', 'تقريبًا', 'على المشهور'). Never reformatted — the hedge is part of the claim."
+            },
+            "gregorian": { "type": "string", "description": "Verbatim Gregorian expression." },
+            "sortYearHijri": {
+              "type": ["integer", "null"],
+              "description": "DERIVED, for sorting and timeline spacing only. Negative = before Hijra (ق.هـ). Start of a range. Never display this as a date."
+            },
+            "sortYearGregorian": {
+              "type": ["integer", "null"],
+              "description": "DERIVED, for timeline spacing only. First year mentioned in the Gregorian cell. Never display this as a date."
+            }
+          },
+          "additionalProperties": false
+        },
+        "authenticity": {
+          "type": "object",
+          "required": ["mark", "grade"],
+          "description": "The source document grades its own rows. Carrying this through is what separates this from a storybook.",
+          "properties": {
+            "mark": {
+              "enum": ["verified", "approximate", "mixed", "unmarked"],
+              "description": "From the row's own marker: ✓ = verified, ≈ = approximate, ✓/≈ = mixed, none = unmarked."
+            },
+            "qualifier": {
+              "type": ["string", "null"],
+              "description": "The scope the row attaches to its marker, e.g. 'من حيث أصل الرواية' — verified as to the origin of the report, not every detail."
+            },
+            "grade": {
+              "enum": ["A", "B", "C", null],
+              "description": "Date-certainty grade, set only for events the source names explicitly in its A/B/C section. Null means the source did not grade it — not that it is ungraded-good."
+            },
+            "needsSeparateStudy": {
+              "type": "boolean",
+              "description": "Set where the source itself says the event has contested details requiring separate study."
+            }
+          },
+          "additionalProperties": false
+        },
+        "placeText": { "type": "string", "description": "Verbatim place cell, including movement arrows such as 'مكة → المدينة'." },
+        "locations": {
+          "type": "array",
+          "description": "Resolved ids into locations.json, in the order they appear in placeText. Two or more ids where the event is a journey — the map should then draw both pins.",
+          "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+        },
+        "routeId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Key into routes.json for events that are journeys. The route is drawn in addition to `locations`, which stays exactly as the source gave it."
+        },
+        "movement": {
+          "type": "boolean",
+          "description": "True when placeText describes travel (→) rather than a single site."
+        },
+        "quranRefs": {
+          "type": "array",
+          "description": "Qur'an references quoted in this event, as \"sura:ayah\". Identical across languages.",
+          "items": { "type": "string", "pattern": "^\\d+:\\d+$" }
+        },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

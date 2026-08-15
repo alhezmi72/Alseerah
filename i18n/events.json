@@ -1,0 +1,443 @@
+{
+  "note": "English and German title/summary for the 108 events, keyed by the event number in the source document. Dates, places and marker qualifiers are NOT here — they repeat across rows and live in i18n/common.json. Qur'anic quotations appear as {{quran:sura:ayah}} tokens resolved from i18n/quran.json at build time; never translate a verse inline.",
+
+  "events": {
+    "1": {
+      "en": { "title": "The standing of Quraysh and Mecca", "summary": "Mecca was an important religious and commercial centre because of the Ka'bah and its position on the trade routes. Quraysh held considerable influence over the administration of the pilgrimage and the service of the sanctuary." },
+      "de": { "title": "Die Stellung der Quraisch und Mekkas", "summary": "Mekka war wegen der Kaaba und seiner Lage an den Handelsrouten ein bedeutendes religiöses und wirtschaftliches Zentrum. Die Quraisch besaßen großen Einfluss auf die Verwaltung der Pilgerfahrt und den Dienst am Heiligtum." }
+    },
+    "2": {
+      "en": { "title": "The Year of the Elephant", "summary": "Abrahah, the ruler of Yemen under the Kingdom of Aksum, sent an army towards Mecca to demolish the Ka'bah. The Qur'an relates the account of the Companions of the Elephant; the army was destroyed and never reached the House." },
+      "de": { "title": "Das Jahr des Elefanten", "summary": "Abraha, der Herrscher des Jemen unter dem Königreich Aksum, entsandte ein Heer nach Mekka, um die Kaaba zu zerstören. Der Koran berichtet von den Gefährten des Elefanten; das Heer wurde vernichtet und erreichte das Haus nie." }
+    },
+    "3": {
+      "en": { "title": "The death of 'Abdullah ibn 'Abd al-Muttalib", "summary": "The Prophet's father died before his birth according to the best-known view. He had set out on a trading journey and fell ill in Yathrib. The Prophet was thus born fatherless." },
+      "de": { "title": "Der Tod von Abdullah ibn Abd al-Muttalib", "summary": "Nach der bekanntesten Ansicht starb der Vater des Propheten vor dessen Geburt. Er war zu einer Handelsreise aufgebrochen und erkrankte in Yathrib. So wurde der Prophet als Halbwaise geboren." }
+    },
+    "4": {
+      "en": { "title": "The birth of the Prophet ﷺ", "summary": "He was born on a Monday in the Year of the Elephant. The exact day of the month is much disputed; 12 Rabi' al-Awwal is the most widely known date among people, but it is not a certain one." },
+      "de": { "title": "Die Geburt des Propheten ﷺ", "summary": "Er wurde an einem Montag im Jahr des Elefanten geboren. Der genaue Tag des Monats ist sehr umstritten; der 12. Rabi' al-Auwal ist der bekannteste, aber kein gesichertes Datum." }
+    },
+    "5": {
+      "en": { "title": "He is named Muhammad", "summary": "His grandfather 'Abd al-Muttalib named him Muhammad, a name that was less common among the Arabs at that time." },
+      "de": { "title": "Seine Benennung als Muhammad", "summary": "Sein Großvater Abd al-Muttalib gab ihm den Namen Muhammad, der bei den Arabern jener Zeit weniger gebräuchlich war." }
+    },
+    "6": {
+      "en": { "title": "His nursing with Halimah al-Sa'diyyah", "summary": "It was the custom of the nobles of Mecca to send their children to the desert for eloquence and a healthier environment. Halimah al-Sa'diyyah of Banu Sa'd took him, and he spent his early childhood with her." },
+      "de": { "title": "Seine Stillzeit bei Halima as-Sa'diya", "summary": "Es war Brauch der Vornehmen Mekkas, ihre Kinder zugunsten der Sprachreinheit und einer gesünderen Umgebung in die Wüste zu geben. Halima as-Sa'diya von den Banu Sa'd nahm ihn auf, und er verbrachte seine frühe Kindheit bei ihr." }
+    },
+    "7": {
+      "en": { "title": "The first splitting of the breast", "summary": "It is reported in Sahih Muslim and elsewhere that Gabriel opened his breast while he was a child, washed and purified his heart, and then restored it as it was." },
+      "de": { "title": "Die erste Öffnung der Brust", "summary": "In Sahih Muslim und anderen Werken wird überliefert, dass Gabriel ihm als Kind die Brust öffnete, sein Herz wusch und reinigte und es dann wieder einsetzte." }
+    },
+    "8": {
+      "en": { "title": "His return to his mother", "summary": "After the period of nursing among Banu Sa'd he returned to his mother Aminah." },
+      "de": { "title": "Seine Rückkehr zu seiner Mutter", "summary": "Nach der Stillzeit bei den Banu Sa'd kehrte er zu seiner Mutter Amina zurück." }
+    },
+    "9": {
+      "en": { "title": "Aminah's visit to Medina", "summary": "Aminah travelled with the Prophet to visit his maternal relatives among Banu al-Najjar, and then returned with him." },
+      "de": { "title": "Aminas Reise nach Medina", "summary": "Amina reiste mit dem Propheten, um seine mütterlichen Verwandten von den Banu an-Naddschar zu besuchen, und kehrte mit ihm zurück." }
+    },
+    "10": {
+      "en": { "title": "The death of Aminah bint Wahb", "summary": "His mother died at al-Abwa when he was about six years old, leaving him orphaned of both father and mother." },
+      "de": { "title": "Der Tod von Amina bint Wahb", "summary": "Seine Mutter starb in al-Abwa, als er etwa sechs Jahre alt war; damit war er Vollwaise." }
+    },
+    "11": {
+      "en": { "title": "The guardianship of 'Abd al-Muttalib", "summary": "His grandfather 'Abd al-Muttalib took charge of his care after his mother's death." },
+      "de": { "title": "Die Vormundschaft von Abd al-Muttalib", "summary": "Nach dem Tod seiner Mutter übernahm sein Großvater Abd al-Muttalib seine Fürsorge." }
+    },
+    "12": {
+      "en": { "title": "The death of 'Abd al-Muttalib", "summary": "His grandfather died when he was about eight, and his guardianship passed to his uncle Abu Talib." },
+      "de": { "title": "Der Tod von Abd al-Muttalib", "summary": "Sein Großvater starb, als er etwa acht Jahre alt war, und die Vormundschaft ging an seinen Onkel Abu Talib über." }
+    },
+    "13": {
+      "en": { "title": "The guardianship of Abu Talib", "summary": "The Prophet lived in the house of his uncle Abu Talib, who loved and protected him although he never entered Islam." },
+      "de": { "title": "Die Vormundschaft von Abu Talib", "summary": "Der Prophet lebte im Haus seines Onkels Abu Talib, der ihn liebte und schützte, obwohl er selbst nie zum Islam übertrat." }
+    },
+    "14": {
+      "en": { "title": "The journey to al-Sham with Abu Talib", "summary": "He travelled on a trading journey with his uncle while still young. The sirah literature relates the account of the monk Bahira, but its details are debated in hadith scholarship, so they should not all be presented as certain." },
+      "de": { "title": "Die Reise nach asch-Scham mit Abu Talib", "summary": "Er zog als Junge mit seinem Onkel auf eine Handelsreise. Die Sira-Literatur berichtet von dem Mönch Bahira, doch sind die Einzelheiten in der Hadithwissenschaft umstritten und sollten nicht sämtlich als gesichert dargestellt werden." }
+    },
+    "15": {
+      "en": { "title": "The Sacrilegious War (Harb al-Fijar)", "summary": "He witnessed part of its events in his youth, and was not a principal combatant in it." },
+      "de": { "title": "Der Fidschar-Krieg", "summary": "Er erlebte in seiner Jugend einen Teil der Ereignisse mit und war kein Hauptkämpfer darin." }
+    },
+    "16": {
+      "en": { "title": "The Pact of the Virtuous (Hilf al-Fudul)", "summary": "A group of the clans of Quraysh allied to support the wronged and restore rights. The Prophet praised this principle after prophethood." },
+      "de": { "title": "Der Bund der Tugendhaften (Hilf al-Fudul)", "summary": "Eine Gruppe quraischitischer Sippen verbündete sich, um Unterdrückten beizustehen und Rechte wiederherzustellen. Der Prophet lobte diesen Grundsatz nach Beginn des Prophetentums." }
+    },
+    "17": {
+      "en": { "title": "Trading for Khadijah", "summary": "He worked in the trade of Khadijah bint Khuwaylid and travelled with her capital to al-Sham, becoming known for his trustworthiness and truthfulness." },
+      "de": { "title": "Handel für Chadidscha", "summary": "Er arbeitete im Handel von Chadidscha bint Chuwailid und reiste mit ihrem Kapital nach asch-Scham; dabei wurde er für seine Vertrauenswürdigkeit und Wahrhaftigkeit bekannt." }
+    },
+    "18": {
+      "en": { "title": "His marriage to Khadijah", "summary": "He married her at about twenty-five; she was older than him according to the best-known view. She was his first wife, and he took no other wife while she lived." },
+      "de": { "title": "Seine Ehe mit Chadidscha", "summary": "Er heiratete sie im Alter von etwa fünfundzwanzig Jahren; nach der bekanntesten Ansicht war sie älter als er. Sie war seine erste Frau, und er nahm zu ihren Lebzeiten keine weitere." }
+    },
+    "19": {
+      "en": { "title": "Family and trading life", "summary": "He lived a settled life with Khadijah and had his sons and daughters by her, among them al-Qasim, 'Abdullah, Zaynab, Ruqayyah, Umm Kulthum and Fatimah." },
+      "de": { "title": "Familien- und Handelsleben", "summary": "Er führte mit Chadidscha ein gefestigtes Leben und hatte mit ihr seine Söhne und Töchter, darunter al-Qasim, Abdullah, Zainab, Ruqaiya, Umm Kulthum und Fatima." }
+    },
+    "20": {
+      "en": { "title": "The rebuilding of the Ka'bah", "summary": "Quraysh rebuilt the Ka'bah after it was damaged. When the tribes disputed over who should set the Black Stone in place, they referred the matter to the Prophet. He placed the stone on a cloth, ordered the tribal chiefs to lift it together, and then set it in place with his own hand." },
+      "de": { "title": "Der Wiederaufbau der Kaaba", "summary": "Die Quraisch bauten die beschädigte Kaaba wieder auf. Als die Stämme darüber stritten, wer den Schwarzen Stein einsetzen dürfe, riefen sie den Propheten als Schiedsrichter an. Er legte den Stein auf ein Tuch, ließ ihn von den Stammesführern gemeinsam heben und setzte ihn dann eigenhändig ein." }
+    },
+    "21": {
+      "en": { "title": "Seclusion and worship in Hira", "summary": "The Prophet used to withdraw to the cave of Hira and devote himself to worship before the revelation came down." },
+      "de": { "title": "Zurückgezogenheit und Gottesdienst in Hira", "summary": "Der Prophet zog sich vor Beginn der Offenbarung in die Höhle von Hira zurück und widmete sich der Andacht." }
+    },
+
+    "22": {
+      "en": { "title": "The first revelation", "summary": "Gabriel came to the Prophet, and the opening verses of Surat al-'Alaq were revealed: {{quran:96:1}}. With this, prophethood began." },
+      "de": { "title": "Die erste Offenbarung", "summary": "Gabriel kam zum Propheten, und die ersten Verse der Sure al-'Alaq wurden offenbart: {{quran:96:1}}. Damit begann das Prophetentum." }
+    },
+    "23": {
+      "en": { "title": "The Prophet's return to Khadijah", "summary": "He returned deeply affected by what had happened; Khadijah reassured him and then took him to Waraqah ibn Nawfal." },
+      "de": { "title": "Die Rückkehr des Propheten zu Chadidscha", "summary": "Er kehrte tief bewegt von dem Geschehen zurück; Chadidscha beruhigte ihn und brachte ihn dann zu Waraqa ibn Naufal." }
+    },
+    "24": {
+      "en": { "title": "Waraqah ibn Nawfal", "summary": "Waraqah told him that the one who had come to him was the same Namus who had come to the prophets, and that his people would turn against him." },
+      "de": { "title": "Waraqa ibn Naufal", "summary": "Waraqa sagte ihm, der zu ihm gekommen sei, sei derselbe Namus, der zu den Propheten gekommen war, und sein Volk werde sich gegen ihn wenden." }
+    },
+    "25": {
+      "en": { "title": "Khadijah accepts Islam", "summary": "She was the first of all people to believe in him." },
+      "de": { "title": "Chadidscha nimmt den Islam an", "summary": "Sie war der erste Mensch überhaupt, der an ihn glaubte." }
+    },
+    "26": {
+      "en": { "title": "'Ali ibn Abi Talib accepts Islam", "summary": "He accepted Islam as a boy, and was living in the Prophet's household at that time." },
+      "de": { "title": "Ali ibn Abi Talib nimmt den Islam an", "summary": "Er nahm den Islam als Junge an und lebte damals im Haushalt des Propheten." }
+    },
+    "27": {
+      "en": { "title": "Zayd ibn Harithah accepts Islam", "summary": "He was among those closest to the Prophet and among the earliest Muslims." },
+      "de": { "title": "Zaid ibn Haritha nimmt den Islam an", "summary": "Er gehörte zu den engsten Vertrauten des Propheten und zu den frühesten Muslimen." }
+    },
+    "28": {
+      "en": { "title": "Abu Bakr al-Siddiq accepts Islam", "summary": "He was among the first to come to Islam, and afterwards contributed to the conversion of a number of senior Companions." },
+      "de": { "title": "Abu Bakr as-Siddiq nimmt den Islam an", "summary": "Er gehörte zu den Ersten, die zum Islam kamen, und trug später zur Bekehrung mehrerer bedeutender Gefährten bei." }
+    },
+    "29": {
+      "en": { "title": "The phase of the secret call", "summary": "The mission continued within a limited circle, and the first community of Muslims began to form." },
+      "de": { "title": "Die Phase der geheimen Verkündigung", "summary": "Die Verkündigung blieb auf einen begrenzten Kreis beschränkt, und die erste Gemeinschaft der Muslime begann sich zu bilden." }
+    },
+    "30": {
+      "en": { "title": "'Uthman, al-Zubayr, Talhah, Sa'd and others accept Islam", "summary": "A number of the senior Companions entered Islam during the first years." },
+      "de": { "title": "Uthman, az-Zubair, Talha, Sa'd und andere nehmen den Islam an", "summary": "Eine Reihe bedeutender Gefährten trat in den ersten Jahren zum Islam über." }
+    },
+    "31": {
+      "en": { "title": "The call is made public", "summary": "The command came to warn his closest kin and to proclaim the message openly, and the Prophet began to call Quraysh publicly." },
+      "de": { "title": "Die öffentliche Verkündigung", "summary": "Der Befehl erging, die nächsten Verwandten zu warnen und die Botschaft offen zu verkünden; der Prophet begann, die Quraisch öffentlich aufzurufen." }
+    },
+    "32": {
+      "en": { "title": "Calling Quraysh at al-Safa", "summary": "The Prophet gathered Quraysh and warned them, and the phase of open confrontation began." },
+      "de": { "title": "Der Aufruf an die Quraisch auf as-Safa", "summary": "Der Prophet versammelte die Quraisch und warnte sie; damit begann die Phase der offenen Konfrontation." }
+    },
+    "33": {
+      "en": { "title": "Persecution of the Muslims intensifies", "summary": "The Muslims were subjected to torture, boycott and social pressure, and the most vulnerable among them bore the worst of it." },
+      "de": { "title": "Die Verfolgung der Muslime verschärft sich", "summary": "Die Muslime waren Folter, Boykott und gesellschaftlichem Druck ausgesetzt; die Schwächsten unter ihnen traf es am härtesten." }
+    },
+    "34": {
+      "en": { "title": "The first migration to Abyssinia", "summary": "The Prophet permitted some of his Companions to migrate to Abyssinia, because it had a king under whom no one was wronged." },
+      "de": { "title": "Die erste Auswanderung nach Abessinien", "summary": "Der Prophet erlaubte einigen seiner Gefährten, nach Abessinien auszuwandern, da dort ein König herrschte, unter dem niemandem Unrecht geschah." }
+    },
+    "35": {
+      "en": { "title": "The second migration to Abyssinia", "summary": "A larger number of Muslims migrated, and Abyssinia became a refuge for the vulnerable." },
+      "de": { "title": "Die zweite Auswanderung nach Abessinien", "summary": "Eine größere Zahl von Muslimen wanderte aus, und Abessinien wurde zur Zuflucht für die Schutzlosen." }
+    },
+    "36": {
+      "en": { "title": "Hamzah ibn 'Abd al-Muttalib accepts Islam", "summary": "Hamzah's conversion was an important turning point, giving the Prophet strong support from within Banu Hashim." },
+      "de": { "title": "Hamza ibn Abd al-Muttalib nimmt den Islam an", "summary": "Hamzas Übertritt war ein wichtiger Wendepunkt, denn er verschaffte dem Propheten starken Rückhalt innerhalb der Banu Haschim." }
+    },
+    "37": {
+      "en": { "title": "'Umar ibn al-Khattab accepts Islam", "summary": "'Umar's conversion had a great effect on the strength of the Muslims and their visibility in Mecca." },
+      "de": { "title": "Umar ibn al-Chattab nimmt den Islam an", "summary": "Umars Übertritt wirkte sich stark auf die Kraft der Muslime und ihr Auftreten in Mekka aus." }
+    },
+    "38": {
+      "en": { "title": "The Negus and his stance towards the migrants", "summary": "He refused to hand the Muslims over to Quraysh, and granted them safety in Abyssinia." },
+      "de": { "title": "Der Negus und seine Haltung zu den Auswanderern", "summary": "Er weigerte sich, die Muslime an die Quraisch auszuliefern, und gewährte ihnen in Abessinien Sicherheit." }
+    },
+    "39": {
+      "en": { "title": "The boycott of Banu Hashim", "summary": "Quraysh imposed a social and economic boycott on Banu Hashim and their allies, who were forced to live in the valley of Abu Talib." },
+      "de": { "title": "Die Blockade der Banu Haschim", "summary": "Die Quraisch verhängten einen gesellschaftlichen und wirtschaftlichen Boykott über die Banu Haschim und ihre Verbündeten, die gezwungen waren, in der Schlucht des Abu Talib zu leben." }
+    },
+    "40": {
+      "en": { "title": "The end of the boycott", "summary": "The blockade ended after years of hardship." },
+      "de": { "title": "Das Ende des Boykotts", "summary": "Die Blockade endete nach Jahren der Entbehrung." }
+    },
+    "41": {
+      "en": { "title": "The death of Abu Talib", "summary": "The Prophet's uncle and his political and social protector in Mecca died, without his acceptance of Islam being established in the sound reports." },
+      "de": { "title": "Der Tod von Abu Talib", "summary": "Der Onkel des Propheten und sein politischer und gesellschaftlicher Schutzherr in Mekka starb, ohne dass sein Übertritt zum Islam in den gesicherten Überlieferungen belegt ist." }
+    },
+    "42": {
+      "en": { "title": "The death of Khadijah", "summary": "Khadijah died; she had been the Prophet's greatest support at the beginning of his mission." },
+      "de": { "title": "Der Tod von Chadidscha", "summary": "Chadidscha starb; sie war die größte Stütze des Propheten zu Beginn seiner Verkündigung gewesen." }
+    },
+    "43": {
+      "en": { "title": "The Year of Sorrow", "summary": "That period became known as the Year of Sorrow because of the deaths of Abu Talib and Khadijah, two events that affected the Prophet deeply." },
+      "de": { "title": "Das Jahr der Trauer", "summary": "Jene Zeit wurde wegen des Todes von Abu Talib und Chadidscha als Jahr der Trauer bekannt — zwei Ereignisse, die den Propheten tief trafen." }
+    },
+    "44": {
+      "en": { "title": "The journey to Ta'if", "summary": "He went to Ta'if to call Thaqif to Islam. They did not respond to him, and he returned to Mecca." },
+      "de": { "title": "Die Reise nach at-Ta'if", "summary": "Er ging nach at-Ta'if, um die Thaqif zum Islam aufzurufen. Sie antworteten ihm nicht, und er kehrte nach Mekka zurück." }
+    },
+    "45": {
+      "en": { "title": "A group from Yathrib accepts Islam", "summary": "Some of the people of Yathrib began to accept Islam after meeting the Prophet during the pilgrimage seasons." },
+      "de": { "title": "Eine Gruppe aus Yathrib nimmt den Islam an", "summary": "Einige Bewohner Yathribs begannen den Islam anzunehmen, nachdem sie den Propheten während der Pilgerzeiten getroffen hatten." }
+    },
+    "46": {
+      "en": { "title": "The first pledge of al-'Aqabah", "summary": "A number of the people of Yathrib pledged to the Prophet Islam, obedience and the abandonment of certain prohibited acts — an important step towards the Hijrah." },
+      "de": { "title": "Der erste Treueid von al-Aqaba", "summary": "Mehrere Bewohner Yathribs gelobten dem Propheten Islam, Gehorsam und den Verzicht auf bestimmte verbotene Handlungen — ein wichtiger Schritt zur Hidschra." }
+    },
+    "47": {
+      "en": { "title": "Mus'ab ibn 'Umayr is sent", "summary": "The Prophet sent Mus'ab ibn 'Umayr to teach the people of Yathrib the Qur'an and Islam, and a number of them accepted Islam at his hands." },
+      "de": { "title": "Die Entsendung von Mus'ab ibn Umair", "summary": "Der Prophet entsandte Mus'ab ibn Umair, um die Bewohner Yathribs den Koran und den Islam zu lehren; mehrere von ihnen nahmen durch ihn den Islam an." }
+    },
+    "48": {
+      "en": { "title": "The second pledge of al-'Aqabah", "summary": "A large number of the people of Yathrib pledged to the Prophet and undertook to support and protect him. This was the political and social basis for the Hijrah." },
+      "de": { "title": "Der zweite Treueid von al-Aqaba", "summary": "Eine große Zahl der Bewohner Yathribs leistete dem Propheten den Treueid und verpflichtete sich, ihn zu unterstützen und zu schützen. Dies war die politische und gesellschaftliche Grundlage der Hidschra." }
+    },
+    "49": {
+      "en": { "title": "Permission to migrate to Medina", "summary": "The Muslims began to migrate to Yathrib, singly and in groups." },
+      "de": { "title": "Die Erlaubnis zur Auswanderung nach Medina", "summary": "Die Muslime begannen, einzeln und in Gruppen nach Yathrib auszuwandern." }
+    },
+    "50": {
+      "en": { "title": "The conspiracy of Quraysh", "summary": "Quraysh gathered to be rid of the Prophet. Permission to depart was then given, and the Prophet set out with Abu Bakr." },
+      "de": { "title": "Die Verschwörung der Quraisch", "summary": "Die Quraisch versammelten sich, um sich des Propheten zu entledigen. Daraufhin erging die Erlaubnis zum Aufbruch, und der Prophet zog mit Abu Bakr fort." }
+    },
+
+    "51": {
+      "en": { "title": "The Hijrah", "summary": "The Prophet set out with Abu Bakr. They made for the cave of Thawr, and then took an unusual route towards Medina." },
+      "de": { "title": "Die Hidschra", "summary": "Der Prophet brach mit Abu Bakr auf. Sie zogen zur Höhle von Thaur und nahmen dann einen ungewöhnlichen Weg nach Medina." }
+    },
+    "52": {
+      "en": { "title": "Staying in the cave", "summary": "The Prophet and Abu Bakr remained in the cave for several nights, then continued on their way." },
+      "de": { "title": "Der Aufenthalt in der Höhle", "summary": "Der Prophet und Abu Bakr blieben mehrere Nächte in der Höhle und setzten dann ihren Weg fort." }
+    },
+    "53": {
+      "en": { "title": "The account of Suraqah ibn Malik", "summary": "Suraqah set out in pursuit of the Prophet hoping for the reward, then realised that God was protecting His prophet, and returned without directing Quraysh to him." },
+      "de": { "title": "Die Geschichte von Suraqa ibn Malik", "summary": "Suraqa verfolgte den Propheten in der Hoffnung auf die Belohnung, erkannte dann aber, dass Gott seinen Propheten schützte, und kehrte zurück, ohne die Quraisch auf seine Spur zu bringen." }
+    },
+    "54": {
+      "en": { "title": "Arrival at Quba", "summary": "The Prophet reached Quba, stayed several days, and the mosque of Quba was built." },
+      "de": { "title": "Die Ankunft in Quba", "summary": "Der Prophet erreichte Quba, blieb mehrere Tage, und die Moschee von Quba wurde errichtet." }
+    },
+    "55": {
+      "en": { "title": "Entering Medina", "summary": "The Prophet entered Yathrib and its people received him; the city came to be known as al-Madinah." },
+      "de": { "title": "Der Einzug in Medina", "summary": "Der Prophet zog in Yathrib ein, und seine Bewohner empfingen ihn; die Stadt wurde fortan Medina genannt." }
+    },
+    "56": {
+      "en": { "title": "Building the Prophet's Mosque", "summary": "Construction began on the mosque that became the centre of worship, teaching and administration in the new Muslim community." },
+      "de": { "title": "Der Bau der Prophetenmoschee", "summary": "Der Bau der Moschee begann, die zum Zentrum von Gottesdienst, Lehre und Verwaltung der neuen muslimischen Gemeinschaft wurde." }
+    },
+    "57": {
+      "en": { "title": "The brotherhood between the Muhajirun and the Ansar", "summary": "The Prophet established brotherhood between the emigrants and the helpers, strengthening social and economic bonds." },
+      "de": { "title": "Die Verbrüderung zwischen Muhadschirun und Ansar", "summary": "Der Prophet stiftete Brüderschaft zwischen den Auswanderern und den Helfern und stärkte damit die sozialen und wirtschaftlichen Bindungen." }
+    },
+    "58": {
+      "en": { "title": "Ordering the community of Medina / the Sahifah", "summary": "Relations between the different groups in Medina were regulated, defining mutual rights, duties and responsibilities." },
+      "de": { "title": "Die Ordnung der Gemeinschaft von Medina / die Sahifa", "summary": "Die Beziehungen zwischen den verschiedenen Gruppen Medinas wurden geregelt und gegenseitige Rechte, Pflichten und Verantwortlichkeiten festgelegt." }
+    },
+    "59": {
+      "en": { "title": "The beginning of Medinan legislation", "summary": "Rulings concerning the community, prayer, fasting, zakat, jihad, family and transactions began to be revealed in greater detail." },
+      "de": { "title": "Der Beginn der medinensischen Gesetzgebung", "summary": "Bestimmungen zu Gemeinschaft, Gebet, Fasten, Zakat, Dschihad, Familie und Rechtsgeschäften wurden nun ausführlicher offenbart." }
+    },
+    "60": {
+      "en": { "title": "The change of the qiblah", "summary": "The prayer direction changed from Jerusalem to the Sacred Mosque — an event of great religious significance in forming the identity of the Muslim community." },
+      "de": { "title": "Die Änderung der Gebetsrichtung", "summary": "Die Gebetsrichtung wechselte von Jerusalem zur Heiligen Moschee — ein Ereignis von großer religiöser Bedeutung für die Identität der muslimischen Gemeinschaft." }
+    },
+    "61": {
+      "en": { "title": "The Battle of Badr", "summary": "The Muslims set out originally to intercept a Quraysh caravan; the encounter then turned into a battle with the army of Quraysh. The Muslims numbered about 300, and the battle ended in their victory. Its well-known date is **17 Ramadan 2 AH / 13 March 624 CE**." },
+      "de": { "title": "Die Schlacht von Badr", "summary": "Die Muslime zogen ursprünglich aus, um eine Karawane der Quraisch abzufangen; die Begegnung wurde dann zur Schlacht gegen das Heer der Quraisch. Die Muslime zählten etwa 300 Mann, und die Schlacht endete mit ihrem Sieg. Ihr bekanntes Datum ist der **17. Ramadan 2 n. H. / 13. März 624 n. Chr.**" }
+    },
+    "62": {
+      "en": { "title": "Captives and losses among the leaders of Quraysh", "summary": "A number of the foremost leaders of Quraysh were killed and others taken captive, which had a great political effect on the conflict." },
+      "de": { "title": "Gefangene und Verluste unter den Anführern der Quraisch", "summary": "Mehrere der führenden Männer der Quraisch fielen, andere gerieten in Gefangenschaft, was den Konflikt politisch stark beeinflusste." }
+    },
+    "63": {
+      "en": { "title": "The expedition against Banu Qaynuqa'", "summary": "It took place after Badr amid rising political and military tension within Medina, and ended with the departure of Banu Qaynuqa' from the city according to the traditional historical accounts." },
+      "de": { "title": "Der Feldzug gegen die Banu Qainuqa", "summary": "Er fand nach Badr inmitten wachsender politischer und militärischer Spannungen in Medina statt und endete nach den überlieferten historischen Berichten mit dem Abzug der Banu Qainuqa aus der Stadt." }
+    },
+    "64": {
+      "en": { "title": "Quraysh prepares for Uhud", "summary": "After Badr, Quraysh assembled a large army under Abu Sufyan and marched on Medina." },
+      "de": { "title": "Die Quraisch rüsten für Uhud", "summary": "Nach Badr stellten die Quraisch unter Abu Sufyan ein großes Heer auf und zogen gegen Medina." }
+    },
+    "65": {
+      "en": { "title": "The Battle of Uhud", "summary": "The Muslims went out to meet the army of Quraysh. When some of the archers left their positions the Muslim ranks broke; Hamzah and a number of the Companions were killed, and the Prophet was wounded." },
+      "de": { "title": "Die Schlacht von Uhud", "summary": "Die Muslime zogen dem Heer der Quraisch entgegen. Als einige der Bogenschützen ihre Stellungen verließen, brachen die Reihen der Muslime; Hamza und mehrere Gefährten fielen, und der Prophet wurde verwundet." }
+    },
+    "66": {
+      "en": { "title": "The expedition of Hamra al-Asad", "summary": "The Prophet and the Muslims went out after Uhud in a show of pursuit of Quraysh, to make clear that the Muslims had not collapsed." },
+      "de": { "title": "Der Feldzug von Hamra al-Asad", "summary": "Der Prophet und die Muslime zogen nach Uhud aus, um die Quraisch zu verfolgen und zu zeigen, dass die Muslime nicht zusammengebrochen waren." }
+    },
+    "67": {
+      "en": { "title": "The expedition against Banu al-Nadir", "summary": "It ended with the expulsion of Banu al-Nadir from Medina, in the context of a dispute over the treaty and political relations." },
+      "de": { "title": "Der Feldzug gegen die Banu an-Nadir", "summary": "Er endete mit der Vertreibung der Banu an-Nadir aus Medina im Zusammenhang mit einem Streit über den Vertrag und die politischen Beziehungen." }
+    },
+    "68": {
+      "en": { "title": "The expedition of Dhat al-Riqa'", "summary": "The Prophet went out on a campaign in Najd, and the reports mention various events connected with it." },
+      "de": { "title": "Der Feldzug von Dhat ar-Riqa", "summary": "Der Prophet unternahm einen Feldzug nach Nadschd; die Überlieferungen berichten von verschiedenen damit verbundenen Ereignissen." }
+    },
+    "69": {
+      "en": { "title": "The expedition of Badr al-Maw'id", "summary": "The Muslims went out to Badr in fulfilment of an earlier appointment with Quraysh, but Quraysh did not engage." },
+      "de": { "title": "Der Feldzug von Badr al-Mau'id", "summary": "Die Muslime zogen nach Badr, um eine zuvor mit den Quraisch getroffene Verabredung einzuhalten, doch die Quraisch stellten sich nicht." }
+    },
+    "70": {
+      "en": { "title": "The expedition of Dumat al-Jandal", "summary": "The Prophet went north after reports of hostile gatherings, and returned without a major battle." },
+      "de": { "title": "Der Feldzug von Dumat al-Dschandal", "summary": "Der Prophet zog nach Norden, nachdem Nachrichten über feindliche Ansammlungen eingetroffen waren, und kehrte ohne größere Schlacht zurück." }
+    },
+    "71": {
+      "en": { "title": "The Battle of the Confederates (the Trench)", "summary": "Quraysh and many tribes allied and besieged Medina. Salman al-Farisi proposed digging the trench, a defensive method unfamiliar to the Arabs at that time." },
+      "de": { "title": "Die Schlacht der Verbündeten (der Grabenkrieg)", "summary": "Die Quraisch und zahlreiche Stämme verbündeten sich und belagerten Medina. Salman al-Farisi schlug vor, einen Graben auszuheben — eine den Arabern damals unbekannte Verteidigungsweise." }
+    },
+    "72": {
+      "en": { "title": "The failure of the siege", "summary": "The siege continued and then the confederates withdrew without achieving their aim. This was a major turning point in the balance of power." },
+      "de": { "title": "Das Scheitern der Belagerung", "summary": "Die Belagerung zog sich hin, und die Verbündeten zogen ab, ohne ihr Ziel zu erreichen. Dies war ein entscheidender Wendepunkt im Kräfteverhältnis." }
+    },
+    "73": {
+      "en": { "title": "The expedition against Banu Qurayzah", "summary": "It took place immediately after the Confederates, in the context of the reports concerning the breaking of the treaty during the siege, and ended with the judgement passed on the men of the tribe as recorded in the traditional sources. This event in particular has detailed historical and juristic dimensions and multiple accounts, and should be studied separately if you wish to go into it further." },
+      "de": { "title": "Der Feldzug gegen die Banu Quraiza", "summary": "Er folgte unmittelbar auf den Grabenkrieg, im Zusammenhang mit den Überlieferungen über den Bruch des Vertrags während der Belagerung, und endete mit dem Urteil über die Männer des Stammes, wie es die traditionellen Quellen festhalten. Gerade dieses Ereignis hat weitreichende historische und rechtliche Dimensionen und mehrere Überlieferungsstränge und sollte gesondert untersucht werden, wenn man es vertiefen möchte." }
+    },
+    "74": {
+      "en": { "title": "The shift from confrontation to negotiation", "summary": "After the Confederates the balance of power changed, and the Prophet became able to take the political initiative rather than merely defend." },
+      "de": { "title": "Der Übergang von der Konfrontation zur Verhandlung", "summary": "Nach dem Grabenkrieg verschob sich das Kräfteverhältnis, und der Prophet konnte politisch die Initiative ergreifen, statt sich nur zu verteidigen." }
+    },
+
+    "75": {
+      "en": { "title": "Setting out for al-Hudaybiyah", "summary": "The Prophet set out with about 1,400 of his Companions intending the 'umrah, not battle." },
+      "de": { "title": "Der Aufbruch nach al-Hudaibiya", "summary": "Der Prophet brach mit etwa 1.400 Gefährten auf, um die Umra zu vollziehen, nicht um zu kämpfen." }
+    },
+    "76": {
+      "en": { "title": "Quraysh blocks the Muslims from entering Mecca", "summary": "Quraysh sent representatives to negotiate, and lengthy negotiations followed." },
+      "de": { "title": "Die Quraisch verwehren den Muslimen den Zugang nach Mekka", "summary": "Die Quraisch entsandten Unterhändler, und es folgten langwierige Verhandlungen." }
+    },
+    "77": {
+      "en": { "title": "The Pledge of Ridwan", "summary": "The Companions pledged to the Prophet under the tree to stand firm, after an unconfirmed report spread that 'Uthman ibn 'Affan had been killed." },
+      "de": { "title": "Der Treueid von ar-Ridwan", "summary": "Die Gefährten gelobten dem Propheten unter dem Baum standzuhalten, nachdem sich die unbestätigte Nachricht verbreitet hatte, Uthman ibn Affan sei getötet worden." }
+    },
+    "78": {
+      "en": { "title": "The Treaty of al-Hudaybiyah", "summary": "A truce was agreed. Among its main terms were that the Muslims would return that year and be permitted the 'umrah the following year. To some of the Companions the treaty appeared outwardly to be a concession, but it opened a wide phase of contact and expansion. The Qur'an described the treaty as {{quran:48:1}}." },
+      "de": { "title": "Der Vertrag von al-Hudaibiya", "summary": "Ein Waffenstillstand wurde vereinbart. Zu seinen wichtigsten Bestimmungen gehörte, dass die Muslime in jenem Jahr umkehren und im folgenden Jahr die Umra vollziehen durften. Einigen Gefährten erschien der Vertrag äußerlich als Zugeständnis, doch er eröffnete eine weite Phase des Austauschs und der Ausbreitung. Der Koran bezeichnete den Vertrag als {{quran:48:1}}." }
+    },
+    "79": {
+      "en": { "title": "Letters to kings and rulers", "summary": "The Prophet sent letters calling a number of rulers to Islam, among them Heraclius, Khosrow, the Muqawqis and the Negus." },
+      "de": { "title": "Briefe an Könige und Herrscher", "summary": "Der Prophet sandte Briefe, in denen er mehrere Herrscher zum Islam aufrief, darunter Herakleios, Chosrau, den Muqauqis und den Negus." }
+    },
+    "80": {
+      "en": { "title": "The expedition of Khaybar", "summary": "The Muslims marched on Khaybar. The fighting ended with the capture of its fortresses and arrangements concerning its people and their lands." },
+      "de": { "title": "Der Feldzug von Chaibar", "summary": "Die Muslime zogen nach Chaibar. Die Kämpfe endeten mit der Einnahme der Festungen und Vereinbarungen über die Bewohner und ihr Land." }
+    },
+    "81": {
+      "en": { "title": "'Ali at Khaybar", "summary": "The Prophet gave the banner to 'Ali at one stage of the fighting, and important events in the capture of the fortresses took place at his hands." },
+      "de": { "title": "Ali bei Chaibar", "summary": "Der Prophet übergab Ali in einer Phase der Kämpfe das Banner, und durch ihn kam es zu wichtigen Ereignissen bei der Einnahme der Festungen." }
+    },
+    "82": {
+      "en": { "title": "The compensatory 'umrah", "summary": "The Prophet and his Companions entered Mecca and performed the 'umrah in accordance with what had been agreed at al-Hudaybiyah." },
+      "de": { "title": "Die nachgeholte Umra", "summary": "Der Prophet und seine Gefährten zogen nach Mekka und vollzogen die Umra gemäß dem in al-Hudaibiya Vereinbarten." }
+    },
+    "83": {
+      "en": { "title": "The Battle of Mu'tah", "summary": "The Prophet sent an army north. Its three commanders — Zayd ibn Harithah, Ja'far ibn Abi Talib and 'Abdullah ibn Rawahah — were killed, and Khalid ibn al-Walid then took command and reorganised the army." },
+      "de": { "title": "Die Schlacht von Muta", "summary": "Der Prophet entsandte ein Heer nach Norden. Seine drei Befehlshaber — Zaid ibn Haritha, Dscha'far ibn Abi Talib und Abdullah ibn Rawaha — fielen; daraufhin übernahm Chalid ibn al-Walid das Kommando und ordnete das Heer neu." }
+    },
+    "84": {
+      "en": { "title": "Khalid ibn al-Walid and 'Amr ibn al-'As accept Islam", "summary": "A number of important figures accepted Islam at the end of the Meccan period and the beginning of the later Medinan period; the conversion of Khalid and 'Amr had a great effect on the phase that followed." },
+      "de": { "title": "Chalid ibn al-Walid und Amr ibn al-As nehmen den Islam an", "summary": "Am Ende der mekkanischen und zu Beginn der späteren medinensischen Zeit traten mehrere bedeutende Persönlichkeiten zum Islam über; der Übertritt Chalids und Amrs wirkte sich stark auf die folgende Phase aus." }
+    },
+
+    "85": {
+      "en": { "title": "The breaking of the Treaty of al-Hudaybiyah", "summary": "Allies of Quraysh attacked allies of the Muslims, which was regarded as a breach of the treaty, and Quraysh began to lose its ability to hold the agreement together." },
+      "de": { "title": "Der Bruch des Vertrags von al-Hudaibiya", "summary": "Verbündete der Quraisch griffen Verbündete der Muslime an, was als Vertragsbruch galt; die Quraisch verloren zunehmend die Fähigkeit, das Abkommen aufrechtzuerhalten." }
+    },
+    "86": {
+      "en": { "title": "The march on Mecca", "summary": "The Prophet set out for Mecca with a large army, said to have numbered around 10,000 fighters." },
+      "de": { "title": "Der Zug nach Mekka", "summary": "Der Prophet brach mit einem großen Heer nach Mekka auf, das etwa 10.000 Kämpfer gezählt haben soll." }
+    },
+    "87": {
+      "en": { "title": "The conquest of Mecca", "summary": "The Muslims entered Mecca, for the most part without major fighting. The Prophet declared safety for the people, entered the Sacred Mosque, and the idols around the Ka'bah were removed." },
+      "de": { "title": "Die Eroberung Mekkas", "summary": "Die Muslime zogen in Mekka ein, größtenteils ohne größere Kämpfe. Der Prophet sicherte den Bewohnern Schutz zu, betrat die Heilige Moschee, und die Götzenbilder rings um die Kaaba wurden entfernt." }
+    },
+    "88": {
+      "en": { "title": "Abu Sufyan accepts Islam", "summary": "Abu Sufyan accepted Islam before the Muslims entered Mecca, and afterwards became one of the senior Companions." },
+      "de": { "title": "Abu Sufyan nimmt den Islam an", "summary": "Abu Sufyan nahm den Islam an, bevor die Muslime in Mekka einzogen, und wurde danach einer der angesehenen Gefährten." }
+    },
+    "89": {
+      "en": { "title": "The general amnesty", "summary": "The Prophet declared safety for many of those who had fought against him — among the most notable moral and political acts of the conquest of Mecca." },
+      "de": { "title": "Die allgemeine Amnestie", "summary": "Der Prophet sicherte vielen, die ihn bekämpft hatten, Schutz zu — einer der bemerkenswertesten moralischen und politischen Akte der Eroberung Mekkas." }
+    },
+    "90": {
+      "en": { "title": "The Battle of Hunayn", "summary": "Hawazin and Thaqif went out against the Muslims. There was disorder at the start of the battle; the Muslims then re-formed their ranks, and the battle ended in their victory." },
+      "de": { "title": "Die Schlacht von Hunain", "summary": "Die Hawazin und Thaqif zogen gegen die Muslime aus. Zu Beginn der Schlacht kam es zu Verwirrung; die Muslime ordneten ihre Reihen neu, und die Schlacht endete mit ihrem Sieg." }
+    },
+    "91": {
+      "en": { "title": "The siege of Ta'if", "summary": "The Muslims moved on Ta'if after Hunayn and besieged it, then withdrew without taking it in that campaign." },
+      "de": { "title": "Die Belagerung von at-Ta'if", "summary": "Die Muslime zogen nach Hunain gegen at-Ta'if und belagerten es, zogen sich dann aber zurück, ohne es in diesem Feldzug einzunehmen." }
+    },
+    "92": {
+      "en": { "title": "Tribal delegations accept Islam after the conquest", "summary": "The conquest of Mecca brought a rapid shift in the balance of power, and the tribes began to enter Islam or to send delegations to Medina." },
+      "de": { "title": "Stammesdelegationen nehmen nach der Eroberung den Islam an", "summary": "Die Eroberung Mekkas führte zu einer raschen Verschiebung der Kräfteverhältnisse; die Stämme begannen, zum Islam überzutreten oder Delegationen nach Medina zu entsenden." }
+    },
+
+    "93": {
+      "en": { "title": "The expedition of Tabuk", "summary": "The Prophet marched north with a large army because of reports of a Byzantine and Ghassanid threat. No major battle took place directly, but the campaign demonstrated the reach of the Muslim state." },
+      "de": { "title": "Der Feldzug von Tabuk", "summary": "Der Prophet zog wegen Nachrichten über eine byzantinisch-ghassanidische Bedrohung mit einem großen Heer nach Norden. Zu einer größeren Schlacht kam es nicht unmittelbar, doch der Feldzug zeigte die Reichweite des muslimischen Staates." }
+    },
+    "94": {
+      "en": { "title": "The trial of those who stayed behind from Tabuk", "summary": "Surat al-Tawbah relates the account of three Companions who stayed behind and then told the Prophet the truth about what had happened; the acceptance of their repentance was revealed afterwards." },
+      "de": { "title": "Die Prüfung der bei Tabuk Zurückgebliebenen", "summary": "Die Sure at-Tauba berichtet von drei Gefährten, die zurückblieben und dem Propheten dann die Wahrheit über das Geschehene sagten; die Annahme ihrer Reue wurde danach offenbart." }
+    },
+    "95": {
+      "en": { "title": "The Year of Delegations", "summary": "Delegations began arriving in Medina from across the Arabian Peninsula to declare Islam or to reach agreement with the Muslim state." },
+      "de": { "title": "Das Jahr der Delegationen", "summary": "Aus der gesamten Arabischen Halbinsel trafen Delegationen in Medina ein, um den Islam zu erklären oder Vereinbarungen mit dem muslimischen Staat zu treffen." }
+    },
+    "96": {
+      "en": { "title": "Abu Bakr leads the pilgrimage", "summary": "Abu Bakr went out as leader of the hajj; the Prophet then sent 'Ali with verses of Surat al-Tawbah to announce the ending of certain treaties and conditions relating to the polytheists." },
+      "de": { "title": "Abu Bakr leitet die Pilgerfahrt", "summary": "Abu Bakr zog als Führer der Haddsch aus; der Prophet sandte dann Ali mit Versen der Sure at-Tauba, um das Ende bestimmter Verträge und Bedingungen gegenüber den Polytheisten zu verkünden." }
+    },
+    "97": {
+      "en": { "title": "Islam spreads across most of the Peninsula", "summary": "Medina became a political and religious centre to which most of the tribes of the Peninsula were connected, and delegations arrived to declare Islam and allegiance." },
+      "de": { "title": "Der Islam breitet sich über den größten Teil der Halbinsel aus", "summary": "Medina wurde zu einem politischen und religiösen Zentrum, mit dem die meisten Stämme der Halbinsel verbunden waren; Delegationen trafen ein, um Islam und Treue zu erklären." }
+    },
+    "98": {
+      "en": { "title": "The expedition of Usamah ibn Zayd", "summary": "The Prophet equipped an army under Usamah ibn Zayd to march north. This was in the last days of his life, and the army did not set out while he lived, because of his illness." },
+      "de": { "title": "Die Entsendung von Usama ibn Zaid", "summary": "Der Prophet rüstete ein Heer unter Usama ibn Zaid für einen Zug nach Norden. Dies geschah in den letzten Tagen seines Lebens, und das Heer brach zu seinen Lebzeiten wegen seiner Krankheit nicht auf." }
+    },
+    "99": {
+      "en": { "title": "Setting out for the Farewell Pilgrimage", "summary": "The Prophet left Medina for the hajj, and a vast gathering of Muslims joined him." },
+      "de": { "title": "Der Aufbruch zur Abschiedswallfahrt", "summary": "Der Prophet verließ Medina zur Haddsch, und eine gewaltige Menge von Muslimen schloss sich ihm an." }
+    },
+    "100": {
+      "en": { "title": "The Farewell Pilgrimage", "summary": "The Prophet performed the rites of the hajj and taught the people the rites; it was his last pilgrimage." },
+      "de": { "title": "Die Abschiedswallfahrt", "summary": "Der Prophet vollzog die Riten der Haddsch und lehrte die Menschen die Riten; es war seine letzte Pilgerfahrt." }
+    },
+    "101": {
+      "en": { "title": "The Farewell Sermon", "summary": "He affirmed the inviolability of life, property and honour, enjoined good treatment of women, declared many practices of the Jahiliyyah abolished, and affirmed the brotherhood of Muslims." },
+      "de": { "title": "Die Predigt der Abschiedswallfahrt", "summary": "Er bekräftigte die Unantastbarkeit von Leben, Besitz und Ehre, ermahnte zum guten Umgang mit den Frauen, erklärte viele Bräuche der Dschahiliya für abgeschafft und bekräftigte die Brüderlichkeit der Muslime." }
+    },
+    "102": {
+      "en": { "title": "The verse on the completion of the religion", "summary": "The verse was revealed: {{quran:5:3}} — in the context of the Farewell Pilgrimage." },
+      "de": { "title": "Die Offenbarung des Verses über die Vollendung der Religion", "summary": "Der Vers wurde offenbart: {{quran:5:3}} — im Zusammenhang mit der Abschiedswallfahrt." }
+    },
+    "103": {
+      "en": { "title": "The return to Medina", "summary": "The Prophet returned to Medina after completing the pilgrimage." },
+      "de": { "title": "Die Rückkehr nach Medina", "summary": "Der Prophet kehrte nach Vollendung der Pilgerfahrt nach Medina zurück." }
+    },
+    "104": {
+      "en": { "title": "The onset of the Prophet's illness", "summary": "His illness grew severe, and he asked his wives' permission to be nursed in the house of 'A'ishah, which they granted." },
+      "de": { "title": "Der Beginn der Krankheit des Propheten", "summary": "Seine Krankheit verschlimmerte sich, und er bat seine Frauen um Erlaubnis, im Haus von Aischa gepflegt zu werden, was sie ihm gewährten." }
+    },
+    "105": {
+      "en": { "title": "Abu Bakr leads the prayer", "summary": "When the Prophet's illness grew severe he ordered Abu Bakr to lead the people in prayer, one of the significant events of his final days." },
+      "de": { "title": "Abu Bakr leitet das Gebet", "summary": "Als die Krankheit des Propheten sich verschlimmerte, wies er Abu Bakr an, den Menschen im Gebet vorzustehen — eines der bedeutsamen Ereignisse seiner letzten Tage." }
+    },
+    "106": {
+      "en": { "title": "The Prophet looks out upon the Muslims at prayer", "summary": "On one of the days of his illness he drew back the curtain and looked at the Companions praying behind Abu Bakr, then returned to his chamber." },
+      "de": { "title": "Der Prophet blickt auf die betenden Muslime", "summary": "An einem der Tage seiner Krankheit zog er den Vorhang zurück, blickte auf die hinter Abu Bakr betenden Gefährten und kehrte dann in seine Kammer zurück." }
+    },
+    "107": {
+      "en": { "title": "The death of the Prophet ﷺ", "summary": "He died in the house of 'A'ishah at about sixty-three lunar years of age. 12 Rabi' al-Awwal is the best-known date, but the determination of the Hijri day is disputed. Modern historical sources date the death to 8 June 632 CE." },
+      "de": { "title": "Der Tod des Propheten ﷺ", "summary": "Er starb im Haus von Aischa im Alter von etwa dreiundsechzig Mondjahren. Der 12. Rabi' al-Auwal ist das bekannteste Datum, doch die Bestimmung des Hidschri-Tages ist umstritten. Moderne historische Quellen datieren den Tod auf den 8. Juni 632 n. Chr." }
+    },
+    "108": {
+      "en": { "title": "His burial", "summary": "He was buried in the place where he died, in the chamber of 'A'ishah, which later became part of the Prophet's Mosque." },
+      "de": { "title": "Seine Bestattung", "summary": "Er wurde an dem Ort bestattet, an dem er starb, in der Kammer von Aischa, die später Teil der Prophetenmoschee wurde." }
+    }
+  }
+}

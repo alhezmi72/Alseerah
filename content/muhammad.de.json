@@ -1,0 +1,2730 @@
+{
+  "$schema": "../schema/muhammad.schema.json",
+  "version": 1,
+  "lang": "de",
+  "dir": "ltr",
+  "translation": {
+    "status": "machine",
+    "from": "ar",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "source": {
+    "file": "Mohammed-historical-events",
+    "generatedBy": "tools/build_content.py",
+    "generatedAt": "2026-08-15"
+  },
+  "dateCaveat": "Der Hidschri-Kalender ist ein Mondkalender; ein frühes Hidschri-Datum lässt sich nicht so in ein gregorianisches umrechnen, als wäre es exakt aus einem festen Kalender berechnet worden. Moderne Quellen weichen in der Zuordnung voneinander ab. Die hier angegebenen gregorianischen Daten sind ungefähre Angaben.",
+  "sources": [
+    {
+      "id": "worldhistory",
+      "label": "Weltgeschichte Enzyklopädie / World History Encyclopedia",
+      "url": "https://www.worldhistory.org/timeline/Prophet_Muhammad/"
+    },
+    {
+      "id": "pbs",
+      "label": "PBS — Muhammad: Legacy of a Prophet",
+      "url": "https://www.pbs.org/muhammad/timeline_html.shtml"
+    },
+    {
+      "id": "islamicchronicles",
+      "label": "Muslim History Chronicles",
+      "url": "https://islamicchronicles.com/islamic-history/rise-of-islam/chronological-biography-of-prophet-muhammad/"
+    }
+  ],
+  "eras": [
+    {
+      "id": "pre-birth-and-childhood",
+      "order": 1,
+      "title": "I. Vor der Geburt des Propheten, seine Geburt und Kindheit",
+      "firstEvent": 1,
+      "lastEvent": 21
+    },
+    {
+      "id": "prophethood-and-meccan-daawah",
+      "order": 2,
+      "title": "II. Der Beginn des Prophetentums und die mekkanische Verkündigung",
+      "firstEvent": 22,
+      "lastEvent": 50
+    },
+    {
+      "id": "hijrah-and-medina",
+      "order": 3,
+      "title": "III. Die Hidschra und die Gründung der Gemeinschaft von Medina",
+      "firstEvent": 51,
+      "lastEvent": 74
+    },
+    {
+      "id": "hudaybiyah-khaybar-and-beyond",
+      "order": 4,
+      "title": "IV. Al-Hudaibiya, Chaibar und die internationale Phase",
+      "firstEvent": 75,
+      "lastEvent": 84
+    },
+    {
+      "id": "conquest-of-mecca",
+      "order": 5,
+      "title": "V. Die Eroberung Mekkas und die Zeit danach",
+      "firstEvent": 85,
+      "lastEvent": 92
+    },
+    {
+      "id": "tabuk-and-the-completed-state",
+      "order": 6,
+      "title": "VI. Tabuk, das Jahr der Delegationen und die Vollendung des Staates",
+      "firstEvent": 93,
+      "lastEvent": 108
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "slug": "quraysh-and-mecca",
+      "eraId": "pre-birth-and-childhood",
+      "order": 1,
+      "title": "Die Stellung der Quraisch und Mekkas",
+      "summary": "Mekka war wegen der Kaaba und seiner Lage an den Handelsrouten ein bedeutendes religiöses und wirtschaftliches Zentrum. Die Quraisch besaßen großen Einfluss auf die Verwaltung der Pilgerfahrt und den Dienst am Heiligtum.",
+      "date": {
+        "hijri": "ca. 70–60 v. H.",
+        "gregorian": "6. Jahrhundert n. Chr.",
+        "sortYearHijri": -70,
+        "sortYearGregorian": null
+      },
+      "authenticity": {
+        "mark": "unmarked",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 2,
+      "slug": "year-of-the-elephant",
+      "eraId": "pre-birth-and-childhood",
+      "order": 2,
+      "title": "Das Jahr des Elefanten",
+      "summary": "Abraha, der Herrscher des Jemen unter dem Königreich Aksum, entsandte ein Heer nach Mekka, um die Kaaba zu zerstören. Der Koran berichtet von den Gefährten des Elefanten; das Heer wurde vernichtet und erreichte das Haus nie.",
+      "date": {
+        "hijri": "ca. 53 v. H.",
+        "gregorian": "570/571 n. Chr.",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka und Jemen",
+      "locations": [
+        "mecca",
+        "yemen"
+      ],
+      "movement": false
+    },
+    {
+      "id": 3,
+      "slug": "death-of-abdullah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 3,
+      "title": "Der Tod von Abdullah ibn Abd al-Muttalib",
+      "summary": "Nach der bekanntesten Ansicht starb der Vater des Propheten vor dessen Geburt. Er war zu einer Handelsreise aufgebrochen und erkrankte in Yathrib. So wurde der Prophet als Halbwaise geboren.",
+      "date": {
+        "hijri": "ca. 53 v. H.",
+        "gregorian": "570/571 n. Chr.",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina / Mekka",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 4,
+      "slug": "birth-of-the-prophet",
+      "eraId": "pre-birth-and-childhood",
+      "order": 4,
+      "title": "Die Geburt des Propheten ﷺ",
+      "summary": "Er wurde an einem Montag im Jahr des Elefanten geboren. Der genaue Tag des Monats ist sehr umstritten; der 12. Rabi' al-Auwal ist der bekannteste, aber kein gesichertes Datum.",
+      "date": {
+        "hijri": "Rabi' al-Auwal, ca. 53 v. H.",
+        "gregorian": "570/571 n. Chr.",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "B"
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 5,
+      "slug": "naming-muhammad",
+      "eraId": "pre-birth-and-childhood",
+      "order": 5,
+      "title": "Seine Benennung als Muhammad",
+      "summary": "Sein Großvater Abd al-Muttalib gab ihm den Namen Muhammad, der bei den Arabern jener Zeit weniger gebräuchlich war.",
+      "date": {
+        "hijri": "53 v. H.",
+        "gregorian": "570/571 n. Chr.",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 6,
+      "slug": "nursing-with-halimah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 6,
+      "title": "Seine Stillzeit bei Halima as-Sa'diya",
+      "summary": "Es war Brauch der Vornehmen Mekkas, ihre Kinder zugunsten der Sprachreinheit und einer gesünderen Umgebung in die Wüste zu geben. Halima as-Sa'diya von den Banu Sa'd nahm ihn auf, und er verbrachte seine frühe Kindheit bei ihr.",
+      "date": {
+        "hijri": "53–51 v. H.",
+        "gregorian": "570–572 n. Chr.",
+        "sortYearHijri": -53,
+        "sortYearGregorian": 570
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Wüste der Banu Sa'd",
+      "locations": [
+        "mecca",
+        "badiyat-bani-saad"
+      ],
+      "movement": true
+    },
+    {
+      "id": 7,
+      "slug": "first-splitting-of-the-breast",
+      "eraId": "pre-birth-and-childhood",
+      "order": 7,
+      "title": "Die erste Öffnung der Brust",
+      "summary": "In Sahih Muslim und anderen Werken wird überliefert, dass Gabriel ihm als Kind die Brust öffnete, sein Herz wusch und reinigte und es dann wieder einsetzte.",
+      "date": {
+        "hijri": "ca. 49 v. H.",
+        "gregorian": "ca. 574 n. Chr.",
+        "sortYearHijri": -49,
+        "sortYearGregorian": 574
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "was den Ursprung der Überlieferung betrifft",
+        "grade": null
+      },
+      "placeText": "Wüste der Banu Sa'd",
+      "locations": [
+        "badiyat-bani-saad"
+      ],
+      "movement": false
+    },
+    {
+      "id": 8,
+      "slug": "return-to-his-mother",
+      "eraId": "pre-birth-and-childhood",
+      "order": 8,
+      "title": "Seine Rückkehr zu seiner Mutter",
+      "summary": "Nach der Stillzeit bei den Banu Sa'd kehrte er zu seiner Mutter Amina zurück.",
+      "date": {
+        "hijri": "ca. 47 v. H.",
+        "gregorian": "ca. 576/577 n. Chr.",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 576
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Wüste der Banu Sa'd → Mekka",
+      "locations": [
+        "badiyat-bani-saad",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 9,
+      "slug": "aminah-visits-medina",
+      "eraId": "pre-birth-and-childhood",
+      "order": 9,
+      "title": "Aminas Reise nach Medina",
+      "summary": "Amina reiste mit dem Propheten, um seine mütterlichen Verwandten von den Banu an-Naddschar zu besuchen, und kehrte mit ihm zurück.",
+      "date": {
+        "hijri": "ca. 47 v. H.",
+        "gregorian": "ca. 577 n. Chr.",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Medina",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 10,
+      "slug": "death-of-aminah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 10,
+      "title": "Der Tod von Amina bint Wahb",
+      "summary": "Seine Mutter starb in al-Abwa, als er etwa sechs Jahre alt war; damit war er Vollwaise.",
+      "date": {
+        "hijri": "ca. 47 v. H.",
+        "gregorian": "ca. 577 n. Chr.",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Al-Abwa",
+      "locations": [
+        "al-abwa"
+      ],
+      "movement": false
+    },
+    {
+      "id": 11,
+      "slug": "guardianship-of-abd-al-muttalib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 11,
+      "title": "Die Vormundschaft von Abd al-Muttalib",
+      "summary": "Nach dem Tod seiner Mutter übernahm sein Großvater Abd al-Muttalib seine Fürsorge.",
+      "date": {
+        "hijri": "ca. 47–45 v. H.",
+        "gregorian": "577–579 n. Chr.",
+        "sortYearHijri": -47,
+        "sortYearGregorian": 577
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 12,
+      "slug": "death-of-abd-al-muttalib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 12,
+      "title": "Der Tod von Abd al-Muttalib",
+      "summary": "Sein Großvater starb, als er etwa acht Jahre alt war, und die Vormundschaft ging an seinen Onkel Abu Talib über.",
+      "date": {
+        "hijri": "ca. 45 v. H.",
+        "gregorian": "ca. 579 n. Chr.",
+        "sortYearHijri": -45,
+        "sortYearGregorian": 579
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 13,
+      "slug": "guardianship-of-abu-talib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 13,
+      "title": "Die Vormundschaft von Abu Talib",
+      "summary": "Der Prophet lebte im Haus seines Onkels Abu Talib, der ihn liebte und schützte, obwohl er selbst nie zum Islam übertrat.",
+      "date": {
+        "hijri": "ca. 45–28 v. H.",
+        "gregorian": "579–595 n. Chr.",
+        "sortYearHijri": -45,
+        "sortYearGregorian": 579
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 14,
+      "slug": "journey-to-al-sham-with-abu-talib",
+      "eraId": "pre-birth-and-childhood",
+      "order": 14,
+      "title": "Die Reise nach asch-Scham mit Abu Talib",
+      "summary": "Er zog als Junge mit seinem Onkel auf eine Handelsreise. Die Sira-Literatur berichtet von dem Mönch Bahira, doch sind die Einzelheiten in der Hadithwissenschaft umstritten und sollten nicht sämtlich als gesichert dargestellt werden.",
+      "date": {
+        "hijri": "ca. 41 v. H.",
+        "gregorian": "ca. 582/583 n. Chr.",
+        "sortYearHijri": -41,
+        "sortYearGregorian": 582
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "Die Route nach asch-Scham",
+      "locations": [
+        "sham-route"
+      ],
+      "movement": false
+    },
+    {
+      "id": 15,
+      "slug": "harb-al-fijar",
+      "eraId": "pre-birth-and-childhood",
+      "order": 15,
+      "title": "Der Fidschar-Krieg",
+      "summary": "Er erlebte in seiner Jugend einen Teil der Ereignisse mit und war kein Hauptkämpfer darin.",
+      "date": {
+        "hijri": "ca. 33 v. H.",
+        "gregorian": "ca. 590 n. Chr.",
+        "sortYearHijri": -33,
+        "sortYearGregorian": 590
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 16,
+      "slug": "hilf-al-fudul",
+      "eraId": "pre-birth-and-childhood",
+      "order": 16,
+      "title": "Der Bund der Tugendhaften (Hilf al-Fudul)",
+      "summary": "Eine Gruppe quraischitischer Sippen verbündete sich, um Unterdrückten beizustehen und Rechte wiederherzustellen. Der Prophet lobte diesen Grundsatz nach Beginn des Prophetentums.",
+      "date": {
+        "hijri": "ca. 33 v. H.",
+        "gregorian": "ca. 590 n. Chr.",
+        "sortYearHijri": -33,
+        "sortYearGregorian": 590
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "was den Ursprung des Bündnisses betrifft",
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 17,
+      "slug": "trading-for-khadijah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 17,
+      "title": "Handel für Chadidscha",
+      "summary": "Er arbeitete im Handel von Chadidscha bint Chuwailid und reiste mit ihrem Kapital nach asch-Scham; dabei wurde er für seine Vertrauenswürdigkeit und Wahrhaftigkeit bekannt.",
+      "date": {
+        "hijri": "ca. 28 v. H.",
+        "gregorian": "ca. 595 n. Chr.",
+        "sortYearHijri": -28,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": "C"
+      },
+      "placeText": "Mekka → asch-Scham",
+      "locations": [
+        "mecca",
+        "ash-sham"
+      ],
+      "movement": true
+    },
+    {
+      "id": 18,
+      "slug": "marriage-to-khadijah",
+      "eraId": "pre-birth-and-childhood",
+      "order": 18,
+      "title": "Seine Ehe mit Chadidscha",
+      "summary": "Er heiratete sie im Alter von etwa fünfundzwanzig Jahren; nach der bekanntesten Ansicht war sie älter als er. Sie war seine erste Frau, und er nahm zu ihren Lebzeiten keine weitere.",
+      "date": {
+        "hijri": "ca. 28 v. H.",
+        "gregorian": "ca. 595 n. Chr.",
+        "sortYearHijri": -28,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 19,
+      "slug": "family-and-trade-life",
+      "eraId": "pre-birth-and-childhood",
+      "order": 19,
+      "title": "Familien- und Handelsleben",
+      "summary": "Er führte mit Chadidscha ein gefestigtes Leben und hatte mit ihr seine Söhne und Töchter, darunter al-Qasim, Abdullah, Zainab, Ruqaiya, Umm Kulthum und Fatima.",
+      "date": {
+        "hijri": "ca. 25–18 v. H.",
+        "gregorian": "595–605 n. Chr.",
+        "sortYearHijri": -25,
+        "sortYearGregorian": 595
+      },
+      "authenticity": {
+        "mark": "unmarked",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 20,
+      "slug": "rebuilding-the-kaaba",
+      "eraId": "pre-birth-and-childhood",
+      "order": 20,
+      "title": "Der Wiederaufbau der Kaaba",
+      "summary": "Die Quraisch bauten die beschädigte Kaaba wieder auf. Als die Stämme darüber stritten, wer den Schwarzen Stein einsetzen dürfe, riefen sie den Propheten als Schiedsrichter an. Er legte den Stein auf ein Tuch, ließ ihn von den Stammesführern gemeinsam heben und setzte ihn dann eigenhändig ein.",
+      "date": {
+        "hijri": "ca. 18 v. H.",
+        "gregorian": "ca. 605 n. Chr.",
+        "sortYearHijri": -18,
+        "sortYearGregorian": 605
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 21,
+      "slug": "seclusion-in-hira",
+      "eraId": "pre-birth-and-childhood",
+      "order": 21,
+      "title": "Zurückgezogenheit und Gottesdienst in Hira",
+      "summary": "Der Prophet zog sich vor Beginn der Offenbarung in die Höhle von Hira zurück und widmete sich der Andacht.",
+      "date": {
+        "hijri": "ca. 12 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -12,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka – Hira-Höhle",
+      "locations": [
+        "cave-hira"
+      ],
+      "movement": false
+    },
+    {
+      "id": 22,
+      "slug": "first-revelation",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 22,
+      "title": "Die erste Offenbarung",
+      "summary": "Gabriel kam zum Propheten, und die ersten Verse der Sure al-'Alaq wurden offenbart: „Lies im Namen deines Herrn, Der erschaffen hat“ (Al-'Alaq 96:1). Damit begann das Prophetentum.",
+      "date": {
+        "hijri": "Ramadan, ca. 13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Hira-Höhle, Mekka",
+      "locations": [
+        "cave-hira"
+      ],
+      "movement": false,
+      "quranRefs": [
+        "96:1"
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "return-to-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 23,
+      "title": "Die Rückkehr des Propheten zu Chadidscha",
+      "summary": "Er kehrte tief bewegt von dem Geschehen zurück; Chadidscha beruhigte ihn und brachte ihn dann zu Waraqa ibn Naufal.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 24,
+      "slug": "waraqah-ibn-nawfal",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 24,
+      "title": "Waraqa ibn Naufal",
+      "summary": "Waraqa sagte ihm, der zu ihm gekommen sei, sei derselbe Namus, der zu den Propheten gekommen war, und sein Volk werde sich gegen ihn wenden.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "was den Kern der Erzählung betrifft",
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 25,
+      "slug": "islam-of-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 25,
+      "title": "Chadidscha nimmt den Islam an",
+      "summary": "Sie war der erste Mensch überhaupt, der an ihn glaubte.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 26,
+      "slug": "islam-of-ali",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 26,
+      "title": "Ali ibn Abi Talib nimmt den Islam an",
+      "summary": "Er nahm den Islam als Junge an und lebte damals im Haushalt des Propheten.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 27,
+      "slug": "islam-of-zayd-ibn-harithah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 27,
+      "title": "Zaid ibn Haritha nimmt den Islam an",
+      "summary": "Er gehörte zu den engsten Vertrauten des Propheten und zu den frühesten Muslimen.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 28,
+      "slug": "islam-of-abu-bakr",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 28,
+      "title": "Abu Bakr as-Siddiq nimmt den Islam an",
+      "summary": "Er gehörte zu den Ersten, die zum Islam kamen, und trug später zur Bekehrung mehrerer bedeutender Gefährten bei.",
+      "date": {
+        "hijri": "13 v. H.",
+        "gregorian": "610 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 29,
+      "slug": "secret-daawah-phase",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 29,
+      "title": "Die Phase der geheimen Verkündigung",
+      "summary": "Die Verkündigung blieb auf einen begrenzten Kreis beschränkt, und die erste Gemeinschaft der Muslime begann sich zu bilden.",
+      "date": {
+        "hijri": "13–10 v. H.",
+        "gregorian": "610–613 n. Chr.",
+        "sortYearHijri": -13,
+        "sortYearGregorian": 610
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 30,
+      "slug": "islam-of-uthman-zubayr-talhah-saad",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 30,
+      "title": "Uthman, az-Zubair, Talha, Sa'd und andere nehmen den Islam an",
+      "summary": "Eine Reihe bedeutender Gefährten trat in den ersten Jahren zum Islam über.",
+      "date": {
+        "hijri": "ca. 11–10 v. H.",
+        "gregorian": "611–612 n. Chr.",
+        "sortYearHijri": -11,
+        "sortYearGregorian": 611
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 31,
+      "slug": "public-proclamation",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 31,
+      "title": "Die öffentliche Verkündigung",
+      "summary": "Der Befehl erging, die nächsten Verwandten zu warnen und die Botschaft offen zu verkünden; der Prophet begann, die Quraisch öffentlich aufzurufen.",
+      "date": {
+        "hijri": "ca. 10 v. H.",
+        "gregorian": "613 n. Chr.",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 32,
+      "slug": "calling-quraysh-at-al-safa",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 32,
+      "title": "Der Aufruf an die Quraisch auf as-Safa",
+      "summary": "Der Prophet versammelte die Quraisch und warnte sie; damit begann die Phase der offenen Konfrontation.",
+      "date": {
+        "hijri": "ca. 10 v. H.",
+        "gregorian": "613 n. Chr.",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Berg Safa, Mekka",
+      "locations": [
+        "mount-safa"
+      ],
+      "movement": false
+    },
+    {
+      "id": 33,
+      "slug": "intensifying-persecution",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 33,
+      "title": "Die Verfolgung der Muslime verschärft sich",
+      "summary": "Die Muslime waren Folter, Boykott und gesellschaftlichem Druck ausgesetzt; die Schwächsten unter ihnen traf es am härtesten.",
+      "date": {
+        "hijri": "10–7 v. H.",
+        "gregorian": "613–616 n. Chr.",
+        "sortYearHijri": -10,
+        "sortYearGregorian": 613
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 34,
+      "slug": "first-migration-to-abyssinia",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 34,
+      "title": "Die erste Auswanderung nach Abessinien",
+      "summary": "Der Prophet erlaubte einigen seiner Gefährten, nach Abessinien auszuwandern, da dort ein König herrschte, unter dem niemandem Unrecht geschah.",
+      "date": {
+        "hijri": "ca. 8–7 v. H.",
+        "gregorian": "615 n. Chr.",
+        "sortYearHijri": -8,
+        "sortYearGregorian": 615
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Abessinien",
+      "locations": [
+        "mecca",
+        "abyssinia"
+      ],
+      "movement": true
+    },
+    {
+      "id": 35,
+      "slug": "second-migration-to-abyssinia",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 35,
+      "title": "Die zweite Auswanderung nach Abessinien",
+      "summary": "Eine größere Zahl von Muslimen wanderte aus, und Abessinien wurde zur Zuflucht für die Schutzlosen.",
+      "date": {
+        "hijri": "ca. 7 v. H.",
+        "gregorian": "616 n. Chr.",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "mixed",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Abessinien",
+      "locations": [
+        "abyssinia"
+      ],
+      "movement": false
+    },
+    {
+      "id": 36,
+      "slug": "islam-of-hamzah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 36,
+      "title": "Hamza ibn Abd al-Muttalib nimmt den Islam an",
+      "summary": "Hamzas Übertritt war ein wichtiger Wendepunkt, denn er verschaffte dem Propheten starken Rückhalt innerhalb der Banu Haschim.",
+      "date": {
+        "hijri": "ca. 7–6 v. H.",
+        "gregorian": "616–617 n. Chr.",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 37,
+      "slug": "islam-of-umar",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 37,
+      "title": "Umar ibn al-Chattab nimmt den Islam an",
+      "summary": "Umars Übertritt wirkte sich stark auf die Kraft der Muslime und ihr Auftreten in Mekka aus.",
+      "date": {
+        "hijri": "ca. 6 v. H.",
+        "gregorian": "616 n. Chr.",
+        "sortYearHijri": -6,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 38,
+      "slug": "the-negus-and-the-migrants",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 38,
+      "title": "Der Negus und seine Haltung zu den Auswanderern",
+      "summary": "Er weigerte sich, die Muslime an die Quraisch auszuliefern, und gewährte ihnen in Abessinien Sicherheit.",
+      "date": {
+        "hijri": "ca. 7 v. H.",
+        "gregorian": "ca. 616 n. Chr.",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "was den Kern seiner Haltung betrifft",
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 39,
+      "slug": "boycott-of-banu-hashim",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 39,
+      "title": "Die Blockade der Banu Haschim",
+      "summary": "Die Quraisch verhängten einen gesellschaftlichen und wirtschaftlichen Boykott über die Banu Haschim und ihre Verbündeten, die gezwungen waren, in der Schlucht des Abu Talib zu leben.",
+      "date": {
+        "hijri": "ca. 7–4 v. H.",
+        "gregorian": "616–619 n. Chr.",
+        "sortYearHijri": -7,
+        "sortYearGregorian": 616
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 40,
+      "slug": "end-of-the-boycott",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 40,
+      "title": "Das Ende des Boykotts",
+      "summary": "Die Blockade endete nach Jahren der Entbehrung.",
+      "date": {
+        "hijri": "ca. 4 v. H.",
+        "gregorian": "619 n. Chr.",
+        "sortYearHijri": -4,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 41,
+      "slug": "death-of-abu-talib",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 41,
+      "title": "Der Tod von Abu Talib",
+      "summary": "Der Onkel des Propheten und sein politischer und gesellschaftlicher Schutzherr in Mekka starb, ohne dass sein Übertritt zum Islam in den gesicherten Überlieferungen belegt ist.",
+      "date": {
+        "hijri": "ca. 3 v. H.",
+        "gregorian": "619 n. Chr.",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 42,
+      "slug": "death-of-khadijah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 42,
+      "title": "Der Tod von Chadidscha",
+      "summary": "Chadidscha starb; sie war die größte Stütze des Propheten zu Beginn seiner Verkündigung gewesen.",
+      "date": {
+        "hijri": "ca. 3 v. H.",
+        "gregorian": "619 n. Chr.",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 43,
+      "slug": "year-of-sorrow",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 43,
+      "title": "Das Jahr der Trauer",
+      "summary": "Jene Zeit wurde wegen des Todes von Abu Talib und Chadidscha als Jahr der Trauer bekannt — zwei Ereignisse, die den Propheten tief trafen.",
+      "date": {
+        "hijri": "ca. 3 v. H.",
+        "gregorian": "619 n. Chr.",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 44,
+      "slug": "journey-to-taif",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 44,
+      "title": "Die Reise nach at-Ta'if",
+      "summary": "Er ging nach at-Ta'if, um die Thaqif zum Islam aufzurufen. Sie antworteten ihm nicht, und er kehrte nach Mekka zurück.",
+      "date": {
+        "hijri": "ca. 3 v. H.",
+        "gregorian": "619/620 n. Chr.",
+        "sortYearHijri": -3,
+        "sortYearGregorian": 619
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → at-Ta'if",
+      "locations": [
+        "mecca",
+        "taif"
+      ],
+      "movement": true
+    },
+    {
+      "id": 45,
+      "slug": "islam-of-people-of-yathrib",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 45,
+      "title": "Eine Gruppe aus Yathrib nimmt den Islam an",
+      "summary": "Einige Bewohner Yathribs begannen den Islam anzunehmen, nachdem sie den Propheten während der Pilgerzeiten getroffen hatten.",
+      "date": {
+        "hijri": "ca. 2–1 v. H.",
+        "gregorian": "620–621 n. Chr.",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 620
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 46,
+      "slug": "first-pledge-of-aqabah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 46,
+      "title": "Der erste Treueid von al-Aqaba",
+      "summary": "Mehrere Bewohner Yathribs gelobten dem Propheten Islam, Gehorsam und den Verzicht auf bestimmte verbotene Handlungen — ein wichtiger Schritt zur Hidschra.",
+      "date": {
+        "hijri": "ca. 2 v. H.",
+        "gregorian": "621 n. Chr.",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Al-Aqaba, Mina",
+      "locations": [
+        "al-aqabah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 47,
+      "slug": "sending-musab-ibn-umayr",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 47,
+      "title": "Die Entsendung von Mus'ab ibn Umair",
+      "summary": "Der Prophet entsandte Mus'ab ibn Umair, um die Bewohner Yathribs den Koran und den Islam zu lehren; mehrere von ihnen nahmen durch ihn den Islam an.",
+      "date": {
+        "hijri": "ca. 2–1 v. H.",
+        "gregorian": "621 n. Chr.",
+        "sortYearHijri": -2,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Yathrib",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 48,
+      "slug": "second-pledge-of-aqabah",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 48,
+      "title": "Der zweite Treueid von al-Aqaba",
+      "summary": "Eine große Zahl der Bewohner Yathribs leistete dem Propheten den Treueid und verpflichtete sich, ihn zu unterstützen und zu schützen. Dies war die politische und gesellschaftliche Grundlage der Hidschra.",
+      "date": {
+        "hijri": "ca. 1 v. H.",
+        "gregorian": "621/622 n. Chr.",
+        "sortYearHijri": -1,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Al-Aqaba",
+      "locations": [
+        "al-aqabah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 49,
+      "slug": "permission-to-migrate",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 49,
+      "title": "Die Erlaubnis zur Auswanderung nach Medina",
+      "summary": "Die Muslime begannen, einzeln und in Gruppen nach Yathrib auszuwandern.",
+      "date": {
+        "hijri": "ca. 1 v. H.",
+        "gregorian": "621/622 n. Chr.",
+        "sortYearHijri": -1,
+        "sortYearGregorian": 621
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 50,
+      "slug": "quraysh-conspiracy",
+      "eraId": "prophethood-and-meccan-daawah",
+      "order": 50,
+      "title": "Die Verschwörung der Quraisch",
+      "summary": "Die Quraisch versammelten sich, um sich des Propheten zu entledigen. Daraufhin erging die Erlaubnis zum Aufbruch, und der Prophet zog mit Abu Bakr fort.",
+      "date": {
+        "hijri": "Safar 1 n. H.",
+        "gregorian": "ca. September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 51,
+      "slug": "the-hijrah",
+      "eraId": "hijrah-and-medina",
+      "order": 51,
+      "title": "Die Hidschra",
+      "summary": "Der Prophet brach mit Abu Bakr auf. Sie zogen zur Höhle von Thaur und nahmen dann einen ungewöhnlichen Weg nach Medina.",
+      "date": {
+        "hijri": "Rabi' al-Auwal 1 n. H.",
+        "gregorian": "September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Thaur-Höhle",
+      "locations": [
+        "mecca",
+        "cave-thawr"
+      ],
+      "movement": true,
+      "routeId": "hijrah"
+    },
+    {
+      "id": 52,
+      "slug": "stay-in-cave-thawr",
+      "eraId": "hijrah-and-medina",
+      "order": 52,
+      "title": "Der Aufenthalt in der Höhle",
+      "summary": "Der Prophet und Abu Bakr blieben mehrere Nächte in der Höhle und setzten dann ihren Weg fort.",
+      "date": {
+        "hijri": "Rabi' al-Auwal 1 n. H.",
+        "gregorian": "September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Thaur-Höhle",
+      "locations": [
+        "cave-thawr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 53,
+      "slug": "suraqah-ibn-malik",
+      "eraId": "hijrah-and-medina",
+      "order": 53,
+      "title": "Die Geschichte von Suraqa ibn Malik",
+      "summary": "Suraqa verfolgte den Propheten in der Hoffnung auf die Belohnung, erkannte dann aber, dass Gott seinen Propheten schützte, und kehrte zurück, ohne die Quraisch auf seine Spur zu bringen.",
+      "date": {
+        "hijri": "Rabi' al-Auwal 1 n. H.",
+        "gregorian": "September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": "was ihren Kern betrifft",
+        "grade": null
+      },
+      "placeText": "Die Route Mekka–Medina",
+      "locations": [
+        "mecca-medina-road"
+      ],
+      "movement": false
+    },
+    {
+      "id": 54,
+      "slug": "arrival-at-quba",
+      "eraId": "hijrah-and-medina",
+      "order": 54,
+      "title": "Die Ankunft in Quba",
+      "summary": "Der Prophet erreichte Quba, blieb mehrere Tage, und die Moschee von Quba wurde errichtet.",
+      "date": {
+        "hijri": "Rabi' al-Auwal 1 n. H.",
+        "gregorian": "September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Quba",
+      "locations": [
+        "quba"
+      ],
+      "movement": false
+    },
+    {
+      "id": 55,
+      "slug": "entering-medina",
+      "eraId": "hijrah-and-medina",
+      "order": 55,
+      "title": "Der Einzug in Medina",
+      "summary": "Der Prophet zog in Yathrib ein, und seine Bewohner empfingen ihn; die Stadt wurde fortan Medina genannt.",
+      "date": {
+        "hijri": "Rabi' al-Auwal 1 n. H.",
+        "gregorian": "September 622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 56,
+      "slug": "building-the-prophets-mosque",
+      "eraId": "hijrah-and-medina",
+      "order": 56,
+      "title": "Der Bau der Prophetenmoschee",
+      "summary": "Der Bau der Moschee begann, die zum Zentrum von Gottesdienst, Lehre und Verwaltung der neuen muslimischen Gemeinschaft wurde.",
+      "date": {
+        "hijri": "1 n. H.",
+        "gregorian": "622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 57,
+      "slug": "brotherhood-muhajirun-ansar",
+      "eraId": "hijrah-and-medina",
+      "order": 57,
+      "title": "Die Verbrüderung zwischen Muhadschirun und Ansar",
+      "summary": "Der Prophet stiftete Brüderschaft zwischen den Auswanderern und den Helfern und stärkte damit die sozialen und wirtschaftlichen Bindungen.",
+      "date": {
+        "hijri": "1 n. H.",
+        "gregorian": "622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 58,
+      "slug": "constitution-of-medina",
+      "eraId": "hijrah-and-medina",
+      "order": 58,
+      "title": "Die Ordnung der Gemeinschaft von Medina / die Sahifa",
+      "summary": "Die Beziehungen zwischen den verschiedenen Gruppen Medinas wurden geregelt und gegenseitige Rechte, Pflichten und Verantwortlichkeiten festgelegt.",
+      "date": {
+        "hijri": "1 n. H.",
+        "gregorian": "622 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 59,
+      "slug": "beginning-of-medinan-legislation",
+      "eraId": "hijrah-and-medina",
+      "order": 59,
+      "title": "Der Beginn der medinensischen Gesetzgebung",
+      "summary": "Bestimmungen zu Gemeinschaft, Gebet, Fasten, Zakat, Dschihad, Familie und Rechtsgeschäften wurden nun ausführlicher offenbart.",
+      "date": {
+        "hijri": "1–2 n. H.",
+        "gregorian": "622–624 n. Chr.",
+        "sortYearHijri": 1,
+        "sortYearGregorian": 622
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 60,
+      "slug": "change-of-qiblah",
+      "eraId": "hijrah-and-medina",
+      "order": 60,
+      "title": "Die Änderung der Gebetsrichtung",
+      "summary": "Die Gebetsrichtung wechselte von Jerusalem zur Heiligen Moschee — ein Ereignis von großer religiöser Bedeutung für die Identität der muslimischen Gemeinschaft.",
+      "date": {
+        "hijri": "2 n. H.",
+        "gregorian": "624 n. Chr.",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 61,
+      "slug": "battle-of-badr",
+      "eraId": "hijrah-and-medina",
+      "order": 61,
+      "title": "Die Schlacht von Badr",
+      "summary": "Die Muslime zogen ursprünglich aus, um eine Karawane der Quraisch abzufangen; die Begegnung wurde dann zur Schlacht gegen das Heer der Quraisch. Die Muslime zählten etwa 300 Mann, und die Schlacht endete mit ihrem Sieg. Ihr bekanntes Datum ist der **17. Ramadan 2 n. H. / 13. März 624 n. Chr.**",
+      "date": {
+        "hijri": "Ramadan 2 n. H.",
+        "gregorian": "März 624 n. Chr.",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Badr",
+      "locations": [
+        "badr"
+      ],
+      "movement": false,
+      "sources": [
+        "worldhistory"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "captives-and-losses-of-quraysh",
+      "eraId": "hijrah-and-medina",
+      "order": 62,
+      "title": "Gefangene und Verluste unter den Anführern der Quraisch",
+      "summary": "Mehrere der führenden Männer der Quraisch fielen, andere gerieten in Gefangenschaft, was den Konflikt politisch stark beeinflusste.",
+      "date": {
+        "hijri": "Ramadan 2 n. H.",
+        "gregorian": "März 624 n. Chr.",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Badr",
+      "locations": [
+        "badr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 63,
+      "slug": "banu-qaynuqa",
+      "eraId": "hijrah-and-medina",
+      "order": 63,
+      "title": "Der Feldzug gegen die Banu Qainuqa",
+      "summary": "Er fand nach Badr inmitten wachsender politischer und militärischer Spannungen in Medina statt und endete nach den überlieferten historischen Berichten mit dem Abzug der Banu Qainuqa aus der Stadt.",
+      "date": {
+        "hijri": "Schauwal 2 n. H.",
+        "gregorian": "ca. April 624 n. Chr.",
+        "sortYearHijri": 2,
+        "sortYearGregorian": 624
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 64,
+      "slug": "quraysh-prepares-for-uhud",
+      "eraId": "hijrah-and-medina",
+      "order": 64,
+      "title": "Die Quraisch rüsten für Uhud",
+      "summary": "Nach Badr stellten die Quraisch unter Abu Sufyan ein großes Heer auf und zogen gegen Medina.",
+      "date": {
+        "hijri": "3 n. H.",
+        "gregorian": "625 n. Chr.",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Medina",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 65,
+      "slug": "battle-of-uhud",
+      "eraId": "hijrah-and-medina",
+      "order": 65,
+      "title": "Die Schlacht von Uhud",
+      "summary": "Die Muslime zogen dem Heer der Quraisch entgegen. Als einige der Bogenschützen ihre Stellungen verließen, brachen die Reihen der Muslime; Hamza und mehrere Gefährten fielen, und der Prophet wurde verwundet.",
+      "date": {
+        "hijri": "Schauwal 3 n. H.",
+        "gregorian": "März 625 n. Chr.",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Berg Uhud",
+      "locations": [
+        "mount-uhud"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "hamra-al-asad",
+      "eraId": "hijrah-and-medina",
+      "order": 66,
+      "title": "Der Feldzug von Hamra al-Asad",
+      "summary": "Der Prophet und die Muslime zogen nach Uhud aus, um die Quraisch zu verfolgen und zu zeigen, dass die Muslime nicht zusammengebrochen waren.",
+      "date": {
+        "hijri": "Schauwal 3 n. H.",
+        "gregorian": "März 625 n. Chr.",
+        "sortYearHijri": 3,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Hamra al-Asad",
+      "locations": [
+        "hamra-al-asad"
+      ],
+      "movement": false
+    },
+    {
+      "id": 67,
+      "slug": "banu-al-nadir",
+      "eraId": "hijrah-and-medina",
+      "order": 67,
+      "title": "Der Feldzug gegen die Banu an-Nadir",
+      "summary": "Er endete mit der Vertreibung der Banu an-Nadir aus Medina im Zusammenhang mit einem Streit über den Vertrag und die politischen Beziehungen.",
+      "date": {
+        "hijri": "4 n. H.",
+        "gregorian": "625–626 n. Chr.",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 625
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 68,
+      "slug": "dhat-al-riqa",
+      "eraId": "hijrah-and-medina",
+      "order": 68,
+      "title": "Der Feldzug von Dhat ar-Riqa",
+      "summary": "Der Prophet unternahm einen Feldzug nach Nadschd; die Überlieferungen berichten von verschiedenen damit verbundenen Ereignissen.",
+      "date": {
+        "hijri": "4 n. H.",
+        "gregorian": "626 n. Chr.",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Nadschd",
+      "locations": [
+        "najd"
+      ],
+      "movement": false
+    },
+    {
+      "id": 69,
+      "slug": "badr-al-mawid",
+      "eraId": "hijrah-and-medina",
+      "order": 69,
+      "title": "Der Feldzug von Badr al-Mau'id",
+      "summary": "Die Muslime zogen nach Badr, um eine zuvor mit den Quraisch getroffene Verabredung einzuhalten, doch die Quraisch stellten sich nicht.",
+      "date": {
+        "hijri": "4 n. H.",
+        "gregorian": "626 n. Chr.",
+        "sortYearHijri": 4,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Badr",
+      "locations": [
+        "badr"
+      ],
+      "movement": false
+    },
+    {
+      "id": 70,
+      "slug": "dumat-al-jandal",
+      "eraId": "hijrah-and-medina",
+      "order": 70,
+      "title": "Der Feldzug von Dumat al-Dschandal",
+      "summary": "Der Prophet zog nach Norden, nachdem Nachrichten über feindliche Ansammlungen eingetroffen waren, und kehrte ohne größere Schlacht zurück.",
+      "date": {
+        "hijri": "5 n. H.",
+        "gregorian": "626/627 n. Chr.",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 626
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 71,
+      "slug": "battle-of-the-trench",
+      "eraId": "hijrah-and-medina",
+      "order": 71,
+      "title": "Die Schlacht der Verbündeten (der Grabenkrieg)",
+      "summary": "Die Quraisch und zahlreiche Stämme verbündeten sich und belagerten Medina. Salman al-Farisi schlug vor, einen Graben auszuheben — eine den Arabern damals unbekannte Verteidigungsweise.",
+      "date": {
+        "hijri": "Schauwal 5 n. H.",
+        "gregorian": "März / April 627 n. Chr.",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 72,
+      "slug": "failure-of-the-siege",
+      "eraId": "hijrah-and-medina",
+      "order": 72,
+      "title": "Das Scheitern der Belagerung",
+      "summary": "Die Belagerung zog sich hin, und die Verbündeten zogen ab, ohne ihr Ziel zu erreichen. Dies war ein entscheidender Wendepunkt im Kräfteverhältnis.",
+      "date": {
+        "hijri": "Schauwal / Dhu l-Qa'da 5 n. H.",
+        "gregorian": "627 n. Chr.",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 73,
+      "slug": "banu-qurayzah",
+      "eraId": "hijrah-and-medina",
+      "order": 73,
+      "title": "Der Feldzug gegen die Banu Quraiza",
+      "summary": "Er folgte unmittelbar auf den Grabenkrieg, im Zusammenhang mit den Überlieferungen über den Bruch des Vertrags während der Belagerung, und endete mit dem Urteil über die Männer des Stammes, wie es die traditionellen Quellen festhalten. Gerade dieses Ereignis hat weitreichende historische und rechtliche Dimensionen und mehrere Überlieferungsstränge und sollte gesondert untersucht werden, wenn man es vertiefen möchte.",
+      "date": {
+        "hijri": "5 n. H.",
+        "gregorian": "627 n. Chr.",
+        "sortYearHijri": 5,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null,
+        "needsSeparateStudy": true
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 74,
+      "slug": "shift-to-negotiation",
+      "eraId": "hijrah-and-medina",
+      "order": 74,
+      "title": "Der Übergang von der Konfrontation zur Verhandlung",
+      "summary": "Nach dem Grabenkrieg verschob sich das Kräfteverhältnis, und der Prophet konnte politisch die Initiative ergreifen, statt sich nur zu verteidigen.",
+      "date": {
+        "hijri": "6 n. H.",
+        "gregorian": "627/628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 627
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 75,
+      "slug": "setting-out-to-hudaybiyah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 75,
+      "title": "Der Aufbruch nach al-Hudaibiya",
+      "summary": "Der Prophet brach mit etwa 1.400 Gefährten auf, um die Umra zu vollziehen, nicht um zu kämpfen.",
+      "date": {
+        "hijri": "Dhu l-Qa'da 6 n. H.",
+        "gregorian": "ca. März 628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina → al-Hudaibiya",
+      "locations": [
+        "medina",
+        "al-hudaybiyah"
+      ],
+      "movement": true
+    },
+    {
+      "id": 76,
+      "slug": "quraysh-blocks-entry",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 76,
+      "title": "Die Quraisch verwehren den Muslimen den Zugang nach Mekka",
+      "summary": "Die Quraisch entsandten Unterhändler, und es folgten langwierige Verhandlungen.",
+      "date": {
+        "hijri": "Dhu l-Qa'da 6 n. H.",
+        "gregorian": "628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Al-Hudaibiya",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 77,
+      "slug": "pledge-of-ridwan",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 77,
+      "title": "Der Treueid von ar-Ridwan",
+      "summary": "Die Gefährten gelobten dem Propheten unter dem Baum standzuhalten, nachdem sich die unbestätigte Nachricht verbreitet hatte, Uthman ibn Affan sei getötet worden.",
+      "date": {
+        "hijri": "Dhu l-Qa'da 6 n. H.",
+        "gregorian": "628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Al-Hudaibiya",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 78,
+      "slug": "treaty-of-hudaybiyah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 78,
+      "title": "Der Vertrag von al-Hudaibiya",
+      "summary": "Ein Waffenstillstand wurde vereinbart. Zu seinen wichtigsten Bestimmungen gehörte, dass die Muslime in jenem Jahr umkehren und im folgenden Jahr die Umra vollziehen durften. Einigen Gefährten erschien der Vertrag äußerlich als Zugeständnis, doch er eröffnete eine weite Phase des Austauschs und der Ausbreitung. Der Koran bezeichnete den Vertrag als „einen deutlichen Sieg“ (Al-Fath 48:1).",
+      "date": {
+        "hijri": "Dhu l-Qa'da 6 n. H.",
+        "gregorian": "628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Al-Hudaibiya",
+      "locations": [
+        "al-hudaybiyah"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ],
+      "quranRefs": [
+        "48:1"
+      ]
+    },
+    {
+      "id": 79,
+      "slug": "letters-to-kings",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 79,
+      "title": "Briefe an Könige und Herrscher",
+      "summary": "Der Prophet sandte Briefe, in denen er mehrere Herrscher zum Islam aufrief, darunter Herakleios, Chosrau, den Muqauqis und den Negus.",
+      "date": {
+        "hijri": "Ende 6 n. H. / 7 n. H.",
+        "gregorian": "628 n. Chr.",
+        "sortYearHijri": 6,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "approximate",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 80,
+      "slug": "battle-of-khaybar",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 80,
+      "title": "Der Feldzug von Chaibar",
+      "summary": "Die Muslime zogen nach Chaibar. Die Kämpfe endeten mit der Einnahme der Festungen und Vereinbarungen über die Bewohner und ihr Land.",
+      "date": {
+        "hijri": "Muharram / Safar 7 n. H.",
+        "gregorian": "628 n. Chr.",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 628
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Chaibar",
+      "locations": [
+        "khaybar"
+      ],
+      "movement": false
+    },
+    {
+      "id": 81,
+      "slug": "ali-at-khaybar",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 81,
+      "title": "Ali bei Chaibar",
+      "summary": "Der Prophet übergab Ali in einer Phase der Kämpfe das Banner, und durch ihn kam es zu wichtigen Ereignissen bei der Einnahme der Festungen.",
+      "date": {
+        "hijri": "7 n. H.",
+        "gregorian": "629 n. Chr.",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Chaibar",
+      "locations": [
+        "khaybar"
+      ],
+      "movement": false
+    },
+    {
+      "id": 82,
+      "slug": "umrat-al-qada",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 82,
+      "title": "Die nachgeholte Umra",
+      "summary": "Der Prophet und seine Gefährten zogen nach Mekka und vollzogen die Umra gemäß dem in al-Hudaibiya Vereinbarten.",
+      "date": {
+        "hijri": "Dhu l-Qa'da 7 n. H.",
+        "gregorian": "629 n. Chr.",
+        "sortYearHijri": 7,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 83,
+      "slug": "battle-of-mutah",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 83,
+      "title": "Die Schlacht von Muta",
+      "summary": "Der Prophet entsandte ein Heer nach Norden. Seine drei Befehlshaber — Zaid ibn Haritha, Dscha'far ibn Abi Talib und Abdullah ibn Rawaha — fielen; daraufhin übernahm Chalid ibn al-Walid das Kommando und ordnete das Heer neu.",
+      "date": {
+        "hijri": "8 n. H.",
+        "gregorian": "629 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Muta",
+      "locations": [
+        "mutah"
+      ],
+      "movement": false
+    },
+    {
+      "id": 84,
+      "slug": "islam-of-khalid-and-amr",
+      "eraId": "hudaybiyah-khaybar-and-beyond",
+      "order": 84,
+      "title": "Chalid ibn al-Walid und Amr ibn al-As nehmen den Islam an",
+      "summary": "Am Ende der mekkanischen und zu Beginn der späteren medinensischen Zeit traten mehrere bedeutende Persönlichkeiten zum Islam über; der Übertritt Chalids und Amrs wirkte sich stark auf die folgende Phase aus.",
+      "date": {
+        "hijri": "8 n. H.",
+        "gregorian": "629 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 85,
+      "slug": "breach-of-the-treaty",
+      "eraId": "conquest-of-mecca",
+      "order": 85,
+      "title": "Der Bruch des Vertrags von al-Hudaibiya",
+      "summary": "Verbündete der Quraisch griffen Verbündete der Muslime an, was als Vertragsbruch galt; die Quraisch verloren zunehmend die Fähigkeit, das Abkommen aufrechtzuerhalten.",
+      "date": {
+        "hijri": "Scha'ban 8 n. H.",
+        "gregorian": "Dezember 629 / Januar 630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 86,
+      "slug": "march-to-mecca",
+      "eraId": "conquest-of-mecca",
+      "order": 86,
+      "title": "Der Zug nach Mekka",
+      "summary": "Der Prophet brach mit einem großen Heer nach Mekka auf, das etwa 10.000 Kämpfer gezählt haben soll.",
+      "date": {
+        "hijri": "Ramadan 8 n. H.",
+        "gregorian": "Dezember 629 – Januar 630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 629
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina → Mekka",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 87,
+      "slug": "conquest-of-mecca",
+      "eraId": "conquest-of-mecca",
+      "order": 87,
+      "title": "Die Eroberung Mekkas",
+      "summary": "Die Muslime zogen in Mekka ein, größtenteils ohne größere Kämpfe. Der Prophet sicherte den Bewohnern Schutz zu, betrat die Heilige Moschee, und die Götzenbilder rings um die Kaaba wurden entfernt.",
+      "date": {
+        "hijri": "Ramadan 8 n. H.",
+        "gregorian": "ca. Januar 630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 88,
+      "slug": "islam-of-abu-sufyan",
+      "eraId": "conquest-of-mecca",
+      "order": 88,
+      "title": "Abu Sufyan nimmt den Islam an",
+      "summary": "Abu Sufyan nahm den Islam an, bevor die Muslime in Mekka einzogen, und wurde danach einer der angesehenen Gefährten.",
+      "date": {
+        "hijri": "Ramadan 8 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 89,
+      "slug": "general-amnesty",
+      "eraId": "conquest-of-mecca",
+      "order": 89,
+      "title": "Die allgemeine Amnestie",
+      "summary": "Der Prophet sicherte vielen, die ihn bekämpft hatten, Schutz zu — einer der bemerkenswertesten moralischen und politischen Akte der Eroberung Mekkas.",
+      "date": {
+        "hijri": "Ramadan 8 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 90,
+      "slug": "battle-of-hunayn",
+      "eraId": "conquest-of-mecca",
+      "order": 90,
+      "title": "Die Schlacht von Hunain",
+      "summary": "Die Hawazin und Thaqif zogen gegen die Muslime aus. Zu Beginn der Schlacht kam es zu Verwirrung; die Muslime ordneten ihre Reihen neu, und die Schlacht endete mit ihrem Sieg.",
+      "date": {
+        "hijri": "Schauwal 8 n. H.",
+        "gregorian": "Januar / Februar 630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Hunain",
+      "locations": [
+        "hunayn"
+      ],
+      "movement": false
+    },
+    {
+      "id": 91,
+      "slug": "siege-of-taif",
+      "eraId": "conquest-of-mecca",
+      "order": 91,
+      "title": "Die Belagerung von at-Ta'if",
+      "summary": "Die Muslime zogen nach Hunain gegen at-Ta'if und belagerten es, zogen sich dann aber zurück, ohne es in diesem Feldzug einzunehmen.",
+      "date": {
+        "hijri": "Schauwal 8 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "At-Ta'if",
+      "locations": [
+        "taif"
+      ],
+      "movement": false
+    },
+    {
+      "id": 92,
+      "slug": "tribal-delegations-after-the-conquest",
+      "eraId": "conquest-of-mecca",
+      "order": 92,
+      "title": "Stammesdelegationen nehmen nach der Eroberung den Islam an",
+      "summary": "Die Eroberung Mekkas führte zu einer raschen Verschiebung der Kräfteverhältnisse; die Stämme begannen, zum Islam überzutreten oder Delegationen nach Medina zu entsenden.",
+      "date": {
+        "hijri": "8 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 8,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false
+    },
+    {
+      "id": 93,
+      "slug": "expedition-of-tabuk",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 93,
+      "title": "Der Feldzug von Tabuk",
+      "summary": "Der Prophet zog wegen Nachrichten über eine byzantinisch-ghassanidische Bedrohung mit einem großen Heer nach Norden. Zu einer größeren Schlacht kam es nicht unmittelbar, doch der Feldzug zeigte die Reichweite des muslimischen Staates.",
+      "date": {
+        "hijri": "9 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "routeId": "medina-tabuk"
+    },
+    {
+      "id": 94,
+      "slug": "those-who-stayed-behind-at-tabuk",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 94,
+      "title": "Die Prüfung der bei Tabuk Zurückgebliebenen",
+      "summary": "Die Sure at-Tauba berichtet von drei Gefährten, die zurückblieben und dem Propheten dann die Wahrheit über das Geschehene sagten; die Annahme ihrer Reue wurde danach offenbart.",
+      "date": {
+        "hijri": "9 n. H.",
+        "gregorian": "630 n. Chr.",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 630
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 95,
+      "slug": "year-of-delegations",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 95,
+      "title": "Das Jahr der Delegationen",
+      "summary": "Aus der gesamten Arabischen Halbinsel trafen Delegationen in Medina ein, um den Islam zu erklären oder Vereinbarungen mit dem muslimischen Staat zu treffen.",
+      "date": {
+        "hijri": "9 n. H.",
+        "gregorian": "631 n. Chr.",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 96,
+      "slug": "abu-bakr-leads-the-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 96,
+      "title": "Abu Bakr leitet die Pilgerfahrt",
+      "summary": "Abu Bakr zog als Führer der Haddsch aus; der Prophet sandte dann Ali mit Versen der Sure at-Tauba, um das Ende bestimmter Verträge und Bedingungen gegenüber den Polytheisten zu verkünden.",
+      "date": {
+        "hijri": "9 n. H.",
+        "gregorian": "631 n. Chr.",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "routeId": "medina-mecca-hajj"
+    },
+    {
+      "id": 97,
+      "slug": "islam-spreads-across-arabia",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 97,
+      "title": "Der Islam breitet sich über den größten Teil der Halbinsel aus",
+      "summary": "Medina wurde zu einem politischen und religiösen Zentrum, mit dem die meisten Stämme der Halbinsel verbunden waren; Delegationen trafen ein, um Islam und Treue zu erklären.",
+      "date": {
+        "hijri": "9–10 n. H.",
+        "gregorian": "631–632 n. Chr.",
+        "sortYearHijri": 9,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Arabische Halbinsel",
+      "locations": [
+        "arabian-peninsula"
+      ],
+      "movement": false
+    },
+    {
+      "id": 98,
+      "slug": "expedition-of-usamah-ibn-zayd",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 98,
+      "title": "Die Entsendung von Usama ibn Zaid",
+      "summary": "Der Prophet rüstete ein Heer unter Usama ibn Zaid für einen Zug nach Norden. Dies geschah in den letzten Tagen seines Lebens, und das Heer brach zu seinen Lebzeiten wegen seiner Krankheit nicht auf.",
+      "date": {
+        "hijri": "10 n. H.",
+        "gregorian": "631/632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 631
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "routeId": "medina-balqa"
+    },
+    {
+      "id": 99,
+      "slug": "setting-out-for-the-farewell-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 99,
+      "title": "Der Aufbruch zur Abschiedswallfahrt",
+      "summary": "Der Prophet verließ Medina zur Haddsch, und eine gewaltige Menge von Muslimen schloss sich ihm an.",
+      "date": {
+        "hijri": "Dhu l-Qa'da 10 n. H.",
+        "gregorian": "ca. Februar / März 632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina → Mekka",
+      "locations": [
+        "medina",
+        "mecca"
+      ],
+      "movement": true
+    },
+    {
+      "id": 100,
+      "slug": "farewell-hajj",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 100,
+      "title": "Die Abschiedswallfahrt",
+      "summary": "Der Prophet vollzog die Riten der Haddsch und lehrte die Menschen die Riten; es war seine letzte Pilgerfahrt.",
+      "date": {
+        "hijri": "Dhu l-Hiddscha 10 n. H.",
+        "gregorian": "ca. März 632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Mekka, Arafat, Muzdalifa und Mina",
+      "locations": [
+        "mecca",
+        "arafat",
+        "muzdalifah",
+        "mina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 101,
+      "slug": "farewell-sermon",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 101,
+      "title": "Die Predigt der Abschiedswallfahrt",
+      "summary": "Er bekräftigte die Unantastbarkeit von Leben, Besitz und Ehre, ermahnte zum guten Umgang mit den Frauen, erklärte viele Bräuche der Dschahiliya für abgeschafft und bekräftigte die Brüderlichkeit der Muslime.",
+      "date": {
+        "hijri": "9. Dhu l-Hiddscha 10 n. H.",
+        "gregorian": "ca. März 632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Arafat",
+      "locations": [
+        "arafat"
+      ],
+      "movement": false
+    },
+    {
+      "id": 102,
+      "slug": "verse-of-completion-of-the-religion",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 102,
+      "title": "Die Offenbarung des Verses über die Vollendung der Religion",
+      "summary": "Der Vers wurde offenbart: „Heute habe Ich euch eure Religion vervollkommnet…“ (Al-Ma'ida 5:3) — im Zusammenhang mit der Abschiedswallfahrt.",
+      "date": {
+        "hijri": "Dhu l-Hiddscha 10 n. H.",
+        "gregorian": "März 632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka",
+      "locations": [
+        "mecca"
+      ],
+      "movement": false,
+      "quranRefs": [
+        "5:3"
+      ]
+    },
+    {
+      "id": 103,
+      "slug": "return-to-medina",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 103,
+      "title": "Die Rückkehr nach Medina",
+      "summary": "Der Prophet kehrte nach Vollendung der Pilgerfahrt nach Medina zurück.",
+      "date": {
+        "hijri": "Ende 10 n. H.",
+        "gregorian": "632 n. Chr.",
+        "sortYearHijri": 10,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Mekka → Medina",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "movement": true
+    },
+    {
+      "id": 104,
+      "slug": "onset-of-the-prophets-illness",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 104,
+      "title": "Der Beginn der Krankheit des Propheten",
+      "summary": "Seine Krankheit verschlimmerte sich, und er bat seine Frauen um Erlaubnis, im Haus von Aischa gepflegt zu werden, was sie ihm gewährten.",
+      "date": {
+        "hijri": "Safar / Rabi' al-Auwal 11 n. H.",
+        "gregorian": "Mai / Juni 632 n. Chr.",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 105,
+      "slug": "abu-bakr-leads-the-prayer",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 105,
+      "title": "Abu Bakr leitet das Gebet",
+      "summary": "Als die Krankheit des Propheten sich verschlimmerte, wies er Abu Bakr an, den Menschen im Gebet vorzustehen — eines der bedeutsamen Ereignisse seiner letzten Tage.",
+      "date": {
+        "hijri": "11 n. H.",
+        "gregorian": "Juni 632 n. Chr.",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 106,
+      "slug": "the-prophet-looks-upon-the-praying-muslims",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 106,
+      "title": "Der Prophet blickt auf die betenden Muslime",
+      "summary": "An einem der Tage seiner Krankheit zog er den Vorhang zurück, blickte auf die hinter Abu Bakr betenden Gefährten und kehrte dann in seine Kammer zurück.",
+      "date": {
+        "hijri": "11 n. H.",
+        "gregorian": "Juni 632 n. Chr.",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    },
+    {
+      "id": 107,
+      "slug": "death-of-the-prophet",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 107,
+      "title": "Der Tod des Propheten ﷺ",
+      "summary": "Er starb im Haus von Aischa im Alter von etwa dreiundsechzig Mondjahren. Der 12. Rabi' al-Auwal ist das bekannteste Datum, doch die Bestimmung des Hidschri-Tages ist umstritten. Moderne historische Quellen datieren den Tod auf den 8. Juni 632 n. Chr.",
+      "date": {
+        "hijri": "12. Rabi' al-Auwal 11 n. H., nach der bekanntesten Ansicht",
+        "gregorian": "ca. 8. Juni 632 n. Chr.",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": "A"
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false,
+      "sources": [
+        "pbs"
+      ]
+    },
+    {
+      "id": 108,
+      "slug": "burial-of-the-prophet",
+      "eraId": "tabuk-and-the-completed-state",
+      "order": 108,
+      "title": "Seine Bestattung",
+      "summary": "Er wurde an dem Ort bestattet, an dem er starb, in der Kammer von Aischa, die später Teil der Prophetenmoschee wurde.",
+      "date": {
+        "hijri": "11 n. H.",
+        "gregorian": "Juni 632 n. Chr.",
+        "sortYearHijri": 11,
+        "sortYearGregorian": 632
+      },
+      "authenticity": {
+        "mark": "verified",
+        "qualifier": null,
+        "grade": null
+      },
+      "placeText": "Medina",
+      "locations": [
+        "medina"
+      ],
+      "movement": false
+    }
+  ],
+  "quranTranslation": {
+    "title": "Der edle Qur'an — Übersetzung der Bedeutungen",
+    "translator": "Frank Bubenheim & Nadeem Elyas",
+    "license": "free-distribution",
+    "licenseNote": "The King Fahd Complex edition, licensed for free distribution and the standard German Islamic rendering. Attribution is required and is carried in every generated file.",
+    "attribution": "Koranübersetzung: Frank Bubenheim & Nadeem Elyas, Der edle Qur'an.",
+    "verifiedAgainst": "https://api.quran.com/api/v4/quran/translations/27"
+  }
+}

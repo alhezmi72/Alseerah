@@ -1,0 +1,1058 @@
+{
+  "$schema": "../schema/locations.schema.json",
+  "version": 1,
+  "note": "Language-neutral geographic registry shared by all content files and all languages. Coordinates are for map display only; `precision` and `certainty` state how much the pin can be trusted. `image` points at a Wikimedia Commons file under a free licence, with the credit and licence that must be displayed; null where no faithful image was found.",
+  "locations": [
+    {
+      "id": "mecca",
+      "name": {
+        "ar": "مكة المكرمة",
+        "en": "Mecca",
+        "de": "Mekka"
+      },
+      "lat": 21.4225,
+      "lon": 39.8262,
+      "zoom": 13,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Masjid al-Haram, Tawaf 20092012 1130PM (8008466944).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Masjid_al-Haram%2C_Tawaf_20092012_1130PM_%288008466944%29.jpg/1280px-Masjid_al-Haram%2C_Tawaf_20092012_1130PM_%288008466944%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Masjid_al-Haram%2C_Tawaf_20092012_1130PM_%288008466944%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Masjid_al-Haram,_Tawaf_20092012_1130PM_(8008466944).jpg",
+        "credit": "Basheer Olakara",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "medina",
+      "name": {
+        "ar": "المدينة المنورة",
+        "en": "Medina",
+        "de": "Medina"
+      },
+      "aliases": {
+        "ar": [
+          "يثرب"
+        ],
+        "en": [
+          "Yathrib"
+        ],
+        "de": [
+          "Yathrib"
+        ]
+      },
+      "lat": 24.4672,
+      "lon": 39.6112,
+      "zoom": 13,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Al-Masjid an Nabawi.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Al-Masjid_an_Nabawi.jpg/1280px-Al-Masjid_an_Nabawi.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Masjid_an_Nabawi.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Al-Masjid_an_Nabawi.jpg",
+        "credit": "Meshari Alawfi",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "cave-hira",
+      "name": {
+        "ar": "غار حراء",
+        "en": "Cave of Hira",
+        "de": "Hira-Höhle"
+      },
+      "lat": 21.4581,
+      "lon": 39.8592,
+      "zoom": 15,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Jabal al-Nour And cave Hira.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Jabal_al-Nour_And_cave_Hira.jpg/1280px-Jabal_al-Nour_And_cave_Hira.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Jabal_al-Nour_And_cave_Hira.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jabal_al-Nour_And_cave_Hira.jpg",
+        "credit": "Sadath i",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cave-thawr",
+      "name": {
+        "ar": "غار ثور",
+        "en": "Cave of Thawr",
+        "de": "Thaur-Höhle"
+      },
+      "lat": 21.3742,
+      "lon": 39.8556,
+      "zoom": 15,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mount sour1.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mount_sour1.jpg/1280px-Mount_sour1.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_sour1.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_sour1.jpg",
+        "credit": "Yousefmadari at ml.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mount-safa",
+      "name": {
+        "ar": "الصفا",
+        "en": "Mount Safa",
+        "de": "Berg Safa"
+      },
+      "lat": 21.4222,
+      "lon": 39.8264,
+      "zoom": 17,
+      "precision": "site",
+      "certainty": "established",
+      "image": null
+    },
+    {
+      "id": "quba",
+      "name": {
+        "ar": "قباء",
+        "en": "Quba",
+        "de": "Quba"
+      },
+      "lat": 24.4394,
+      "lon": 39.6172,
+      "zoom": 15,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Quba Mosque (2024).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Quba_Mosque_%282024%29.jpg/1280px-Quba_Mosque_%282024%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Quba_Mosque_%282024%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Quba_Mosque_(2024).jpg",
+        "credit": "Kaliper1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "badr",
+      "name": {
+        "ar": "بدر",
+        "en": "Badr",
+        "de": "Badr"
+      },
+      "lat": 23.78,
+      "lon": 38.7906,
+      "zoom": 12,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Badr Saudi Arabia - panoramio (2).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Badr_Saudi_Arabia_-_panoramio_%282%29.jpg/1280px-Badr_Saudi_Arabia_-_panoramio_%282%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Badr_Saudi_Arabia_-_panoramio_%282%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Badr_Saudi_Arabia_-_panoramio_(2).jpg",
+        "credit": "Devu Anchal",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mount-uhud",
+      "name": {
+        "ar": "جبل أحد",
+        "en": "Mount Uhud",
+        "de": "Berg Uhud"
+      },
+      "lat": 24.5083,
+      "lon": 39.6136,
+      "zoom": 13,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mount Uhud, Medina, 20241002 091210 028.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mount_Uhud%2C_Medina%2C_20241002_091210_028.jpg/1280px-Mount_Uhud%2C_Medina%2C_20241002_091210_028.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Uhud%2C_Medina%2C_20241002_091210_028.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Uhud,_Medina,_20241002_091210_028.jpg",
+        "credit": "Ahmed",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "hamra-al-asad",
+      "name": {
+        "ar": "حمراء الأسد",
+        "en": "Hamra al-Asad",
+        "de": "Hamra al-Asad"
+      },
+      "lat": 24.3667,
+      "lon": 39.55,
+      "zoom": 12,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "al-khandaq",
+      "name": {
+        "ar": "الخندق",
+        "en": "The Trench",
+        "de": "Der Graben"
+      },
+      "lat": 24.4842,
+      "lon": 39.6039,
+      "zoom": 14,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mosque of Salman al-Farisi at the Seven Mosques, Madinah, Saudi Arabia (1).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques%2C_Madinah%2C_Saudi_Arabia_%281%29.jpg/1280px-Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques%2C_Madinah%2C_Saudi_Arabia_%281%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques%2C_Madinah%2C_Saudi_Arabia_%281%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques,_Madinah,_Saudi_Arabia_(1).jpg",
+        "credit": "Richard Mortel",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "al-hudaybiyah",
+      "name": {
+        "ar": "الحديبية",
+        "en": "Al-Hudaybiyah",
+        "de": "Al-Hudaibiya"
+      },
+      "lat": 21.4147,
+      "lon": 39.6497,
+      "zoom": 13,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Hudaibiyah Mosque - panoramio (cropped).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Hudaibiyah_Mosque_-_panoramio_%28cropped%29.jpg/1280px-Hudaibiyah_Mosque_-_panoramio_%28cropped%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Hudaibiyah_Mosque_-_panoramio_%28cropped%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hudaibiyah_Mosque_-_panoramio_(cropped).jpg",
+        "credit": "GusJuned",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "khaybar",
+      "name": {
+        "ar": "خيبر",
+        "en": "Khaybar",
+        "de": "Chaibar"
+      },
+      "lat": 25.6981,
+      "lon": 39.2919,
+      "zoom": 12,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Khaybar - view over the fortress.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Khaybar_-_view_over_the_fortress.jpg/1280px-Khaybar_-_view_over_the_fortress.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Khaybar_-_view_over_the_fortress.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Khaybar_-_view_over_the_fortress.jpg",
+        "credit": "Hardscarf",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hunayn",
+      "name": {
+        "ar": "حنين",
+        "en": "Hunayn",
+        "de": "Hunain"
+      },
+      "lat": 21.4667,
+      "lon": 40.1833,
+      "zoom": 11,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "taif",
+      "name": {
+        "ar": "الطائف",
+        "en": "Ta'if",
+        "de": "at-Ta'if"
+      },
+      "lat": 21.2854,
+      "lon": 40.4183,
+      "zoom": 12,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Shubra Palace, 1905, al-Taif, Saudi Arabia (4).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Shubra_Palace%2C_1905%2C_al-Taif%2C_Saudi_Arabia_%284%29.jpg/1280px-Shubra_Palace%2C_1905%2C_al-Taif%2C_Saudi_Arabia_%284%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Shubra_Palace%2C_1905%2C_al-Taif%2C_Saudi_Arabia_%284%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shubra_Palace,_1905,_al-Taif,_Saudi_Arabia_(4).jpg",
+        "credit": "Richard Mortel",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mutah",
+      "name": {
+        "ar": "مؤتة",
+        "en": "Mu'tah",
+        "de": "Muta"
+      },
+      "lat": 31.0928,
+      "lon": 35.7031,
+      "zoom": 12,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Karak Castle, Jordan (قلعة الكرك).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Karak_Castle%2C_Jordan_%28%D9%82%D9%84%D8%B9%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83%29.jpg/1280px-Karak_Castle%2C_Jordan_%28%D9%82%D9%84%D8%B9%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Karak_Castle%2C_Jordan_%28%D9%82%D9%84%D8%B9%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Karak_Castle,_Jordan_(%D9%82%D9%84%D8%B9%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83).jpg",
+        "credit": "Petar Milošević",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tabuk",
+      "name": {
+        "ar": "تبوك",
+        "en": "Tabuk",
+        "de": "Tabuk"
+      },
+      "lat": 28.3838,
+      "lon": 36.555,
+      "zoom": 11,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Tabuk Fortress 2022.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tabuk_Fortress_2022.jpg/1280px-Tabuk_Fortress_2022.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Tabuk_Fortress_2022.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tabuk_Fortress_2022.jpg",
+        "credit": "amanderson2",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "dumat-al-jandal",
+      "name": {
+        "ar": "دومة الجندل",
+        "en": "Dumat al-Jandal",
+        "de": "Dumat al-Dschandal"
+      },
+      "lat": 29.8117,
+      "lon": 39.8672,
+      "zoom": 12,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Marid Castle, Dumat al-Jandal, Saudi Arabia, ca. 1st cent. CE (2).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Marid_Castle%2C_Dumat_al-Jandal%2C_Saudi_Arabia%2C_ca._1st_cent._CE_%282%29.jpg/1280px-Marid_Castle%2C_Dumat_al-Jandal%2C_Saudi_Arabia%2C_ca._1st_cent._CE_%282%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Marid_Castle%2C_Dumat_al-Jandal%2C_Saudi_Arabia%2C_ca._1st_cent._CE_%282%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marid_Castle,_Dumat_al-Jandal,_Saudi_Arabia,_ca._1st_cent._CE_(2).jpg",
+        "credit": "Richard Mortel",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "arafat",
+      "name": {
+        "ar": "عرفات",
+        "en": "Arafat",
+        "de": "Arafat"
+      },
+      "lat": 21.3549,
+      "lon": 39.9841,
+      "zoom": 14,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mount Arafat(Jabal ar-Raḥmah).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mount_Arafat%28Jabal_ar-Ra%E1%B8%A5mah%29.jpg/1280px-Mount_Arafat%28Jabal_ar-Ra%E1%B8%A5mah%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Arafat%28Jabal_ar-Ra%E1%B8%A5mah%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Arafat(Jabal_ar-Ra%E1%B8%A5mah).jpg",
+        "credit": "Edibiz",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "muzdalifah",
+      "name": {
+        "ar": "مزدلفة",
+        "en": "Muzdalifah",
+        "de": "Muzdalifa"
+      },
+      "lat": 21.3833,
+      "lon": 39.9375,
+      "zoom": 14,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Fajr in Muzdalifah.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Fajr_in_Muzdalifah.jpg/1280px-Fajr_in_Muzdalifah.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Fajr_in_Muzdalifah.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fajr_in_Muzdalifah.jpg",
+        "credit": "Arisdp",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mina",
+      "name": {
+        "ar": "منى",
+        "en": "Mina",
+        "de": "Mina"
+      },
+      "lat": 21.4133,
+      "lon": 39.8933,
+      "zoom": 14,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mina Overview.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mina_Overview.JPG/1280px-Mina_Overview.JPG",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mina_Overview.JPG",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mina_Overview.JPG",
+        "credit": "Mubeen Rahman",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "al-aqabah",
+      "name": {
+        "ar": "العقبة (عند منى)",
+        "en": "Al-Aqabah (at Mina)",
+        "de": "Al-Aqaba (bei Mina)"
+      },
+      "lat": 21.421,
+      "lon": 39.8935,
+      "zoom": 15,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Crowds in Mina head to the Jamarat Bridge - Flickr - Al Jazeera English.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Crowds_in_Mina_head_to_the_Jamarat_Bridge_-_Flickr_-_Al_Jazeera_English.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Crowds_in_Mina_head_to_the_Jamarat_Bridge_-_Flickr_-_Al_Jazeera_English.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Crowds_in_Mina_head_to_the_Jamarat_Bridge_-_Flickr_-_Al_Jazeera_English.jpg",
+        "credit": "Omar Chatriwala of Al Jazeera English",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "al-abwa",
+      "name": {
+        "ar": "الأبواء",
+        "en": "Al-Abwa",
+        "de": "Al-Abwa"
+      },
+      "lat": 23.0956,
+      "lon": 39.0233,
+      "zoom": 11,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "badiyat-bani-saad",
+      "name": {
+        "ar": "بادية بني سعد",
+        "en": "Desert of Banu Sa'd",
+        "de": "Wüste der Banu Sa'd"
+      },
+      "lat": 21.6,
+      "lon": 40.2,
+      "zoom": 9,
+      "precision": "region",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "najd",
+      "name": {
+        "ar": "نجد",
+        "en": "Najd",
+        "de": "Nadschd"
+      },
+      "lat": 24.5,
+      "lon": 45.0,
+      "zoom": 6,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Najd desert landscape, Saudi Arabia (1).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Najd_desert_landscape%2C_Saudi_Arabia_%281%29.jpg/1280px-Najd_desert_landscape%2C_Saudi_Arabia_%281%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Najd_desert_landscape%2C_Saudi_Arabia_%281%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Najd_desert_landscape,_Saudi_Arabia_(1).jpg",
+        "credit": "Prof. Mortel",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "arabian-peninsula",
+      "name": {
+        "ar": "الجزيرة العربية",
+        "en": "Arabian Peninsula",
+        "de": "Arabische Halbinsel"
+      },
+      "lat": 23.8859,
+      "lon": 45.0792,
+      "zoom": 5,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Sands of al-Dahna, eastern Saudi Arabia (4) (50620707316).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sands_of_al-Dahna%2C_eastern_Saudi_Arabia_%284%29_%2850620707316%29.jpg/1280px-Sands_of_al-Dahna%2C_eastern_Saudi_Arabia_%284%29_%2850620707316%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Sands_of_al-Dahna%2C_eastern_Saudi_Arabia_%284%29_%2850620707316%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sands_of_al-Dahna,_eastern_Saudi_Arabia_(4)_(50620707316).jpg",
+        "credit": "Richard Mortel from Riyadh, Saudi Arabia",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "yemen",
+      "name": {
+        "ar": "اليمن",
+        "en": "Yemen",
+        "de": "Jemen"
+      },
+      "lat": 15.5527,
+      "lon": 48.5164,
+      "zoom": 6,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Sanaa Yemen 2013 old city 001.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sanaa_Yemen_2013_old_city_001.jpg/1280px-Sanaa_Yemen_2013_old_city_001.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanaa_Yemen_2013_old_city_001.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sanaa_Yemen_2013_old_city_001.jpg",
+        "credit": "Rod Waddington",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "abyssinia",
+      "name": {
+        "ar": "الحبشة",
+        "en": "Abyssinia",
+        "de": "Abessinien"
+      },
+      "lat": 14.1319,
+      "lon": 38.7194,
+      "zoom": 7,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "The North Stelae Park, Axum, Ethiopia (2812686646).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg/1280px-The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/The_North_Stelae_Park%2C_Axum%2C_Ethiopia_%282812686646%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_North_Stelae_Park,_Axum,_Ethiopia_(2812686646).jpg",
+        "credit": "A. Davey from Where I Live Now: Pacific Northwest",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ash-sham",
+      "name": {
+        "ar": "بلاد الشام",
+        "en": "Greater Syria (al-Sham)",
+        "de": "Großsyrien (asch-Scham)"
+      },
+      "lat": 33.5138,
+      "lon": 36.2765,
+      "zoom": 6,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Umayyad Mosque, Damascus.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Umayyad_Mosque%2C_Damascus.jpg/1280px-Umayyad_Mosque%2C_Damascus.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Umayyad_Mosque%2C_Damascus.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Umayyad_Mosque,_Damascus.jpg",
+        "credit": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jerusalem",
+      "name": {
+        "ar": "بيت المقدس",
+        "en": "Jerusalem",
+        "de": "Jerusalem"
+      },
+      "lat": 31.7761,
+      "lon": 35.2358,
+      "zoom": 14,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Jerusalem-2013(2)-Temple Mount-Dome of the Rock (SE exposure).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg/1280px-Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg",
+        "credit": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mecca-medina-road",
+      "name": {
+        "ar": "طريق مكة – المدينة",
+        "en": "Mecca–Medina route",
+        "de": "Route Mekka–Medina"
+      },
+      "lat": 23.0,
+      "lon": 39.2,
+      "zoom": 7,
+      "precision": "route",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "sham-route",
+      "name": {
+        "ar": "طريق الشام",
+        "en": "Route to al-Sham",
+        "de": "Route nach asch-Scham"
+      },
+      "lat": 28.0,
+      "lon": 37.5,
+      "zoom": 6,
+      "precision": "route",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Abandoned Hijaz Railway station, north-western Saudi Arabia.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Abandoned_Hijaz_Railway_station%2C_north-western_Saudi_Arabia.jpg/1280px-Abandoned_Hijaz_Railway_station%2C_north-western_Saudi_Arabia.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned_Hijaz_Railway_station%2C_north-western_Saudi_Arabia.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Abandoned_Hijaz_Railway_station,_north-western_Saudi_Arabia.jpg",
+        "credit": "Richard Mortel",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "al-hijr",
+      "name": {
+        "ar": "الحِجر (مدائن صالح)",
+        "en": "Al-Hijr (Hegra)",
+        "de": "Al-Hidschr (Hegra)"
+      },
+      "lat": 26.7917,
+      "lon": 37.9536,
+      "zoom": 13,
+      "precision": "site",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "27, Hegra (Mada'in Salih), Saudi Arabia.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/27%2C_Hegra_%28Mada%27in_Salih%29%2C_Saudi_Arabia.jpg/1280px-27%2C_Hegra_%28Mada%27in_Salih%29%2C_Saudi_Arabia.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/27%2C_Hegra_%28Mada%27in_Salih%29%2C_Saudi_Arabia.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:27,_Hegra_(Mada%27in_Salih),_Saudi_Arabia.jpg",
+        "credit": "Following Hadrian",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "al-ahqaf",
+      "name": {
+        "ar": "الأحقاف",
+        "en": "Al-Ahqaf",
+        "de": "Al-Ahqaf"
+      },
+      "lat": 18.0,
+      "lon": 52.0,
+      "zoom": 6,
+      "precision": "region",
+      "certainty": "disputed",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Rub al Khali 002.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Rub_al_Khali_002.JPG/1280px-Rub_al_Khali_002.JPG",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Rub_al_Khali_002.JPG",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rub_al_Khali_002.JPG",
+        "credit": "Nepenthes",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "midyan",
+      "name": {
+        "ar": "مدين",
+        "en": "Midian",
+        "de": "Midian"
+      },
+      "lat": 28.4667,
+      "lon": 35.0167,
+      "zoom": 9,
+      "precision": "region",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "cities-of-lut",
+      "name": {
+        "ar": "مدائن قوم لوط (البحر الميت)",
+        "en": "Cities of Lot (Dead Sea area)",
+        "de": "Städte Lots (Totes Meer)"
+      },
+      "lat": 31.559,
+      "lon": 35.4732,
+      "zoom": 9,
+      "precision": "region",
+      "certainty": "disputed",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Dead Sea from Jordan.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dead_Sea_from_Jordan.JPG/1280px-Dead_Sea_from_Jordan.JPG",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Sea_from_Jordan.JPG",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dead_Sea_from_Jordan.JPG",
+        "credit": "Faris El-Gwely",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mesopotamia",
+      "name": {
+        "ar": "بلاد الرافدين (العراق)",
+        "en": "Mesopotamia (Iraq)",
+        "de": "Mesopotamien (Irak)"
+      },
+      "lat": 30.9626,
+      "lon": 46.103,
+      "zoom": 6,
+      "precision": "region",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Ancient ziggurat at Ali Air Base Iraq 2005.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg/1280px-Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ancient_ziggurat_at_Ali_Air_Base_Iraq_2005.jpg",
+        "credit": "en:User:Hardnfast",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "nineveh",
+      "name": {
+        "ar": "نينوى",
+        "en": "Nineveh",
+        "de": "Ninive"
+      },
+      "lat": 36.3597,
+      "lon": 43.1522,
+      "zoom": 12,
+      "precision": "site",
+      "certainty": "traditional",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mosul Wall-Nineveh 01.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mosul_Wall-Nineveh_01.jpg/1280px-Mosul_Wall-Nineveh_01.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosul_Wall-Nineveh_01.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mosul_Wall-Nineveh_01.jpg",
+        "credit": "Abdulsalam Al Dabbagh",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "egypt",
+      "name": {
+        "ar": "مصر",
+        "en": "Egypt",
+        "de": "Ägypten"
+      },
+      "lat": 26.8206,
+      "lon": 30.8025,
+      "zoom": 5,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Nile River Landscape, Egypt.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nile_River_Landscape%2C_Egypt.jpg/1280px-Nile_River_Landscape%2C_Egypt.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Nile_River_Landscape%2C_Egypt.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nile_River_Landscape,_Egypt.jpg",
+        "credit": "Menna.Hassan100",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sinai",
+      "name": {
+        "ar": "سيناء",
+        "en": "Sinai",
+        "de": "Sinai"
+      },
+      "lat": 28.5392,
+      "lon": 33.975,
+      "zoom": 8,
+      "precision": "region",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Mount Sinai Egypt 1.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mount_Sinai_Egypt_1.jpg/1280px-Mount_Sinai_Egypt_1.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Sinai_Egypt_1.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Sinai_Egypt_1.jpg",
+        "credit": "Mohammed Moussa",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "paradise",
+      "name": {
+        "ar": "الجنة",
+        "en": "Paradise",
+        "de": "das Paradies"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "non-geographic",
+      "certainty": "non-geographic",
+      "image": null
+    },
+    {
+      "id": "usfan",
+      "name": {
+        "ar": "عسفان",
+        "en": "Usfan",
+        "de": "Usfan"
+      },
+      "lat": 21.9224,
+      "lon": 39.3536,
+      "zoom": 11,
+      "precision": "city",
+      "certainty": "established",
+      "image": null
+    },
+    {
+      "id": "batn-marr",
+      "name": {
+        "ar": "بطن مرّ (مرّ الظهران)",
+        "en": "Batn Marr (Marr al-Zahran)",
+        "de": "Batn Marr (Marr az-Zahran)"
+      },
+      "lat": 21.363,
+      "lon": 39.4172,
+      "zoom": 11,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "amj",
+      "name": {
+        "ar": "أمج",
+        "en": "Amj",
+        "de": "Amdsch"
+      },
+      "lat": 22.1551,
+      "lon": 39.3202,
+      "zoom": 10,
+      "precision": "approximate",
+      "certainty": "disputed",
+      "image": null
+    },
+    {
+      "id": "umm-mabad",
+      "name": {
+        "ar": "خيمة أم معبد (قديد)",
+        "en": "The tent of Umm Ma'bad (Qudayd)",
+        "de": "Das Zelt der Umm Ma'bad (Qudaid)"
+      },
+      "lat": 22.3404,
+      "lon": 39.3205,
+      "zoom": 11,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "rabigh",
+      "name": {
+        "ar": "رابغ (الرمل)",
+        "en": "Rabigh (al-Raml)",
+        "de": "Rabigh (ar-Raml)"
+      },
+      "lat": 22.786,
+      "lon": 39.0443,
+      "zoom": 11,
+      "precision": "city",
+      "certainty": "established",
+      "image": null
+    },
+    {
+      "id": "malal",
+      "name": {
+        "ar": "ملل",
+        "en": "Malal",
+        "de": "Malal"
+      },
+      "lat": 24.2021,
+      "lon": 39.2928,
+      "zoom": 10,
+      "precision": "approximate",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "balqa",
+      "name": {
+        "ar": "البلقاء",
+        "en": "Al-Balqa",
+        "de": "Al-Balqa"
+      },
+      "lat": 32.0578,
+      "lon": 35.7661,
+      "zoom": 9,
+      "precision": "region",
+      "certainty": "established",
+      "image": null
+    },
+    {
+      "id": "thaniyat-al-murrah",
+      "name": {
+        "ar": "ثنية المرّة",
+        "en": "Thaniyat al-Murrah",
+        "de": "Thaniyat al-Murra"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "muljah-laqf",
+      "name": {
+        "ar": "مُلجة لقف",
+        "en": "Muljah Laqf",
+        "de": "Muldscha Laqf"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "muljah-hajjaj",
+      "name": {
+        "ar": "مُلجة حجاج",
+        "en": "Muljah Hajjaj",
+        "de": "Muldscha Haddschadsch"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "marja-mahaj",
+      "name": {
+        "ar": "مرجِح محاج",
+        "en": "Marja' Mahaj",
+        "de": "Mardscha' Mahadsch"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "batn-dhi-kashar",
+      "name": {
+        "ar": "بطن ذي كشر",
+        "en": "Batn Dhi Kashar",
+        "de": "Batn Dhi Kaschar"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "al-jadajid",
+      "name": {
+        "ar": "الجداجد",
+        "en": "Al-Jadajid",
+        "de": "Al-Dschadadschid"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "dhu-salam",
+      "name": {
+        "ar": "ذو سلم",
+        "en": "Dhu Salam",
+        "de": "Dhu Salam"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "al-arj",
+      "name": {
+        "ar": "العرج",
+        "en": "Al-Arj",
+        "de": "Al-Ardsch"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    },
+    {
+      "id": "batn-rim",
+      "name": {
+        "ar": "بطن ريم",
+        "en": "Batn Ri'm",
+        "de": "Batn Ri'm"
+      },
+      "lat": null,
+      "lon": null,
+      "zoom": null,
+      "precision": "unlocated",
+      "certainty": "traditional",
+      "image": null
+    }
+  ]
+}

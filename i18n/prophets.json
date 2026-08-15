@@ -1,0 +1,506 @@
+{
+  "note": "English and German strings for the 25 prophets, keyed by the stable id from prophets.ar.json. Qur'anic quotations appear as {{quran:sura:ayah}} tokens and are resolved from i18n/quran.json at build time — never translate a verse here. shortName is the timeline-circle label and stays short. Names use the Qur'anic form, with the biblical form in parentheses in `name` for recognition.",
+
+  "prophets": {
+    "adam": {
+      "en": {
+        "name": "Adam, peace be upon him",
+        "shortName": "Adam",
+        "people": "His descendants; the Qur'an does not mention a particular people for him",
+        "book": "No book is named for him",
+        "sinsAndPunishment": "He had no denying people in the usual sense; what occurred was the account of Iblis and the whispering to Adam and Eve",
+        "message": "The oneness of God, obedience to Him, and repentance when one errs",
+        "placeText": "Paradise, then the earth; the Qur'an does not specify where he descended"
+      },
+      "de": {
+        "name": "Adam, Friede sei mit ihm",
+        "shortName": "Adam",
+        "people": "Seine Nachkommen; der Koran nennt für ihn kein eigenes Volk",
+        "book": "Es wird kein Buch unter seinem Namen genannt",
+        "sinsAndPunishment": "Er hatte kein leugnendes Volk im üblichen Sinne; überliefert ist die Geschichte von Iblis und der Einflüsterung an Adam und Eva",
+        "message": "Die Einheit Gottes, der Gehorsam ihm gegenüber und die Reue bei Fehltritten",
+        "placeText": "Das Paradies, dann die Erde; der Koran nennt den Ort seines Herabkommens nicht"
+      }
+    },
+    "idris": {
+      "en": {
+        "name": "Idris, peace be upon him",
+        "shortName": "Idris",
+        "people": "Not specified in the Qur'an",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions neither his people nor any punishment of a denying people",
+        "message": "Truthfulness, uprightness and worship; God says: {{quran:19:56}}",
+        "placeText": "Not specified in the Qur'an"
+      },
+      "de": {
+        "name": "Idris, Friede sei mit ihm",
+        "shortName": "Idris",
+        "people": "Im Koran nicht näher bestimmt",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt weder sein Volk noch eine Strafe für ein leugnendes Volk",
+        "message": "Wahrhaftigkeit, Aufrichtigkeit und Gottesdienst; Gott spricht: {{quran:19:56}}",
+        "placeText": "Im Koran nicht bestimmt"
+      }
+    },
+    "nuh": {
+      "en": {
+        "name": "Nuh (Noah), peace be upon him",
+        "shortName": "Nuh",
+        "people": "**The people of Nuh**",
+        "book": "No book is named for him",
+        "sinsAndPunishment": "Associating partners with God and idol worship, denial and arrogance; **they were drowned in the flood**",
+        "message": "The oneness of God, abandoning idol worship, seeking forgiveness, and warning of the punishment",
+        "placeText": "The Qur'an does not specify his land precisely"
+      },
+      "de": {
+        "name": "Nuh (Noah), Friede sei mit ihm",
+        "shortName": "Nuh",
+        "people": "**Das Volk Nuhs**",
+        "book": "Es wird kein Buch unter seinem Namen genannt",
+        "sinsAndPunishment": "Beigesellung und Götzendienst, Leugnung und Hochmut; **sie ertranken in der Flut**",
+        "message": "Die Einheit Gottes, die Abkehr vom Götzendienst, das Bitten um Vergebung und die Warnung vor der Strafe",
+        "placeText": "Der Koran bestimmt sein Land nicht genau"
+      }
+    },
+    "hud": {
+      "en": {
+        "name": "Hud, peace be upon him",
+        "shortName": "Hud",
+        "people": "**'Ad**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "Associating partners with God, arrogance, force and violence, and denial; they were destroyed **by the barren wind**",
+        "message": "Worship of God alone, abandoning arrogance, and gratitude for blessings",
+        "placeText": "**Al-Ahqaf**; most probably the south of the Arabian Peninsula"
+      },
+      "de": {
+        "name": "Hud, Friede sei mit ihm",
+        "shortName": "Hud",
+        "people": "**Ad**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Beigesellung, Hochmut, Gewalt und Willkür sowie Leugnung; sie wurden **durch den unfruchtbaren Wind** vernichtet",
+        "message": "Die alleinige Anbetung Gottes, die Abkehr vom Hochmut und die Dankbarkeit für die Gaben",
+        "placeText": "**Al-Ahqaf**; höchstwahrscheinlich der Süden der Arabischen Halbinsel"
+      }
+    },
+    "salih": {
+      "en": {
+        "name": "Salih, peace be upon him",
+        "shortName": "Salih",
+        "people": "**Thamud**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "Associating partners with God, denial, and **the hamstringing of the she-camel**; the blast and the earthquake seized them, and they perished",
+        "message": "Oneness of God, abandoning corruption, and respect for God's sign, the she-camel",
+        "placeText": "**Al-Hijr** in the north-west of the Arabian Peninsula"
+      },
+      "de": {
+        "name": "Salih, Friede sei mit ihm",
+        "shortName": "Salih",
+        "people": "**Thamud**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Beigesellung, Leugnung und **das Töten der Kamelstute**; der Schrei und das Beben ergriffen sie, und sie kamen um",
+        "message": "Die Einheit Gottes, die Abkehr vom Verderben und die Achtung des Zeichens Gottes, der Kamelstute",
+        "placeText": "**Al-Hidschr** im Nordwesten der Arabischen Halbinsel"
+      }
+    },
+    "ibrahim": {
+      "en": {
+        "name": "Ibrahim (Abraham), peace be upon him",
+        "shortName": "Ibrahim",
+        "people": "His people, among them idol worshippers; he then called to the oneness of God",
+        "book": "**The Scriptures of Ibrahim**, mentioned in the Qur'an",
+        "sinsAndPunishment": "Associating partners with God and idol worship; his people tried to burn him, and God saved him",
+        "message": "Debating the polytheists, dismantling the arguments of association, devoting worship purely to God, and building the Sacred House",
+        "placeText": "Iraq / Mesopotamia, then al-Sham and Mecca"
+      },
+      "de": {
+        "name": "Ibrahim (Abraham), Friede sei mit ihm",
+        "shortName": "Ibrahim",
+        "people": "Sein Volk, darunter Götzendiener; er rief dann zur Einheit Gottes auf",
+        "book": "**Die Blätter Ibrahims**, im Koran erwähnt",
+        "sinsAndPunishment": "Beigesellung und Götzendienst; sein Volk versuchte ihn zu verbrennen, doch Gott rettete ihn",
+        "message": "Die Auseinandersetzung mit den Polytheisten, die Widerlegung der Argumente der Beigesellung, die aufrichtige Anbetung Gottes und der Bau des Heiligen Hauses",
+        "placeText": "Irak / Mesopotamien, dann asch-Scham und Mekka"
+      }
+    },
+    "lut": {
+      "en": {
+        "name": "Lut (Lot), peace be upon him",
+        "shortName": "Lut",
+        "people": "**The people of Lut**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "Indecency, waylaying travellers, open display of wrongdoing, and denial; **their cities were overturned and rained upon with stones**",
+        "message": "Oneness of God, purity, and abandoning indecency",
+        "placeText": "The cities of the people of Lut, in the Dead Sea region according to the best-known view"
+      },
+      "de": {
+        "name": "Lut (Lot), Friede sei mit ihm",
+        "shortName": "Lut",
+        "people": "**Das Volk Luts**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Unzucht, Wegelagerei, offenes Zurschaustellen des Verwerflichen und Leugnung; **ihre Städte wurden umgekehrt und mit Steinen überschüttet**",
+        "message": "Die Einheit Gottes, Reinheit und die Abkehr von Unzucht",
+        "placeText": "Die Städte des Volkes Luts, nach der bekanntesten Ansicht in der Region des Toten Meeres"
+      }
+    },
+    "ismail": {
+      "en": {
+        "name": "Isma'il (Ishmael), peace be upon him",
+        "shortName": "Isma'il",
+        "people": "His descendants, the people of Mecca and those around them",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no people who denied him, and no collective punishment for them",
+        "message": "Prayer and almsgiving, truthfulness and keeping one's covenant: {{quran:19:54}}",
+        "placeText": "**Mecca**"
+      },
+      "de": {
+        "name": "Isma'il (Ismael), Friede sei mit ihm",
+        "shortName": "Isma'il",
+        "people": "Seine Nachkommen, die Bewohner Mekkas und deren Umgebung",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt kein Volk, das ihn leugnete, und keine kollektive Strafe",
+        "message": "Gebet und Almosen, Wahrhaftigkeit und Vertragstreue: {{quran:19:54}}",
+        "placeText": "**Mekka**"
+      }
+    },
+    "ishaq": {
+      "en": {
+        "name": "Ishaq (Isaac), peace be upon him",
+        "shortName": "Ishaq",
+        "people": "His descendants",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no particular people who denied him",
+        "message": "A continuation of the call of Ibrahim and of the oneness of God",
+        "placeText": "Greater Syria (al-Sham)"
+      },
+      "de": {
+        "name": "Ishaq (Isaak), Friede sei mit ihm",
+        "shortName": "Ishaq",
+        "people": "Seine Nachkommen",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt kein eigenes Volk, das ihn leugnete",
+        "message": "Die Fortsetzung der Verkündigung Ibrahims und der Einheit Gottes",
+        "placeText": "Großsyrien (asch-Scham)"
+      }
+    },
+    "yaqub": {
+      "en": {
+        "name": "Ya'qub (Jacob, Israel), peace be upon him",
+        "shortName": "Ya'qub",
+        "people": "His descendants, **the Children of Israel**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no punishment of his people in his time",
+        "message": "Oneness of God, worship, and his charge to his sons to hold fast to the religion of God",
+        "placeText": "Greater Syria (al-Sham)"
+      },
+      "de": {
+        "name": "Ya'qub (Jakob, Israel), Friede sei mit ihm",
+        "shortName": "Ya'qub",
+        "people": "Seine Nachkommen, **die Kinder Israels**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt keine Strafe für sein Volk zu seiner Zeit",
+        "message": "Einheit Gottes, Gottesdienst und sein Vermächtnis an seine Söhne, an der Religion Gottes festzuhalten",
+        "placeText": "Großsyrien (asch-Scham)"
+      }
+    },
+    "yusuf": {
+      "en": {
+        "name": "Yusuf (Joseph), peace be upon him",
+        "shortName": "Yusuf",
+        "people": "The people of Egypt, and his household from the Children of Israel",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no people punished for denying him",
+        "message": "Oneness of God, chastity, trustworthiness, patience, forgiveness, and the administration of the affairs of state",
+        "placeText": "**Egypt**"
+      },
+      "de": {
+        "name": "Yusuf (Josef), Friede sei mit ihm",
+        "shortName": "Yusuf",
+        "people": "Die Bewohner Ägyptens und seine Angehörigen von den Kindern Israels",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen seiner Leugnung bestraft wurde",
+        "message": "Einheit Gottes, Keuschheit, Vertrauenswürdigkeit, Geduld, Vergebung und die Verwaltung der Staatsgeschäfte",
+        "placeText": "**Ägypten**"
+      }
+    },
+    "ayyub": {
+      "en": {
+        "name": "Ayyub (Job), peace be upon him",
+        "shortName": "Ayyub",
+        "people": "His people are not specified",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no punishment of his people",
+        "message": "Patience in affliction, turning to God, and not despairing",
+        "placeText": "Not specified in the Qur'an; traditionally attributed to the region of al-Sham"
+      },
+      "de": {
+        "name": "Ayyub (Hiob), Friede sei mit ihm",
+        "shortName": "Ayyub",
+        "people": "Sein Volk ist nicht näher bestimmt",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt keine Strafe für sein Volk",
+        "message": "Geduld in der Prüfung, Zuflucht bei Gott und kein Verzweifeln",
+        "placeText": "Im Koran nicht bestimmt; traditionell der Region asch-Scham zugeschrieben"
+      }
+    },
+    "shuayb": {
+      "en": {
+        "name": "Shu'ayb, peace be upon him",
+        "shortName": "Shu'ayb",
+        "people": "**Midian and the Companions of the Thicket**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "Associating partners with God, **giving short measure and weight, depriving people of their due, and spreading corruption in the land**; the earthquake and the punishment of the Day of the Shadow seized them, according to the Qur'anic context",
+        "message": "Oneness of God, economic justice, giving full measure and weight, and refraining from corruption",
+        "placeText": "**Midian**, in the north-west of the Arabian Peninsula according to the best-known view"
+      },
+      "de": {
+        "name": "Schu'aib, Friede sei mit ihm",
+        "shortName": "Schu'aib",
+        "people": "**Midian und die Leute des Dickichts**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Beigesellung, **das Verkürzen von Maß und Gewicht, das Vorenthalten der Rechte der Menschen und das Stiften von Verderben auf der Erde**; je nach koranischem Zusammenhang ergriff sie das Beben bzw. die Strafe des Tages der Wolkenschatten",
+        "message": "Einheit Gottes, wirtschaftliche Gerechtigkeit, volles Maß und Gewicht und der Verzicht auf Verderben",
+        "placeText": "**Midian**, nach der bekanntesten Ansicht im Nordwesten der Arabischen Halbinsel"
+      }
+    },
+    "musa": {
+      "en": {
+        "name": "Musa (Moses), peace be upon him",
+        "shortName": "Musa",
+        "people": "**Pharaoh and his people, and the Children of Israel**",
+        "book": "**The Torah**",
+        "sinsAndPunishment": "Pharaoh: tyranny, the claim to supremacy, the killing of the sons, and the enslavement of the Children of Israel; God destroyed him **by drowning**. Among the Children of Israel there occurred association with God in the worship of the calf, and other things",
+        "message": "Oneness of God, freeing the Children of Israel from oppression, and establishing the law of God",
+        "placeText": "**Egypt and Sinai**"
+      },
+      "de": {
+        "name": "Musa (Mose), Friede sei mit ihm",
+        "shortName": "Musa",
+        "people": "**Pharao und sein Volk sowie die Kinder Israels**",
+        "book": "**Die Tora**",
+        "sinsAndPunishment": "Pharao: Tyrannei, der Anspruch auf Erhabenheit, die Tötung der Söhne und die Versklavung der Kinder Israels; Gott vernichtete ihn **durch Ertränken**. Unter den Kindern Israels kam es zur Beigesellung durch die Anbetung des Kalbes und zu anderem",
+        "message": "Einheit Gottes, die Befreiung der Kinder Israels von Unterdrückung und die Errichtung des Gesetzes Gottes",
+        "placeText": "**Ägypten und Sinai**"
+      }
+    },
+    "harun": {
+      "en": {
+        "name": "Harun (Aaron), peace be upon him",
+        "shortName": "Harun",
+        "people": "**The Children of Israel**; together with Musa he called Pharaoh and his people",
+        "book": "The Torah, together with Musa",
+        "sinsAndPunishment": "The same context as the mission of Musa; among the most prominent events among his people was the worship of the calf",
+        "message": "Oneness of God, supporting Musa, and leading the Children of Israel upon the law of God",
+        "placeText": "Egypt and Sinai"
+      },
+      "de": {
+        "name": "Harun (Aaron), Friede sei mit ihm",
+        "shortName": "Harun",
+        "people": "**Die Kinder Israels**; gemeinsam mit Musa rief er Pharao und dessen Volk auf",
+        "book": "Die Tora, gemeinsam mit Musa",
+        "sinsAndPunishment": "Derselbe Zusammenhang wie bei der Verkündigung Musas; zu den bedeutendsten Ereignissen seines Volkes gehört die Anbetung des Kalbes",
+        "message": "Einheit Gottes, die Unterstützung Musas und die Führung der Kinder Israels nach dem Gesetz Gottes",
+        "placeText": "Ägypten und Sinai"
+      }
+    },
+    "dawud": {
+      "en": {
+        "name": "Dawud (David), peace be upon him",
+        "shortName": "Dawud",
+        "people": "The Children of Israel",
+        "book": "**The Psalms (al-Zabur)**",
+        "sinsAndPunishment": "The Qur'an mentions no particular people punished for denying him",
+        "message": "Worship and ruling with justice, glorifying God, and justice among people",
+        "placeText": "Greater Syria (al-Sham) and Jerusalem"
+      },
+      "de": {
+        "name": "Dawud (David), Friede sei mit ihm",
+        "shortName": "Dawud",
+        "people": "Die Kinder Israels",
+        "book": "**Der Psalter (az-Zabur)**",
+        "sinsAndPunishment": "Der Koran nennt kein eigenes Volk, das wegen seiner Leugnung bestraft wurde",
+        "message": "Gottesdienst und gerechtes Richten, Lobpreis und Gerechtigkeit unter den Menschen",
+        "placeText": "Großsyrien (asch-Scham) und Jerusalem"
+      }
+    },
+    "sulayman": {
+      "en": {
+        "name": "Sulayman (Solomon), peace be upon him",
+        "shortName": "Sulayman",
+        "people": "The Children of Israel; he ruled over a wide realm of humans, jinn and birds",
+        "book": "No book is named for him",
+        "sinsAndPunishment": "The Qur'an mentions no people punished for denying him; among the events is his encounter with the Queen of Sheba and her people, and their worship of the sun",
+        "message": "Oneness of God, gratitude for blessing, justice, and using kingship in obedience to God",
+        "placeText": "**Al-Sham and Jerusalem**"
+      },
+      "de": {
+        "name": "Sulaiman (Salomo), Friede sei mit ihm",
+        "shortName": "Sulaiman",
+        "people": "Die Kinder Israels; er herrschte über ein weites Reich von Menschen, Dschinn und Vögeln",
+        "book": "Es wird kein Buch unter seinem Namen genannt",
+        "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen seiner Leugnung bestraft wurde; zu den Ereignissen gehört die Begegnung mit der Königin von Saba und ihrem Volk und dessen Sonnenverehrung",
+        "message": "Einheit Gottes, Dankbarkeit für die Gnade, Gerechtigkeit und der Einsatz der Königsherrschaft im Gehorsam gegenüber Gott",
+        "placeText": "**Asch-Scham und Jerusalem**"
+      }
+    },
+    "ilyas": {
+      "en": {
+        "name": "Ilyas (Elijah), peace be upon him",
+        "shortName": "Ilyas",
+        "people": "His people from the Children of Israel, who worshipped **Baal**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The worship of Baal and denial; the Qur'an gives no detail of a collective punishment for them",
+        "message": "Oneness of God and abandoning the worship of Baal",
+        "placeText": "Greater Syria (al-Sham) according to the best-known view"
+      },
+      "de": {
+        "name": "Ilyas (Elija), Friede sei mit ihm",
+        "shortName": "Ilyas",
+        "people": "Sein Volk von den Kindern Israels, das **Baal** verehrte",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Die Verehrung Baals und Leugnung; der Koran nennt keine Einzelheiten einer kollektiven Strafe",
+        "message": "Die Einheit Gottes und die Abkehr von der Verehrung Baals",
+        "placeText": "Großsyrien (asch-Scham) nach der bekanntesten Ansicht"
+      }
+    },
+    "al-yasa": {
+      "en": {
+        "name": "Al-Yasa' (Elisha), peace be upon him",
+        "shortName": "Al-Yasa'",
+        "people": "His people are not specified in detail; from the Children of Israel according to the best-known view",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions neither the disobedience of his people nor their punishment",
+        "message": "Uprightness and righteousness; the Qur'an describes him as among the best",
+        "placeText": "Greater Syria (al-Sham) according to the best-known view"
+      },
+      "de": {
+        "name": "Al-Yasa' (Elischa), Friede sei mit ihm",
+        "shortName": "Al-Yasa'",
+        "people": "Sein Volk ist nicht im Einzelnen bestimmt; nach der bekanntesten Ansicht von den Kindern Israels",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt weder den Ungehorsam seines Volkes noch dessen Bestrafung",
+        "message": "Aufrichtigkeit und Rechtschaffenheit; der Koran zählt ihn zu den Besten",
+        "placeText": "Großsyrien (asch-Scham) nach der bekanntesten Ansicht"
+      }
+    },
+    "yunus": {
+      "en": {
+        "name": "Yunus (Jonah), peace be upon him",
+        "shortName": "Yunus",
+        "people": "**The people of Yunus**",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "They denied at first, then **believed before the punishment came down**, and so God lifted the punishment from them",
+        "message": "Oneness of God, warning and repentance; his people are a rare example of a people who believed after their prophet's warning, so that God lifted the punishment from them",
+        "placeText": "**Nineveh, Iraq** according to the best-known view"
+      },
+      "de": {
+        "name": "Yunus (Jona), Friede sei mit ihm",
+        "shortName": "Yunus",
+        "people": "**Das Volk Yunus'**",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Sie leugneten zunächst, **glaubten dann aber, bevor die Strafe herabkam**, und so wandte Gott die Strafe von ihnen ab",
+        "message": "Einheit Gottes, Warnung und Reue; sein Volk ist ein seltenes Beispiel eines Volkes, das nach der Warnung seines Propheten glaubte, worauf Gott die Strafe von ihm abwandte",
+        "placeText": "**Ninive, Irak** nach der bekanntesten Ansicht"
+      }
+    },
+    "dhul-kifl": {
+      "en": {
+        "name": "Dhu al-Kifl, peace be upon him",
+        "shortName": "Dhu al-Kifl",
+        "people": "Not specified",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no people and no punishment for them",
+        "message": "Patience, righteousness and faithfulness; God says: {{quran:21:85}}",
+        "placeText": "Not specified"
+      },
+      "de": {
+        "name": "Dhu l-Kifl, Friede sei mit ihm",
+        "shortName": "Dhu l-Kifl",
+        "people": "Nicht bestimmt",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt weder ein Volk noch eine Strafe",
+        "message": "Geduld, Rechtschaffenheit und Treue; Gott spricht: {{quran:21:85}}",
+        "placeText": "Nicht bestimmt"
+      }
+    },
+    "zakariya": {
+      "en": {
+        "name": "Zakariyya (Zechariah), peace be upon him",
+        "shortName": "Zakariyya",
+        "people": "The Children of Israel",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an mentions no people punished for denying Zakariyya",
+        "message": "Worship, supplication, the care of Maryam, and holding fast to obedience to God",
+        "placeText": "Jerusalem / Greater Syria (al-Sham)"
+      },
+      "de": {
+        "name": "Zakariya (Zacharias), Friede sei mit ihm",
+        "shortName": "Zakariya",
+        "people": "Die Kinder Israels",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen der Leugnung Zakariyas bestraft wurde",
+        "message": "Gottesdienst, Bittgebet, die Fürsorge für Maryam und das Festhalten am Gehorsam gegenüber Gott",
+        "placeText": "Jerusalem / Großsyrien (asch-Scham)"
+      }
+    },
+    "yahya": {
+      "en": {
+        "name": "Yahya (John), peace be upon him",
+        "shortName": "Yahya",
+        "people": "The Children of Israel",
+        "book": "No book is mentioned",
+        "sinsAndPunishment": "The Qur'an gives no detail of a punishment of his people; a faction of the Children of Israel killed him according to the historical reports, but the details of that are not in the Qur'an",
+        "message": "God-consciousness, chastity, righteousness, and holding fast to the Book of God",
+        "placeText": "Jerusalem / Greater Syria (al-Sham)"
+      },
+      "de": {
+        "name": "Yahya (Johannes), Friede sei mit ihm",
+        "shortName": "Yahya",
+        "people": "Die Kinder Israels",
+        "book": "Es wird kein Buch genannt",
+        "sinsAndPunishment": "Der Koran nennt keine Einzelheiten zu einer Bestrafung seines Volkes; nach den historischen Überlieferungen tötete ihn eine Gruppe der Kinder Israels, doch die Einzelheiten stehen nicht im Koran",
+        "message": "Gottesfurcht, Keuschheit, Rechtschaffenheit und das Festhalten am Buch Gottes",
+        "placeText": "Jerusalem / Großsyrien (asch-Scham)"
+      }
+    },
+    "isa": {
+      "en": {
+        "name": "'Isa (Jesus), peace be upon him",
+        "shortName": "'Isa",
+        "people": "**The Children of Israel**",
+        "book": "**The Gospel (al-Injil)**",
+        "sinsAndPunishment": "Denial, the killing of prophets, and the attempt to kill 'Isa; God raised 'Isa to Himself, and they did not kill him",
+        "message": "Oneness of God, confirming the Torah, correcting deviation, giving glad tidings of the Messenger Muhammad ﷺ, mercy and worship",
+        "placeText": "**Jerusalem and Greater Syria (al-Sham)**"
+      },
+      "de": {
+        "name": "Isa (Jesus), Friede sei mit ihm",
+        "shortName": "Isa",
+        "people": "**Die Kinder Israels**",
+        "book": "**Das Evangelium (al-Indschil)**",
+        "sinsAndPunishment": "Leugnung, die Tötung von Propheten und der Versuch, Isa zu töten; Gott erhob Isa zu sich, und sie töteten ihn nicht",
+        "message": "Einheit Gottes, die Bestätigung der Tora, die Berichtigung von Abweichungen, die frohe Botschaft vom Gesandten Muhammad ﷺ, Barmherzigkeit und Gottesdienst",
+        "placeText": "**Jerusalem und Großsyrien (asch-Scham)**"
+      }
+    },
+    "muhammad": {
+      "en": {
+        "name": "Muhammad ﷺ",
+        "shortName": "Muhammad",
+        "people": "First **Quraysh and the Arabs**, then **all people**",
+        "book": "**The Noble Qur'an**",
+        "sinsAndPunishment": "Associating partners with God, idol worship, injustice, and various forms of social corruption; God granted victory to His Messenger and Mecca was conquered, and then people entered Islam in throngs",
+        "message": "Oneness of God, the seal of prophethood, the Qur'an, worship, moral character, justice, the reform of society, and belief in all the prophets",
+        "placeText": "**Mecca and Medina**"
+      },
+      "de": {
+        "name": "Muhammad ﷺ",
+        "shortName": "Muhammad",
+        "people": "Zunächst **die Quraisch und die Araber**, dann **alle Menschen**",
+        "book": "**Der edle Koran**",
+        "sinsAndPunishment": "Beigesellung, Götzendienst, Unrecht und verschiedene Formen gesellschaftlichen Verderbens; Gott verlieh seinem Gesandten den Sieg, Mekka wurde erobert, und die Menschen traten in Scharen zum Islam über",
+        "message": "Einheit Gottes, das Siegel des Prophetentums, der Koran, Gottesdienst, Ethik, Gerechtigkeit, die Reform der Gesellschaft und der Glaube an alle Propheten",
+        "placeText": "**Mekka und Medina**"
+      }
+    }
+  }
+}

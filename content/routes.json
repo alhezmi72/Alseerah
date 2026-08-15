@@ -1,0 +1,54 @@
+{
+  "$schema": "../schema/routes.schema.json",
+  "version": 1,
+  "note": "Journeys, as ordered lists of waypoint ids into locations.json. Language-neutral: the itinerary is rendered per language from each waypoint's own name, so no route prose needs translating. Waypoints whose position cannot be fixed carry precision 'unlocated' in the registry — they appear in the written itinerary but contribute no point to the drawn line, because a guessed pin would be worse than a gap.",
+
+  "routes": {
+    "hijrah": {
+      "eventId": 51,
+      "waypoints": [
+        "mecca",
+        "cave-thawr",
+        "usfan",
+        "al-hudaybiyah",
+        "batn-marr",
+        "amj",
+        "umm-mabad",
+        "rabigh",
+        "thaniyat-al-murrah",
+        "muljah-laqf",
+        "muljah-hajjaj",
+        "marja-mahaj",
+        "batn-dhi-kashar",
+        "al-jadajid",
+        "dhu-salam",
+        "malal",
+        "al-arj",
+        "batn-rim",
+        "malal",
+        "quba",
+        "medina"
+      ],
+      "sourceNote": {
+        "ar": "ترتيب المحطات كما ورد في الوصف المعتمد لهذه النسخة. ومواضع كثير منها تقريبية أو غير محددة بدقة.",
+        "en": "The order of stages is as given in the itinerary adopted for this edition. Many of the positions are approximate, and several cannot be fixed at all.",
+        "de": "Die Reihenfolge der Stationen folgt der für diese Ausgabe übernommenen Route. Viele Positionen sind ungefähr, mehrere lassen sich gar nicht bestimmen."
+      }
+    },
+
+    "medina-tabuk": {
+      "eventId": 93,
+      "waypoints": ["medina", "tabuk"]
+    },
+
+    "medina-mecca-hajj": {
+      "eventId": 96,
+      "waypoints": ["medina", "mecca"]
+    },
+
+    "medina-balqa": {
+      "eventId": 98,
+      "waypoints": ["medina", "balqa"]
+    }
+  }
+}

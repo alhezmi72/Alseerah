@@ -1,0 +1,651 @@
+{
+  "$schema": "../schema/prophets.schema.json",
+  "version": 1,
+  "lang": "de",
+  "dir": "ltr",
+  "translation": {
+    "status": "machine",
+    "from": "ar",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "source": {
+    "file": "prophets-content",
+    "generatedBy": "tools/build_content.py",
+    "generatedAt": "2026-08-15"
+  },
+  "sources": [
+    {
+      "id": "quran-com",
+      "label": "Quran.com",
+      "url": "https://quran.com/"
+    }
+  ],
+  "prophets": [
+    {
+      "id": "adam",
+      "order": 1,
+      "name": "Adam, Friede sei mit ihm",
+      "shortName": "Adam",
+      "people": "Seine Nachkommen; der Koran nennt für ihn kein eigenes Volk",
+      "book": {
+        "text": "Es wird kein Buch unter seinem Namen genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Er hatte kein leugnendes Volk im üblichen Sinne; überliefert ist die Geschichte von Iblis und der Einflüsterung an Adam und Eva",
+      "message": "Die Einheit Gottes, der Gehorsam ihm gegenüber und die Reue bei Fehltritten",
+      "placeText": "Das Paradies, dann die Erde; der Koran nennt den Ort seines Herabkommens nicht",
+      "locations": [
+        "paradise"
+      ],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "idris",
+      "order": 2,
+      "name": "Idris, Friede sei mit ihm",
+      "shortName": "Idris",
+      "people": "Im Koran nicht näher bestimmt",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt weder sein Volk noch eine Strafe für ein leugnendes Volk",
+      "message": "Wahrhaftigkeit, Aufrichtigkeit und Gottesdienst; Gott spricht: „Er war ein Wahrhaftiger und Prophet“ (Maryam 19:56)",
+      "placeText": "Im Koran nicht bestimmt",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      },
+      "quranRefs": [
+        "19:56"
+      ]
+    },
+    {
+      "id": "nuh",
+      "order": 3,
+      "name": "Nuh (Noah), Friede sei mit ihm",
+      "shortName": "Nuh",
+      "people": "**Das Volk Nuhs**",
+      "book": {
+        "text": "Es wird kein Buch unter seinem Namen genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Beigesellung und Götzendienst, Leugnung und Hochmut; **sie ertranken in der Flut**",
+      "message": "Die Einheit Gottes, die Abkehr vom Götzendienst, das Bitten um Vergebung und die Warnung vor der Strafe",
+      "placeText": "Der Koran bestimmt sein Land nicht genau",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "hud",
+      "order": 4,
+      "name": "Hud, Friede sei mit ihm",
+      "shortName": "Hud",
+      "people": "**Ad**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Beigesellung, Hochmut, Gewalt und Willkür sowie Leugnung; sie wurden **durch den unfruchtbaren Wind** vernichtet",
+      "message": "Die alleinige Anbetung Gottes, die Abkehr vom Hochmut und die Dankbarkeit für die Gaben",
+      "placeText": "**Al-Ahqaf**; höchstwahrscheinlich der Süden der Arabischen Halbinsel",
+      "locations": [
+        "al-ahqaf"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "salih",
+      "order": 5,
+      "name": "Salih, Friede sei mit ihm",
+      "shortName": "Salih",
+      "people": "**Thamud**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Beigesellung, Leugnung und **das Töten der Kamelstute**; der Schrei und das Beben ergriffen sie, und sie kamen um",
+      "message": "Die Einheit Gottes, die Abkehr vom Verderben und die Achtung des Zeichens Gottes, der Kamelstute",
+      "placeText": "**Al-Hidschr** im Nordwesten der Arabischen Halbinsel",
+      "locations": [
+        "al-hijr"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "ibrahim",
+      "order": 6,
+      "name": "Ibrahim (Abraham), Friede sei mit ihm",
+      "shortName": "Ibrahim",
+      "people": "Sein Volk, darunter Götzendiener; er rief dann zur Einheit Gottes auf",
+      "book": {
+        "text": "**Die Blätter Ibrahims**, im Koran erwähnt",
+        "namedInQuran": true,
+        "bookId": "suhuf-ibrahim"
+      },
+      "sinsAndPunishment": "Beigesellung und Götzendienst; sein Volk versuchte ihn zu verbrennen, doch Gott rettete ihn",
+      "message": "Die Auseinandersetzung mit den Polytheisten, die Widerlegung der Argumente der Beigesellung, die aufrichtige Anbetung Gottes und der Bau des Heiligen Hauses",
+      "placeText": "Irak / Mesopotamien, dann asch-Scham und Mekka",
+      "locations": [
+        "mesopotamia",
+        "ash-sham",
+        "mecca"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "lut",
+      "order": 7,
+      "name": "Lut (Lot), Friede sei mit ihm",
+      "shortName": "Lut",
+      "people": "**Das Volk Luts**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Unzucht, Wegelagerei, offenes Zurschaustellen des Verwerflichen und Leugnung; **ihre Städte wurden umgekehrt und mit Steinen überschüttet**",
+      "message": "Die Einheit Gottes, Reinheit und die Abkehr von Unzucht",
+      "placeText": "Die Städte des Volkes Luts, nach der bekanntesten Ansicht in der Region des Toten Meeres",
+      "locations": [
+        "cities-of-lut"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "moral-corruption"
+      ],
+      "lineage": {
+        "branch": "other",
+        "contemporaryOf": [
+          "ibrahim"
+        ]
+      }
+    },
+    {
+      "id": "ismail",
+      "order": 8,
+      "name": "Isma'il (Ismael), Friede sei mit ihm",
+      "shortName": "Isma'il",
+      "people": "Seine Nachkommen, die Bewohner Mekkas und deren Umgebung",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt kein Volk, das ihn leugnete, und keine kollektive Strafe",
+      "message": "Gebet und Almosen, Wahrhaftigkeit und Vertragstreue: „er war wahrhaftig in seinem Versprechen“ (Maryam 19:54)",
+      "placeText": "**Mekka**",
+      "locations": [
+        "mecca"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "ismaili",
+        "parentId": "ibrahim"
+      },
+      "quranRefs": [
+        "19:54"
+      ]
+    },
+    {
+      "id": "ishaq",
+      "order": 9,
+      "name": "Ishaq (Isaak), Friede sei mit ihm",
+      "shortName": "Ishaq",
+      "people": "Seine Nachkommen",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt kein eigenes Volk, das ihn leugnete",
+      "message": "Die Fortsetzung der Verkündigung Ibrahims und der Einheit Gottes",
+      "placeText": "Großsyrien (asch-Scham)",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ibrahim"
+      }
+    },
+    {
+      "id": "yaqub",
+      "order": 10,
+      "name": "Ya'qub (Jakob, Israel), Friede sei mit ihm",
+      "shortName": "Ya'qub",
+      "people": "Seine Nachkommen, **die Kinder Israels**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt keine Strafe für sein Volk zu seiner Zeit",
+      "message": "Einheit Gottes, Gottesdienst und sein Vermächtnis an seine Söhne, an der Religion Gottes festzuhalten",
+      "placeText": "Großsyrien (asch-Scham)",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ishaq"
+      }
+    },
+    {
+      "id": "yusuf",
+      "order": 11,
+      "name": "Yusuf (Josef), Friede sei mit ihm",
+      "shortName": "Yusuf",
+      "people": "Die Bewohner Ägyptens und seine Angehörigen von den Kindern Israels",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen seiner Leugnung bestraft wurde",
+      "message": "Einheit Gottes, Keuschheit, Vertrauenswürdigkeit, Geduld, Vergebung und die Verwaltung der Staatsgeschäfte",
+      "placeText": "**Ägypten**",
+      "locations": [
+        "egypt"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "yaqub"
+      }
+    },
+    {
+      "id": "ayyub",
+      "order": 12,
+      "name": "Ayyub (Hiob), Friede sei mit ihm",
+      "shortName": "Ayyub",
+      "people": "Sein Volk ist nicht näher bestimmt",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt keine Strafe für sein Volk",
+      "message": "Geduld in der Prüfung, Zuflucht bei Gott und kein Verzweifeln",
+      "placeText": "Im Koran nicht bestimmt; traditionell der Region asch-Scham zugeschrieben",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "shuayb",
+      "order": 13,
+      "name": "Schu'aib, Friede sei mit ihm",
+      "shortName": "Schu'aib",
+      "people": "**Midian und die Leute des Dickichts**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Beigesellung, **das Verkürzen von Maß und Gewicht, das Vorenthalten der Rechte der Menschen und das Stiften von Verderben auf der Erde**; je nach koranischem Zusammenhang ergriff sie das Beben bzw. die Strafe des Tages der Wolkenschatten",
+      "message": "Einheit Gottes, wirtschaftliche Gerechtigkeit, volles Maß und Gewicht und der Verzicht auf Verderben",
+      "placeText": "**Midian**, nach der bekanntesten Ansicht im Nordwesten der Arabischen Halbinsel",
+      "locations": [
+        "midyan"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "economic-corruption"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "musa",
+      "order": 14,
+      "name": "Musa (Mose), Friede sei mit ihm",
+      "shortName": "Musa",
+      "people": "**Pharao und sein Volk sowie die Kinder Israels**",
+      "book": {
+        "text": "**Die Tora**",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "Pharao: Tyrannei, der Anspruch auf Erhabenheit, die Tötung der Söhne und die Versklavung der Kinder Israels; Gott vernichtete ihn **durch Ertränken**. Unter den Kindern Israels kam es zur Beigesellung durch die Anbetung des Kalbes und zu anderem",
+      "message": "Einheit Gottes, die Befreiung der Kinder Israels von Unterdrückung und die Errichtung des Gesetzes Gottes",
+      "placeText": "**Ägypten und Sinai**",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance",
+        "tyranny"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "harun",
+      "order": 15,
+      "name": "Harun (Aaron), Friede sei mit ihm",
+      "shortName": "Harun",
+      "people": "**Die Kinder Israels**; gemeinsam mit Musa rief er Pharao und dessen Volk auf",
+      "book": {
+        "text": "Die Tora, gemeinsam mit Musa",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "Derselbe Zusammenhang wie bei der Verkündigung Musas; zu den bedeutendsten Ereignissen seines Volkes gehört die Anbetung des Kalbes",
+      "message": "Einheit Gottes, die Unterstützung Musas und die Führung der Kinder Israels nach dem Gesetz Gottes",
+      "placeText": "Ägypten und Sinai",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite",
+        "contemporaryOf": [
+          "musa"
+        ]
+      }
+    },
+    {
+      "id": "dawud",
+      "order": 16,
+      "name": "Dawud (David), Friede sei mit ihm",
+      "shortName": "Dawud",
+      "people": "Die Kinder Israels",
+      "book": {
+        "text": "**Der Psalter (az-Zabur)**",
+        "namedInQuran": true,
+        "bookId": "zabur"
+      },
+      "sinsAndPunishment": "Der Koran nennt kein eigenes Volk, das wegen seiner Leugnung bestraft wurde",
+      "message": "Gottesdienst und gerechtes Richten, Lobpreis und Gerechtigkeit unter den Menschen",
+      "placeText": "Großsyrien (asch-Scham) und Jerusalem",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "sulayman",
+      "order": 17,
+      "name": "Sulaiman (Salomo), Friede sei mit ihm",
+      "shortName": "Sulaiman",
+      "people": "Die Kinder Israels; er herrschte über ein weites Reich von Menschen, Dschinn und Vögeln",
+      "book": {
+        "text": "Es wird kein Buch unter seinem Namen genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen seiner Leugnung bestraft wurde; zu den Ereignissen gehört die Begegnung mit der Königin von Saba und ihrem Volk und dessen Sonnenverehrung",
+      "message": "Einheit Gottes, Dankbarkeit für die Gnade, Gerechtigkeit und der Einsatz der Königsherrschaft im Gehorsam gegenüber Gott",
+      "placeText": "**Asch-Scham und Jerusalem**",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "dawud"
+      }
+    },
+    {
+      "id": "ilyas",
+      "order": 18,
+      "name": "Ilyas (Elija), Friede sei mit ihm",
+      "shortName": "Ilyas",
+      "people": "Sein Volk von den Kindern Israels, das **Baal** verehrte",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Die Verehrung Baals und Leugnung; der Koran nennt keine Einzelheiten einer kollektiven Strafe",
+      "message": "Die Einheit Gottes und die Abkehr von der Verehrung Baals",
+      "placeText": "Großsyrien (asch-Scham) nach der bekanntesten Ansicht",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "al-yasa",
+      "order": 19,
+      "name": "Al-Yasa' (Elischa), Friede sei mit ihm",
+      "shortName": "Al-Yasa'",
+      "people": "Sein Volk ist nicht im Einzelnen bestimmt; nach der bekanntesten Ansicht von den Kindern Israels",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt weder den Ungehorsam seines Volkes noch dessen Bestrafung",
+      "message": "Aufrichtigkeit und Rechtschaffenheit; der Koran zählt ihn zu den Besten",
+      "placeText": "Großsyrien (asch-Scham) nach der bekanntesten Ansicht",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yunus",
+      "order": 20,
+      "name": "Yunus (Jona), Friede sei mit ihm",
+      "shortName": "Yunus",
+      "people": "**Das Volk Yunus'**",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Sie leugneten zunächst, **glaubten dann aber, bevor die Strafe herabkam**, und so wandte Gott die Strafe von ihnen ab",
+      "message": "Einheit Gottes, Warnung und Reue; sein Volk ist ein seltenes Beispiel eines Volkes, das nach der Warnung seines Propheten glaubte, worauf Gott die Strafe von ihm abwandte",
+      "placeText": "**Ninive, Irak** nach der bekanntesten Ansicht",
+      "locations": [
+        "nineveh"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "dhul-kifl",
+      "order": 21,
+      "name": "Dhu l-Kifl, Friede sei mit ihm",
+      "shortName": "Dhu l-Kifl",
+      "people": "Nicht bestimmt",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt weder ein Volk noch eine Strafe",
+      "message": "Geduld, Rechtschaffenheit und Treue; Gott spricht: „Jeder gehörte zu den Standhaften“ (Al-Anbiya 21:85)",
+      "placeText": "Nicht bestimmt",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "other"
+      },
+      "quranRefs": [
+        "21:85"
+      ]
+    },
+    {
+      "id": "zakariya",
+      "order": 22,
+      "name": "Zakariya (Zacharias), Friede sei mit ihm",
+      "shortName": "Zakariya",
+      "people": "Die Kinder Israels",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt kein Volk, das wegen der Leugnung Zakariyas bestraft wurde",
+      "message": "Gottesdienst, Bittgebet, die Fürsorge für Maryam und das Festhalten am Gehorsam gegenüber Gott",
+      "placeText": "Jerusalem / Großsyrien (asch-Scham)",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yahya",
+      "order": 23,
+      "name": "Yahya (Johannes), Friede sei mit ihm",
+      "shortName": "Yahya",
+      "people": "Die Kinder Israels",
+      "book": {
+        "text": "Es wird kein Buch genannt",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "Der Koran nennt keine Einzelheiten zu einer Bestrafung seines Volkes; nach den historischen Überlieferungen tötete ihn eine Gruppe der Kinder Israels, doch die Einzelheiten stehen nicht im Koran",
+      "message": "Gottesfurcht, Keuschheit, Rechtschaffenheit und das Festhalten am Buch Gottes",
+      "placeText": "Jerusalem / Großsyrien (asch-Scham)",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "zakariya"
+      }
+    },
+    {
+      "id": "isa",
+      "order": 24,
+      "name": "Isa (Jesus), Friede sei mit ihm",
+      "shortName": "Isa",
+      "people": "**Die Kinder Israels**",
+      "book": {
+        "text": "**Das Evangelium (al-Indschil)**",
+        "namedInQuran": true,
+        "bookId": "injil"
+      },
+      "sinsAndPunishment": "Leugnung, die Tötung von Propheten und der Versuch, Isa zu töten; Gott erhob Isa zu sich, und sie töteten ihn nicht",
+      "message": "Einheit Gottes, die Bestätigung der Tora, die Berichtigung von Abweichungen, die frohe Botschaft vom Gesandten Muhammad ﷺ, Barmherzigkeit und Gottesdienst",
+      "placeText": "**Jerusalem und Großsyrien (asch-Scham)**",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "distortion-of-religion"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "muhammad",
+      "order": 25,
+      "name": "Muhammad ﷺ",
+      "shortName": "Muhammad",
+      "people": "Zunächst **die Quraisch und die Araber**, dann **alle Menschen**",
+      "book": {
+        "text": "**Der edle Koran**",
+        "namedInQuran": true,
+        "bookId": "quran"
+      },
+      "sinsAndPunishment": "Beigesellung, Götzendienst, Unrecht und verschiedene Formen gesellschaftlichen Verderbens; Gott verlieh seinem Gesandten den Sieg, Mekka wurde erobert, und die Menschen traten in Scharen zum Islam über",
+      "message": "Einheit Gottes, das Siegel des Prophetentums, der Koran, Gottesdienst, Ethik, Gerechtigkeit, die Reform der Gesellschaft und der Glaube an alle Propheten",
+      "placeText": "**Mekka und Medina**",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "ismaili"
+      },
+      "detailPage": "muhammad"
+    }
+  ],
+  "quranTranslation": {
+    "title": "Der edle Qur'an — Übersetzung der Bedeutungen",
+    "translator": "Frank Bubenheim & Nadeem Elyas",
+    "license": "free-distribution",
+    "licenseNote": "The King Fahd Complex edition, licensed for free distribution and the standard German Islamic rendering. Attribution is required and is carried in every generated file.",
+    "attribution": "Koranübersetzung: Frank Bubenheim & Nadeem Elyas, Der edle Qur'an.",
+    "verifiedAgainst": "https://api.quran.com/api/v4/quran/translations/27"
+  }
+}

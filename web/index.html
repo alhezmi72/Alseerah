@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>السيرة — من آدم إلى محمد ﷺ</title>
+<meta name="description" content="An incremental timeline of the prophets from Adam to Muhammad ﷺ, and the events of the Prophet's life.">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%23a17c2b' stroke-width='3'/><circle cx='16' cy='16' r='4' fill='%23a17c2b'/></svg>">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="skipToContent"></a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/ar/prophets">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <strong data-i18n="siteTitle"></strong>
+        <small data-i18n="siteSubtitle"></small>
+      </span>
+    </a>
+
+    <nav class="views" aria-label="Sections">
+      <a class="view-tab" data-view="prophets" href="#/ar/prophets" data-i18n="navProphets"></a>
+      <a class="view-tab" data-view="muhammad" href="#/ar/muhammad" data-i18n="navMuhammad"></a>
+    </nav>
+
+    <div class="header-tools">
+      <div class="zoom" role="group">
+        <span class="zoom-label" data-i18n="zoomLabel"></span>
+        <button type="button" class="zoom-btn" data-zoom="out" aria-label="Zoom out">−</button>
+        <span class="zoom-level" id="zoomLevel" aria-live="polite"></span>
+        <button type="button" class="zoom-btn" data-zoom="in" aria-label="Zoom in">+</button>
+      </div>
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="ar" lang="ar">العربية</button>
+        <button type="button" class="lang-btn" data-lang="en" lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="de" lang="de">DE</button>
+      </div>
+    </div>
+  </div>
+  <div class="notice" id="translationNotice" hidden></div>
+</header>
+
+<main id="main">
+  <div class="page-head">
+    <h1 id="pageTitle"></h1>
+    <p id="pageIntro"></p>
+    <nav class="era-jump" id="eraJump" aria-label="Eras" hidden></nav>
+  </div>
+
+  <div class="timeline-wrap">
+    <ol class="timeline" id="timeline"></ol>
+  </div>
+
+  <p class="loading" id="loading" data-i18n="loading"></p>
+</main>
+
+<aside class="detail" id="detail" aria-labelledby="detailTitle" hidden>
+  <div class="detail-inner" id="detailInner"></div>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+
+<footer class="site-footer">
+  <p data-i18n="footerSources"></p>
+  <p class="fine" data-i18n="footerAttribution"></p>
+</footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

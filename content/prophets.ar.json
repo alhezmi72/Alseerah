@@ -1,0 +1,643 @@
+{
+  "$schema": "../schema/prophets.schema.json",
+  "version": 1,
+  "lang": "ar",
+  "dir": "rtl",
+  "translation": {
+    "status": "source",
+    "from": "ar",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "source": {
+    "file": "prophets-content",
+    "generatedBy": "tools/build_content.py",
+    "generatedAt": "2026-08-15"
+  },
+  "sources": [
+    {
+      "id": "quran-com",
+      "label": "Quran.com",
+      "url": "https://quran.com/"
+    }
+  ],
+  "prophets": [
+    {
+      "id": "adam",
+      "order": 1,
+      "name": "آدم عليه السلام",
+      "shortName": "آدم",
+      "people": "ذريته، ولا يذكر القرآن قومًا خاصًا له",
+      "book": {
+        "text": "لم يذكر كتابًا باسمه",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لم يكن له قوم مكذبون بالمعنى المعروف؛ وقعت قصة إبليس ووسوسة آدم وحواء",
+      "message": "توحيد الله، طاعته، والتوبة عند الخطأ",
+      "placeText": "الجنة، ثم الأرض؛ ولم يحدد القرآن موضع نزوله",
+      "locations": [
+        "paradise"
+      ],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "idris",
+      "order": 2,
+      "name": "إدريس عليه السلام",
+      "shortName": "إدريس",
+      "people": "غير محدد في القرآن",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومه ولا عقوبة لقوم مكذبين",
+      "message": "الصدق والاستقامة والعبادة؛ قال تعالى: **﴿إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا﴾**",
+      "placeText": "غير محدد قرآنيًا",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "pre-abrahamic"
+      },
+      "quranRefs": [
+        "19:56"
+      ]
+    },
+    {
+      "id": "nuh",
+      "order": 3,
+      "name": "نوح عليه السلام",
+      "shortName": "نوح",
+      "people": "قوم نوح",
+      "book": {
+        "text": "لم يذكر كتاب باسمه",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "الشرك وعبادة الأصنام، والتكذيب والاستكبار؛ **أُغرقوا بالطوفان**",
+      "message": "توحيد الله وترك عبادة الأصنام والاستغفار والإنذار من العذاب",
+      "placeText": "لم يحدد القرآن بلده بدقة",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "pre-abrahamic"
+      }
+    },
+    {
+      "id": "hud",
+      "order": 4,
+      "name": "هود عليه السلام",
+      "shortName": "هود",
+      "people": "عاد",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "الشرك، الاستكبار، القوة والبطش والتكذيب؛ أهلكوا **بالريح العقيم**",
+      "message": "عبادة الله وحده وترك الاستكبار، وشكر النعم",
+      "placeText": "الأحقاف؛ جنوب الجزيرة العربية على الأرجح",
+      "locations": [
+        "al-ahqaf"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "salih",
+      "order": 5,
+      "name": "صالح عليه السلام",
+      "shortName": "صالح",
+      "people": "ثمود",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "الشرك، التكذيب، و**عقر الناقة**؛ أخذتهم الصيحة/الرجفة والهلاك",
+      "message": "التوحيد وترك الفساد، واحترام آية الله «الناقة»",
+      "placeText": "الحِجر في شمال غرب الجزيرة العربية",
+      "locations": [
+        "al-hijr"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "ibrahim",
+      "order": 6,
+      "name": "إبراهيم عليه السلام",
+      "shortName": "إبراهيم",
+      "people": "قومه، ومنهم عبدة الأصنام، ثم دعا إلى التوحيد",
+      "book": {
+        "text": "صحف إبراهيم مذكورة في القرآن",
+        "namedInQuran": true,
+        "bookId": "suhuf-ibrahim"
+      },
+      "sinsAndPunishment": "الشرك وعبادة الأصنام؛ حاول قومه إحراقه فأنجاه الله",
+      "message": "مناظرة المشركين، تحطيم حجج الشرك، إخلاص العبادة لله، وبناء البيت الحرام",
+      "placeText": "العراق/بلاد الرافدين، ثم الشام ومكة",
+      "locations": [
+        "mesopotamia",
+        "ash-sham",
+        "mecca"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "lut",
+      "order": 7,
+      "name": "لوط عليه السلام",
+      "shortName": "لوط",
+      "people": "قوم لوط",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "الفاحشة، قطع السبيل، المجاهرة بالمنكر والتكذيب؛ **قُلبت مدائنهم وأُمطرت بالحجارة**",
+      "message": "التوحيد والطهارة وترك الفواحش",
+      "placeText": "مدائن قوم لوط في منطقة البحر الميت على المشهور",
+      "locations": [
+        "cities-of-lut"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk",
+        "moral-corruption"
+      ],
+      "lineage": {
+        "branch": "other",
+        "contemporaryOf": [
+          "ibrahim"
+        ]
+      }
+    },
+    {
+      "id": "ismail",
+      "order": 8,
+      "name": "إسماعيل عليه السلام",
+      "shortName": "إسماعيل",
+      "people": "ذريته وأهل مكة ومن حولهم",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا مكذبين له ولا عقوبة جماعية لهم",
+      "message": "الصلاة والزكاة، الصدق والوفاء بالعهد؛ **﴿كَانَ صَادِقَ الْوَعْدِ﴾**",
+      "placeText": "مكة",
+      "locations": [
+        "mecca"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "ismaili",
+        "parentId": "ibrahim"
+      },
+      "quranRefs": [
+        "19:54"
+      ]
+    },
+    {
+      "id": "ishaq",
+      "order": 9,
+      "name": "إسحاق عليه السلام",
+      "shortName": "إسحاق",
+      "people": "ذريته",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا خاصًا مكذبًا له",
+      "message": "امتداد دعوة إبراهيم والتوحيد",
+      "placeText": "بلاد الشام",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ibrahim"
+      }
+    },
+    {
+      "id": "yaqub",
+      "order": 10,
+      "name": "يعقوب عليه السلام (إسرائيل)",
+      "shortName": "يعقوب",
+      "people": "ذريته، بنو إسرائيل",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن عقوبة لقومه في زمنه",
+      "message": "التوحيد، العبادة، والوصية لأبنائه بالتمسك بدين الله",
+      "placeText": "بلاد الشام",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "ishaq"
+      }
+    },
+    {
+      "id": "yusuf",
+      "order": 11,
+      "name": "يوسف عليه السلام",
+      "shortName": "يوسف",
+      "people": "أهل مصر، وأهل بيته من بني إسرائيل",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا عوقبوا بسبب تكذيبه",
+      "message": "التوحيد، العفة، الأمانة، الصبر، العفو، وإدارة شؤون الدولة",
+      "placeText": "مصر",
+      "locations": [
+        "egypt"
+      ],
+      "locationCertainty": "quranic",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "yaqub"
+      }
+    },
+    {
+      "id": "ayyub",
+      "order": 12,
+      "name": "أيوب عليه السلام",
+      "shortName": "أيوب",
+      "people": "قومه غير محددين",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن عقوبة لقومه",
+      "message": "الصبر على البلاء، اللجوء إلى الله، وعدم اليأس",
+      "placeText": "غير محدد قرآنيًا؛ ينسب تقليديًا إلى منطقة الشام",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "shuayb",
+      "order": 13,
+      "name": "شعيب عليه السلام",
+      "shortName": "شعيب",
+      "people": "مدين وأصحاب الأيكة",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "الشرك، **التطفيف في الكيل والميزان، بخس الناس حقوقهم، والإفساد في الأرض**؛ أخذتهم الرجفة/عذاب يوم الظلة بحسب السياق القرآني",
+      "message": "التوحيد، العدل الاقتصادي، الوفاء بالكيل والميزان، وعدم الفساد",
+      "placeText": "مدين، شمال غرب الجزيرة العربية على المشهور",
+      "locations": [
+        "midyan"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "economic-corruption"
+      ],
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "musa",
+      "order": 14,
+      "name": "موسى عليه السلام",
+      "shortName": "موسى",
+      "people": "فرعون وقومه، وبنو إسرائيل",
+      "book": {
+        "text": "التوراة",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "فرعون: الطغيان وادعاء العلو وقتل الأبناء واستعباد بني إسرائيل؛ أهلكه الله **بالغرق**. ومن بني إسرائيل وقع الشرك بعبادة العجل وغير ذلك",
+      "message": "توحيد الله، تحرير بني إسرائيل من الظلم، إقامة شريعة الله",
+      "placeText": "مصر وسيناء",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance",
+        "tyranny"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "harun",
+      "order": 15,
+      "name": "هارون عليه السلام",
+      "shortName": "هارون",
+      "people": "بنو إسرائيل، ومع موسى دعا فرعون وقومه",
+      "book": {
+        "text": "التوراة مع موسى",
+        "namedInQuran": true,
+        "bookId": "tawrah"
+      },
+      "sinsAndPunishment": "نفس سياق دعوة موسى؛ ومن أبرز أحداث قومه عبادة العجل",
+      "message": "التوحيد، نصرة موسى، وقيادة بني إسرائيل على شريعة الله",
+      "placeText": "مصر وسيناء",
+      "locations": [
+        "egypt",
+        "sinai"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite",
+        "contemporaryOf": [
+          "musa"
+        ]
+      }
+    },
+    {
+      "id": "dawud",
+      "order": 16,
+      "name": "داود عليه السلام",
+      "shortName": "داود",
+      "people": "بنو إسرائيل",
+      "book": {
+        "text": "الزبور",
+        "namedInQuran": true,
+        "bookId": "zabur"
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا خاصًا عوقبوا لتكذيبه",
+      "message": "العبادة والحكم بالعدل، والتسبيح، والعدل بين الناس",
+      "placeText": "بلاد الشام، والقدس",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "sulayman",
+      "order": 17,
+      "name": "سليمان عليه السلام",
+      "shortName": "سليمان",
+      "people": "بنو إسرائيل، وحكم قومًا واسعًا من الإنس والجن والطير",
+      "book": {
+        "text": "لم يذكر كتابًا باسمه",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا عوقبوا لتكذيبه؛ ومن الأحداث مواجهة ملكة سبأ وقومها مع عبادتهم للشمس",
+      "message": "التوحيد، شكر النعمة، العدل، وتسخير الملك في طاعة الله",
+      "placeText": "الشام والقدس",
+      "locations": [
+        "ash-sham",
+        "jerusalem"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "dawud"
+      }
+    },
+    {
+      "id": "ilyas",
+      "order": 18,
+      "name": "إلياس عليه السلام",
+      "shortName": "إلياس",
+      "people": "قومه من بني إسرائيل، وكانوا يعبدون بعلًا",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "عبادة بعل والتكذيب؛ لا يذكر القرآن تفصيل عقوبة جماعية لهم",
+      "message": "توحيد الله وترك عبادة بعل",
+      "placeText": "بلاد الشام على المشهور",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "sins": [
+        "shirk"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "al-yasa",
+      "order": 19,
+      "name": "اليسع عليه السلام",
+      "shortName": "اليسع",
+      "people": "قومه غير محددين تفصيلًا؛ من بني إسرائيل على المشهور",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن معصية قومه أو عقوبتهم",
+      "message": "الاستقامة والصلاح؛ وصفه القرآن من الأخيار",
+      "placeText": "بلاد الشام على المشهور",
+      "locations": [
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yunus",
+      "order": 20,
+      "name": "يونس عليه السلام",
+      "shortName": "يونس",
+      "people": "قوم يونس",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "كذبوا أولًا، ثم **آمنوا قبل نزول العذاب**، ولذلك كشف الله عنهم العذاب",
+      "message": "التوحيد والإنذار والتوبة؛ وقومه نموذج نادر لقوم آمنوا بعد إنذار نبيهم فرفع الله عنهم العذاب",
+      "placeText": "نينوى، العراق على المشهور",
+      "locations": [
+        "nineveh"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "other"
+      }
+    },
+    {
+      "id": "dhul-kifl",
+      "order": 21,
+      "name": "ذو الكفل عليه السلام",
+      "shortName": "ذو الكفل",
+      "people": "غير محدد",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا أو عقوبة لهم",
+      "message": "الصبر والصلاح والوفاء؛ قال تعالى: **﴿كُلٌّ مِنَ الصَّابِرِينَ﴾**",
+      "placeText": "غير محدد",
+      "locations": [],
+      "locationCertainty": "unspecified",
+      "lineage": {
+        "branch": "other"
+      },
+      "quranRefs": [
+        "21:85"
+      ]
+    },
+    {
+      "id": "zakariya",
+      "order": 22,
+      "name": "زكريا عليه السلام",
+      "shortName": "زكريا",
+      "people": "بنو إسرائيل",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن قومًا عوقبوا لتكذيب زكريا",
+      "message": "العبادة، الدعاء، رعاية مريم، والتمسك بطاعة الله",
+      "placeText": "القدس / بلاد الشام",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "yahya",
+      "order": 23,
+      "name": "يحيى عليه السلام",
+      "shortName": "يحيى",
+      "people": "بنو إسرائيل",
+      "book": {
+        "text": "لم يذكر كتابًا",
+        "namedInQuran": false,
+        "bookId": null
+      },
+      "sinsAndPunishment": "لا يذكر القرآن عقوبة قومه تفصيلًا؛ قتلته فئة من بني إسرائيل بحسب الروايات التاريخية، لكن تفاصيل ذلك ليست في القرآن",
+      "message": "التقوى، العفة، الصلاح، والتمسك بكتاب الله",
+      "placeText": "القدس / بلاد الشام",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "traditional",
+      "lineage": {
+        "branch": "israelite",
+        "parentId": "zakariya"
+      }
+    },
+    {
+      "id": "isa",
+      "order": 24,
+      "name": "عيسى عليه السلام",
+      "shortName": "عيسى",
+      "people": "بنو إسرائيل",
+      "book": {
+        "text": "الإنجيل",
+        "namedInQuran": true,
+        "bookId": "injil"
+      },
+      "sinsAndPunishment": "التكذيب، قتل الأنبياء، ومحاولة قتل عيسى؛ ورفع الله عيسى إليه ولم يقتلوه",
+      "message": "توحيد الله، تصديق التوراة، تصحيح الانحراف، التبشير بالرسول محمد ﷺ، والرحمة والعبادة",
+      "placeText": "بيت المقدس وبلاد الشام",
+      "locations": [
+        "jerusalem",
+        "ash-sham"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "distortion-of-religion"
+      ],
+      "lineage": {
+        "branch": "israelite"
+      }
+    },
+    {
+      "id": "muhammad",
+      "order": 25,
+      "name": "محمد ﷺ",
+      "shortName": "محمد",
+      "people": "أولًا قريش والعرب، ثم الناس كافة",
+      "book": {
+        "text": "القرآن الكريم",
+        "namedInQuran": true,
+        "bookId": "quran"
+      },
+      "sinsAndPunishment": "الشرك، عبادة الأصنام، الظلم، وألوان من الفساد الاجتماعي؛ نصر الله رسوله وفتح مكة، ثم دخل الناس في الإسلام أفواجًا",
+      "message": "توحيد الله، ختم النبوة، القرآن، العبادة، الأخلاق، العدل، إصلاح المجتمع، والإيمان بالأنبياء جميعًا",
+      "placeText": "مكة والمدينة",
+      "locations": [
+        "mecca",
+        "medina"
+      ],
+      "locationCertainty": "quranic",
+      "sins": [
+        "shirk",
+        "arrogance"
+      ],
+      "lineage": {
+        "branch": "ismaili"
+      },
+      "detailPage": "muhammad"
+    }
+  ]
+}
