@@ -450,16 +450,35 @@ function itineraryField(route) {
 
 /* ---------- map (Leaflet, vendored locally; tiles from OSM) ---------- */
 
+const LEAFLET = new URL("vendor/leaflet/", document.baseURI);
+
+function loadTag(tag, props) {
+  return new Promise((resolve, reject) => {
+    const node = el(tag, props);
+    node.onload = resolve;
+    node.onerror = () => reject(new Error(`failed to load ${props.href || props.src}`));
+    document.head.append(node);
+  });
+}
+
 let leafletReady = null;
 function ensureLeaflet() {
   if (window.L) return Promise.resolve();
   if (!leafletReady) {
-    leafletReady = new Promise((resolve, reject) => {
-      document.head.append(el("link", { rel: "stylesheet", href: "vendor/leaflet/leaflet.css" }));
-      const script = el("script", { src: "vendor/leaflet/leaflet.js" });
-      script.onload = resolve;
-      script.onerror = () => reject(new Error("leaflet"));
-      document.head.append(script);
+    leafletReady = Promise.all([
+      // Wait for BOTH. Resolving on the script alone is a race: Leaflet works
+      // out where its marker images live by reading the background-image of a
+      // probe element styled by leaflet.css. Lose the race and it caches an
+      // empty imagePath on the prototype, and every marker for the rest of the
+      // session requests an icon URL that 404s. Locally the stylesheet is
+      // instant so the race is always won, which is why this only showed up
+      // once the site was on a real network.
+      loadTag("link", { rel: "stylesheet", href: `${LEAFLET}leaflet.css` }),
+      loadTag("script", { src: `${LEAFLET}leaflet.js` }),
+    ]).then(() => {
+      // Belt and braces: state the path outright so nothing is inferred from
+      // CSS at all. Absolute, so it is correct under a project-page subpath.
+      L.Icon.Default.imagePath = `${LEAFLET}images/`;
     });
   }
   return leafletReady;
