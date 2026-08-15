@@ -1,8 +1,7 @@
 {
   "$schema": "../schema/routes.schema.json",
   "version": 1,
-  "note": "Journeys, as ordered lists of waypoint ids into locations.json. Language-neutral: the itinerary is rendered per language from each waypoint's own name, so no route prose needs translating. Waypoints whose position cannot be fixed carry precision 'unlocated' in the registry — they appear in the written itinerary but contribute no point to the drawn line, because a guessed pin would be worse than a gap.",
-
+  "note": "Journeys, as ordered lists of waypoint ids into locations.json. Language-neutral: the itinerary is rendered per language from each waypoint's own name, so no route prose needs translating. Waypoints whose position cannot be fixed carry precision 'unlocated' in the registry — they appear in the written itinerary but contribute no point to the drawn line, because a guessed pin would be worse than a gap. A route states the DIRECTION of travel, which the place column alone does not always give: 'Mecca and Yemen' for the Year of the Elephant does not say the army marched from Sana'a to Mecca.",
   "routes": {
     "hijrah": {
       "eventId": 51,
@@ -35,20 +34,119 @@
         "de": "Die Reihenfolge der Stationen folgt der für diese Ausgabe übernommenen Route. Viele Positionen sind ungefähr, mehrere lassen sich gar nicht bestimmen."
       }
     },
-
     "medina-tabuk": {
       "eventId": 93,
-      "waypoints": ["medina", "tabuk"]
+      "waypoints": [
+        "medina",
+        "tabuk"
+      ]
     },
-
     "medina-mecca-hajj": {
       "eventId": 96,
-      "waypoints": ["medina", "mecca"]
+      "waypoints": [
+        "medina",
+        "mecca"
+      ]
     },
-
     "medina-balqa": {
       "eventId": 98,
-      "waypoints": ["medina", "balqa"]
+      "waypoints": [
+        "medina",
+        "balqa"
+      ]
+    },
+    "year-of-the-elephant": {
+      "eventId": 2,
+      "waypoints": [
+        "sanaa",
+        "mecca"
+      ]
+    },
+    "nursing-with-halimah": {
+      "eventId": 6,
+      "waypoints": [
+        "mecca",
+        "badiyat-bani-saad"
+      ]
+    },
+    "return-to-his-mother": {
+      "eventId": 8,
+      "waypoints": [
+        "badiyat-bani-saad",
+        "mecca"
+      ]
+    },
+    "aminah-visits-medina": {
+      "eventId": 9,
+      "waypoints": [
+        "mecca",
+        "medina"
+      ]
+    },
+    "journey-to-al-sham": {
+      "eventId": 14,
+      "waypoints": [
+        "mecca",
+        "sham-route"
+      ]
+    },
+    "trading-for-khadijah": {
+      "eventId": 17,
+      "waypoints": [
+        "mecca",
+        "ash-sham"
+      ]
+    },
+    "journey-to-taif": {
+      "eventId": 44,
+      "waypoints": [
+        "mecca",
+        "taif"
+      ]
+    },
+    "quraysh-marches-on-uhud": {
+      "eventId": 64,
+      "waypoints": [
+        "mecca",
+        "medina"
+      ]
+    },
+    "setting-out-to-hudaybiyah": {
+      "eventId": 75,
+      "waypoints": [
+        "medina",
+        "al-hudaybiyah"
+      ]
+    },
+    "march-to-mecca": {
+      "eventId": 86,
+      "waypoints": [
+        "medina",
+        "mecca"
+      ]
+    },
+    "setting-out-farewell-hajj": {
+      "eventId": 99,
+      "waypoints": [
+        "medina",
+        "mecca"
+      ]
+    },
+    "farewell-hajj-rites": {
+      "eventId": 100,
+      "waypoints": [
+        "mecca",
+        "arafat",
+        "muzdalifah",
+        "mina"
+      ]
+    },
+    "return-to-medina": {
+      "eventId": 103,
+      "waypoints": [
+        "mecca",
+        "medina"
+      ]
     }
   }
 }

@@ -64,9 +64,11 @@ integers for timeline spacing only (negative = before the Hijra) and must never 
 dates. `dateCaveat` at the top of `muhammad.ar.json` is the source's own warning about
 Hijri→Gregorian conversion, and belongs anywhere Gregorian dates appear.
 
-**Journeys are routes, not two pins.** Four events carry a `routeId` into `routes.json`:
-event 51 (the Hijrah, 21 stages), 93 (Medina → Tabuk), 96 (Medina → Mecca) and 98 (Medina →
-al-Balqa). A route is drawn *in addition to* the event's `locations`, which stay exactly as the
+**Journeys are routes, not two pins.** Seventeen events carry a `routeId` into `routes.json` —
+event 51 (the Hijrah, 21 stages) and 100 (the farewell rites, 4 stages) are multi-stage; the rest
+are two-point journeys. A route states the **direction of travel**, which the source's place column
+often does not: `مكة واليمن` for the Year of the Elephant says *Mecca and Yemen*, not that Abrahah's
+army marched from Sana'a to Mecca. A route is drawn *in addition to* the event's `locations`, which stay exactly as the
 source's place column gave them — the route layer never overwrites the source. Waypoints carry
 `precision: "unlocated"` when the place is attested but its position cannot be fixed: nine of the
 Hijrah's stages are in that state, so they appear in the written itinerary and leave a gap in the

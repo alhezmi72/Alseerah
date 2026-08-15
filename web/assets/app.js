@@ -348,20 +348,24 @@ function renderDetail(doc) {
   if (route) dl.append(itineraryField(route));
   inner.append(dl);
 
-  // Image of the location, credited as the licence requires.
-  const withImage = locs.find((l) => l.image);
-  if (withImage) inner.append(figureFor(withImage));
+  // Image of the location. For a journey, show where it ends: the destination
+  // is what the event is about, and it is also what the map's end marker points
+  // at, so panel and map agree.
+  const destination = routeLocations(route).at(-1);
+  const shown = (destination?.image && destination) || locs.find((l) => l.image);
+  if (shown) inner.append(figureFor(shown, shown === destination && Boolean(route)));
 
   // A route replaces the plain pins: it is the fuller statement of where the
   // event happened.
-  const routePoints = route
-    ? route.waypoints.map((id) => state.locations[id]).filter((l) => l && l.lat != null)
-    : [];
+  const routePoints = routeLocations(route);
   const mapPoints = routePoints.length ? routePoints : geo;
 
   if (mapPoints.length) {
     const box = el("div", { className: "map", id: "mapBox" });
     inner.append(box);
+    // Name the two ends in words as well as marking them by shape — colour and
+    // shape alone are not enough on their own.
+    if (routePoints.length > 1) inner.append(routeLegend(routePoints));
     if (mapPoints.some((l) => l.certainty === "disputed" || l.precision === "approximate")) {
       inner.append(el("p", { className: "map-note", textContent: s.disputedNote }));
     }
@@ -399,7 +403,7 @@ function go(index, entries) {
   if (entry) location.hash = href(state.lang, state.view, idOf(entry));
 }
 
-function figureFor(loc) {
+function figureFor(loc, isDestination = false) {
   const img = el("img", {
     src: loc.image.thumbUrl,
     alt: loc.name[state.lang],
@@ -418,7 +422,37 @@ function figureFor(loc) {
     `${loc.name[state.lang]} · ${s.photoBy} ${loc.image.credit} (${loc.image.license}) `,
     el("a", { href: loc.image.descriptionUrl, target: "_blank", rel: "noopener noreferrer", textContent: s.viaCommons }));
 
-  return el("figure", { className: "figure" }, img, caption);
+  const figure = el("figure", { className: "figure" }, img, caption);
+  if (isDestination) {
+    figure.prepend(el("span", { className: "figure-tag", textContent: s.destination }));
+    figure.classList.add("is-destination");
+  }
+  return figure;
+}
+
+// The located waypoints of a route, in order. Unlocatable stages are named in
+// the itinerary but contribute no point, so they are skipped here.
+function routeLocations(route) {
+  if (!route) return [];
+  const located = route.waypoints.map((id) => state.locations[id]).filter((l) => l && l.lat != null);
+
+  // Collapse consecutive repeats. A route may legitimately pass the same place
+  // twice — the Hijrah reaches Malal, goes on to al-Arj and Batn Ri'm, and comes
+  // back through Malal — but those two are unlocated, so after filtering the two
+  // Malals sit next to each other and would draw a zero-length segment with two
+  // dots stacked on one pixel. The written itinerary still lists both, because
+  // the traveller really did pass twice; only the drawing is collapsed.
+  return located.filter((l, i) => i === 0 || l !== located[i - 1]);
+}
+
+function routeLegend(points) {
+  const s = t();
+  const key = (kind, loc) => el("span", { className: "legend-item" },
+    el("span", { className: `map-pin is-${kind} is-inline` }, el("span", { className: "map-pin-glyph" })),
+    el("span", {}, el("b", { textContent: s.routeEnds[kind] }), ` ${loc.name[state.lang]}`));
+  return el("p", { className: "map-legend" },
+    key("start", points[0]),
+    key("end", points.at(-1)));
 }
 
 // The written itinerary: every stage in order, in the reader's language, with
@@ -484,6 +518,23 @@ function ensureLeaflet() {
   return leafletReady;
 }
 
+// Built with divIcon rather than image pins: no new binary assets, it themes
+// with the rest of the interface, and it stays crisp at any zoom.
+function endpointIcon(kind) {
+  // iconSize must match what the CSS actually draws, or Leaflet's anchor maths
+  // put the mark off the point. The ring is centred on its coordinate; the
+  // teardrop's sharp corner — which the CSS pins at (4, 26) by rotating about
+  // that corner — is what sits on it.
+  const end = kind === "end";
+  return L.divIcon({
+    className: "",                       // Leaflet's default draws a white box
+    html: `<span class="map-pin is-${kind}"><span class="map-pin-glyph"></span></span>`,
+    iconSize: end ? [22, 30] : [26, 26],
+    iconAnchor: end ? [4, 26] : [13, 13],
+    popupAnchor: end ? [9, -24] : [0, -15],
+  });
+}
+
 function destroyMap() {
   if (state.map) { state.map.remove(); state.map = null; }
 }
@@ -507,17 +558,29 @@ async function showMap(box, locs, isRoute = false) {
     L.polyline(points, { color: accent, weight: 2.5, opacity: .85, dashArray: "6 6" }).addTo(map);
   }
 
+  const s = t();
   locs.forEach((l, i) => {
-    const first = i === 0, last = i === locs.length - 1;
-    const label = `${l.name[state.lang]} — ${t().placeCertainty[l.certainty]}`;
-    // On a route only the endpoints get a full pin; the stages in between are
-    // small dots, so a twenty-stage journey stays readable.
-    if (!isRoute || first || last) {
-      L.marker(points[i]).addTo(map).bindPopup(label);
-    } else {
+    const first = i === 0, last = i === locs.length - 1 && locs.length > 1;
+    const place = `${l.name[state.lang]} — ${s.placeCertainty[l.certainty]}`;
+
+    // A journey needs its direction readable at a glance, so the two ends are
+    // deliberately different shapes and colours rather than two identical pins:
+    // a hollow ring where it starts, a filled flag where it ends. Stages in
+    // between are small dots, so a twenty-stage route stays legible.
+    if (isRoute && (first || last)) {
+      const kind = first ? "start" : "end";
+      L.marker(points[i], {
+        icon: endpointIcon(kind),
+        zIndexOffset: 1000,
+        title: `${s.routeEnds[kind]}: ${l.name[state.lang]}`,
+      }).addTo(map).bindPopup(`<b>${s.routeEnds[kind]}</b><br>${place}`);
+    } else if (isRoute) {
       L.circleMarker(points[i], {
-        radius: 4, color: accent, weight: 2, fillColor: "#fff", fillOpacity: 1,
-      }).addTo(map).bindPopup(label);
+        radius: 3.5, color: accent, weight: 2, opacity: .9,
+        fillColor: "#fff", fillOpacity: 1,
+      }).addTo(map).bindPopup(place);
+    } else {
+      L.marker(points[i]).addTo(map).bindPopup(place);
     }
   });
 

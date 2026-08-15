@@ -26,14 +26,14 @@ the source document.
 
 ## Location photographs — Wikimedia Commons
 
-32 of the 56 registered places carry a photograph, each under a free
+34 of the 57 registered places carry a photograph, each under a free
 licence (CC0, CC BY, CC BY-SA or public domain). The fetch script refuses
 anything else, and images were also reviewed by eye — an automated check alone
 once returned a bird's nest for Badr and a football pitch for Ta'if.
 
-Of the 24 without one: 10 are route waypoints that cannot be located
+Of the 23 without one: 10 are route waypoints that cannot be located
 or are not geographic places at all, so no photograph applies; the remaining
-14 are places for which Commons held nothing that faithfully depicts them, and a
+13 are places for which Commons held nothing that faithfully depicts them, and a
 lookalike would misrepresent the place.
 
 | Location | File | Author | Licence |
@@ -41,6 +41,7 @@ lookalike would misrepresent the place.
 | Abyssinia | [The North Stelae Park, Axum, Ethiopia (2812686646).jpg](https://commons.wikimedia.org/wiki/File:The_North_Stelae_Park,_Axum,_Ethiopia_(2812686646).jpg) | A. Davey from Where I Live Now: Pacific Northwest | CC BY 2.0 |
 | Al-Ahqaf | [Rub al Khali 002.JPG](https://commons.wikimedia.org/wiki/File:Rub_al_Khali_002.JPG) | Nepenthes | CC BY-SA 3.0 |
 | Al-Aqabah (at Mina) | [Crowds in Mina head to the Jamarat Bridge - Flickr - Al Jazeera English.jpg](https://commons.wikimedia.org/wiki/File:Crowds_in_Mina_head_to_the_Jamarat_Bridge_-_Flickr_-_Al_Jazeera_English.jpg) | Omar Chatriwala of Al Jazeera English | CC BY-SA 2.0 |
+| Al-Balqa | [Old City Of Salt-Jad'a Stairs.jpg](https://commons.wikimedia.org/wiki/File:Old_City_Of_Salt-Jad%27a_Stairs.jpg) | Faraheed | CC BY-SA 4.0 |
 | Al-Hijr (Hegra) | [27, Hegra (Mada'in Salih), Saudi Arabia.jpg](https://commons.wikimedia.org/wiki/File:27,_Hegra_(Mada%27in_Salih),_Saudi_Arabia.jpg) | Following Hadrian | CC BY-SA 2.0 |
 | Al-Hudaybiyah | [Hudaibiyah Mosque - panoramio (cropped).jpg](https://commons.wikimedia.org/wiki/File:Hudaibiyah_Mosque_-_panoramio_(cropped).jpg) | GusJuned | CC BY-SA 3.0 |
 | Arabian Peninsula | [Sands of al-Dahna, eastern Saudi Arabia (4) (50620707316).jpg](https://commons.wikimedia.org/wiki/File:Sands_of_al-Dahna,_eastern_Saudi_Arabia_(4)_(50620707316).jpg) | Richard Mortel from Riyadh, Saudi Arabia | CC BY 2.0 |
@@ -65,6 +66,7 @@ lookalike would misrepresent the place.
 | Nineveh | [Mosul Wall-Nineveh 01.jpg](https://commons.wikimedia.org/wiki/File:Mosul_Wall-Nineveh_01.jpg) | Abdulsalam Al Dabbagh | CC BY-SA 4.0 |
 | Quba | [Quba Mosque (2024).jpg](https://commons.wikimedia.org/wiki/File:Quba_Mosque_(2024).jpg) | Kaliper1 | CC BY-SA 4.0 |
 | Route to al-Sham | [Abandoned Hijaz Railway station, north-western Saudi Arabia.jpg](https://commons.wikimedia.org/wiki/File:Abandoned_Hijaz_Railway_station,_north-western_Saudi_Arabia.jpg) | Richard Mortel | CC BY 2.0 |
+| Sana'a | [Old Sanaa, Yemen (10732756906).jpg](https://commons.wikimedia.org/wiki/File:Old_Sanaa,_Yemen_(10732756906).jpg) | Rod Waddington from Kergunyah, Australia | CC BY-SA 2.0 |
 | Sinai | [Mount Sinai Egypt 1.jpg](https://commons.wikimedia.org/wiki/File:Mount_Sinai_Egypt_1.jpg) | Mohammed Moussa | CC BY-SA 3.0 |
 | Ta'if | [Shubra Palace, 1905, al-Taif, Saudi Arabia (4).jpg](https://commons.wikimedia.org/wiki/File:Shubra_Palace,_1905,_al-Taif,_Saudi_Arabia_(4).jpg) | Richard Mortel | CC BY 2.0 |
 | Tabuk | [Tabuk Fortress 2022.jpg](https://commons.wikimedia.org/wiki/File:Tabuk_Fortress_2022.jpg) | amanderson2 | CC BY 2.0 |

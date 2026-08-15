@@ -216,10 +216,23 @@ NEEDS_SEPARATE_STUDY = {73}
 # the source's place column gave it — the route is drawn in addition to it, not
 # instead of it.
 ROUTES = {
-    51: "hijrah",            # Mecca → cave of Thawr → ... → Quba → Medina
-    93: "medina-tabuk",
-    96: "medina-mecca-hajj",
-    98: "medina-balqa",
+    2:   "year-of-the-elephant",      # Sana'a → Mecca
+    6:   "nursing-with-halimah",      # Mecca → desert of Banu Sa'd
+    8:   "return-to-his-mother",      # desert of Banu Sa'd → Mecca
+    9:   "aminah-visits-medina",      # Mecca → Medina
+    14:  "journey-to-al-sham",        # Mecca → the road to al-Sham
+    17:  "trading-for-khadijah",      # Mecca → al-Sham
+    44:  "journey-to-taif",           # Mecca → Ta'if
+    51:  "hijrah",                    # Mecca → cave of Thawr → ... → Quba → Medina
+    64:  "quraysh-marches-on-uhud",   # Mecca → Medina
+    75:  "setting-out-to-hudaybiyah", # Medina → al-Hudaybiyah
+    86:  "march-to-mecca",            # Medina → Mecca
+    93:  "medina-tabuk",
+    96:  "medina-mecca-hajj",
+    98:  "medina-balqa",
+    99:  "setting-out-farewell-hajj", # Medina → Mecca
+    100: "farewell-hajj-rites",       # Mecca → Arafat → Muzdalifah → Mina
+    103: "return-to-medina",          # Mecca → Medina
 }
 
 # Verbatim place cell -> location ids, in the order they appear in the cell.

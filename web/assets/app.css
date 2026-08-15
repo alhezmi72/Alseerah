@@ -326,6 +326,71 @@ html[dir="rtl"] .field dt { text-transform: none; letter-spacing: 0; font-size: 
   background: transparent; border: 1px dashed var(--line); color: var(--muted);
 }
 
+/* ---------- route endpoints ----------
+   The two ends of a journey differ by SHAPE as well as colour — a hollow ring
+   where it departs, a filled teardrop where it arrives — so they stay
+   distinguishable in greyscale and to colour-blind readers. */
+
+.map-pin {
+  display: block; inline-size: 26px; block-size: 26px; position: relative;
+}
+.map-pin .map-pin-glyph {
+  position: absolute; inset: 0;
+  display: block; border: 3px solid; box-sizing: border-box;
+  /* A halo in the page background colour separates the mark from the dashed
+     line and from intermediate dots, which on a long route can cluster right
+     under it — four of the Hijrah's stages sit within a few km of Mecca. */
+  box-shadow: 0 0 0 2px var(--surface), 0 1px 5px rgba(0, 0, 0, .4);
+}
+
+/* departure: an open ring, centred on the point */
+.map-pin.is-start .map-pin-glyph {
+  border-radius: 50%;
+  border-color: var(--accent);
+  background: var(--surface);
+}
+.map-pin.is-start .map-pin-glyph::after {
+  content: ""; position: absolute; inset: 4px;
+  border-radius: 50%; background: var(--accent);
+}
+
+/* arrival: a filled teardrop whose tip sits on the point */
+.map-pin.is-end { inline-size: 22px; block-size: 30px; }
+.map-pin.is-end .map-pin-glyph {
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  inset: 0 0 4px 4px;
+  border-color: color-mix(in srgb, var(--teal) 70%, #000);
+  background: var(--teal);
+}
+
+/* the same marks, sitting inline in the legend */
+.map-pin.is-inline { display: inline-block; vertical-align: -3px; flex: none; }
+.map-pin.is-inline.is-start { inline-size: 15px; block-size: 15px; }
+.map-pin.is-inline.is-start .map-pin-glyph { border-width: 2.5px; }
+.map-pin.is-inline.is-start .map-pin-glyph::after { inset: 2.5px; }
+.map-pin.is-inline.is-end { inline-size: 13px; block-size: 17px; }
+.map-pin.is-inline.is-end .map-pin-glyph { border-width: 2px; inset: 0 0 2px 2px; }
+
+.map-legend {
+  display: flex; flex-wrap: wrap; gap: .3rem 1.1rem;
+  margin-block-start: .5rem; font-size: .78rem; color: var(--muted);
+}
+.legend-item { display: inline-flex; align-items: center; gap: .4rem; }
+.legend-item b { color: var(--ink); font-weight: 600; }
+
+/* the photograph shown for a journey is the destination — say so on it */
+.figure.is-destination { position: relative; }
+.figure-tag {
+  position: absolute; inset-block-start: .5rem; inset-inline-start: .5rem;
+  background: color-mix(in srgb, var(--teal) 92%, transparent); color: #fff;
+  font-size: .68rem; font-weight: 600; letter-spacing: .04em;
+  padding: .2rem .55rem; border-radius: 999px; text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+}
+html[dir="rtl"] .figure-tag { text-transform: none; letter-spacing: 0; }
+
 .map { block-size: 15rem; border-radius: var(--radius); overflow: hidden; margin-block-start: .6rem; border: 1px solid var(--line); }
 .map-note { color: var(--muted); font-size: .76rem; margin-block-start: .4rem; }
 

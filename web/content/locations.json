@@ -926,7 +926,15 @@
       "zoom": 9,
       "precision": "region",
       "certainty": "established",
-      "image": null
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Old City Of Salt-Jad'a Stairs.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Old_City_Of_Salt-Jad%27a_Stairs.jpg/1280px-Old_City_Of_Salt-Jad%27a_Stairs.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_City_Of_Salt-Jad%27a_Stairs.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Old_City_Of_Salt-Jad%27a_Stairs.jpg",
+        "credit": "Faraheed",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
       "id": "thaniyat-al-murrah",
@@ -1053,6 +1061,28 @@
       "precision": "unlocated",
       "certainty": "traditional",
       "image": null
+    },
+    {
+      "id": "sanaa",
+      "name": {
+        "ar": "صنعاء",
+        "en": "Sana'a",
+        "de": "Sanaa"
+      },
+      "lat": 15.3694,
+      "lon": 44.191,
+      "zoom": 11,
+      "precision": "city",
+      "certainty": "established",
+      "image": {
+        "source": "wikimedia-commons",
+        "file": "Old Sanaa, Yemen (10732756906).jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Old_Sanaa%2C_Yemen_%2810732756906%29.jpg/1280px-Old_Sanaa%2C_Yemen_%2810732756906%29.jpg",
+        "filePath": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Sanaa%2C_Yemen_%2810732756906%29.jpg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Old_Sanaa,_Yemen_(10732756906).jpg",
+        "credit": "Rod Waddington from Kergunyah, Australia",
+        "license": "CC BY-SA 2.0"
+      }
     }
   ]
 }

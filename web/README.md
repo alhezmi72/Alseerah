@@ -59,14 +59,21 @@ rather than flattening them:
   the source's own A/B/C date grade. Where the source assigns no grade, the panel says so
   instead of leaving a confident blank. Event 73's "needs separate study" flag is shown too.
 - **The dating caveat** appears under every Gregorian date.
-- **Routes** for the four journey events. The line is drawn through the waypoints that can be
-  located; endpoints get full pins and intermediate stages small dots, so a 21-stage journey stays
-  readable. The full itinerary is listed below the map in the reader's language, numbered in order,
-  with unlocatable stages shown outlined and a note explaining why they are not on the map.
+- **Routes** for the 17 events that are journeys. The line is drawn through the waypoints that can be
+  located; intermediate stages are small dots, so a 21-stage journey stays readable. The full
+  itinerary is listed below the map in the reader's language, numbered in order, with unlocatable
+  stages shown outlined and a note explaining why they are not on the map.
+- **Direction is readable at a glance.** The two ends of a journey differ by *shape* as well as
+  colour — an open ring where it departs, a filled teardrop where it arrives — so they stay
+  distinguishable in greyscale and to colour-blind readers. Both are `divIcon`s styled by
+  `app.css`, so they need no new image assets and theme with the rest of the interface. A legend
+  under the map names both ends in words, because shape and colour alone are not enough.
+- **The photograph is the destination.** Where an event is a journey, the panel shows the place it
+  ends at rather than where it starts, tagged as the destination, so the picture and the map's end
+  marker agree. Non-journey events are unchanged.
 - **No map without a place.** Where `locations` is empty — Idris, Nuh, Dhul-Kifl — the panel
   prints the source's own wording and no map. Where the identification is `traditional` or
-  `disputed`, a note says the pin is approximate. Journeys with two locations get both pins and
-  a dashed line between them.
+  `disputed`, a note says the pin is approximate.
 - **Qur'an attribution** is displayed on any entry that quotes a verse, naming the published
   edition, as the licence requires.
 - **Unreviewed translations** carry a banner in English and German while
