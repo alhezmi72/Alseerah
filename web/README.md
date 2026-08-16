@@ -59,7 +59,7 @@ rather than flattening them:
   the source's own A/B/C date grade. Where the source assigns no grade, the panel says so
   instead of leaving a confident blank. Event 73's "needs separate study" flag is shown too.
 - **The dating caveat** appears under every Gregorian date.
-- **Routes** for the 17 events that are journeys. The line is drawn through the waypoints that can be
+- **Routes** for the 23 events that are journeys. The line is drawn through the waypoints that can be
   located; intermediate stages are small dots, so a 21-stage journey stays readable. The full
   itinerary is listed below the map in the reader's language, numbered in order, with unlocatable
   stages shown outlined and a note explaining why they are not on the map.

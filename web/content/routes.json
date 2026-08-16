@@ -147,6 +147,48 @@
         "mecca",
         "medina"
       ]
+    },
+    "seclusion-in-hira": {
+      "eventId": 21,
+      "waypoints": [
+        "mecca",
+        "cave-hira"
+      ]
+    },
+    "return-to-khadijah": {
+      "eventId": 23,
+      "waypoints": [
+        "cave-hira",
+        "mecca"
+      ]
+    },
+    "first-migration-to-abyssinia": {
+      "eventId": 34,
+      "waypoints": [
+        "mecca",
+        "abyssinia"
+      ]
+    },
+    "second-migration-to-abyssinia": {
+      "eventId": 35,
+      "waypoints": [
+        "mecca",
+        "abyssinia"
+      ]
+    },
+    "battle-of-hunayn": {
+      "eventId": 90,
+      "waypoints": [
+        "mecca",
+        "hunayn"
+      ]
+    },
+    "siege-of-taif": {
+      "eventId": 91,
+      "waypoints": [
+        "mecca",
+        "taif"
+      ]
     }
   }
 }

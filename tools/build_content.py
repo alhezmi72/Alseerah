@@ -222,17 +222,35 @@ ROUTES = {
     9:   "aminah-visits-medina",      # Mecca → Medina
     14:  "journey-to-al-sham",        # Mecca → the road to al-Sham
     17:  "trading-for-khadijah",      # Mecca → al-Sham
+    21:  "seclusion-in-hira",         # Mecca → cave of Hira
+    23:  "return-to-khadijah",        # cave of Hira → Mecca (after the first revelation)
+    34:  "first-migration-to-abyssinia",   # Mecca → Abyssinia
+    35:  "second-migration-to-abyssinia",  # Mecca → Abyssinia
     44:  "journey-to-taif",           # Mecca → Ta'if
     51:  "hijrah",                    # Mecca → cave of Thawr → ... → Quba → Medina
     64:  "quraysh-marches-on-uhud",   # Mecca → Medina
     75:  "setting-out-to-hudaybiyah", # Medina → al-Hudaybiyah
     86:  "march-to-mecca",            # Medina → Mecca
+    90:  "battle-of-hunayn",          # Mecca → Hunayn
+    91:  "siege-of-taif",             # Mecca → Ta'if
     93:  "medina-tabuk",
     96:  "medina-mecca-hajj",
     98:  "medina-balqa",
     99:  "setting-out-farewell-hajj", # Medina → Mecca
     100: "farewell-hajj-rites",       # Mecca → Arafat → Muzdalifah → Mina
     103: "return-to-medina",          # Mecca → Medina
+}
+
+# Where an event's place column resolves to the wrong pin, the resolution is
+# replaced here. `placeText` is NEVER touched — the panel still prints the
+# Arabic cell verbatim — so the source stays visible and only the mapped
+# location changes. Each entry needs a reason, because this is the one place
+# the map departs from the place column.
+LOCATION_OVERRIDES = {
+    # The cell reads only "مكة", but the event is the Negus's protection of the
+    # migrants, which happened in Abyssinia. Mecca is where the pressure came
+    # from, not where this took place.
+    38: ["abyssinia"],
 }
 
 # Verbatim place cell -> location ids, in the order they appear in the cell.
@@ -463,7 +481,7 @@ def build_events(md: str) -> dict:
                 },
                 "authenticity": authenticity,
                 "placeText": place,
-                "locations": PLACES[place],
+                "locations": LOCATION_OVERRIDES.get(num, PLACES[place]),
                 "movement": "→" in place,
             }
             if num in ROUTES:

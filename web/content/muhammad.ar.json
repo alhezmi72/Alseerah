@@ -590,7 +590,8 @@
       "locations": [
         "cave-hira"
       ],
-      "movement": false
+      "movement": false,
+      "routeId": "seclusion-in-hira"
     },
     {
       "id": 22,
@@ -641,7 +642,8 @@
       "locations": [
         "mecca"
       ],
-      "movement": false
+      "movement": false,
+      "routeId": "return-to-khadijah"
     },
     {
       "id": 24,
@@ -906,7 +908,8 @@
         "mecca",
         "abyssinia"
       ],
-      "movement": true
+      "movement": true,
+      "routeId": "first-migration-to-abyssinia"
     },
     {
       "id": 35,
@@ -930,7 +933,8 @@
       "locations": [
         "abyssinia"
       ],
-      "movement": false
+      "movement": false,
+      "routeId": "second-migration-to-abyssinia"
     },
     {
       "id": 36,
@@ -1000,7 +1004,7 @@
       },
       "placeText": "مكة",
       "locations": [
-        "mecca"
+        "abyssinia"
       ],
       "movement": false
     },
@@ -2279,7 +2283,8 @@
       "locations": [
         "hunayn"
       ],
-      "movement": false
+      "movement": false,
+      "routeId": "battle-of-hunayn"
     },
     {
       "id": 91,
@@ -2303,7 +2308,8 @@
       "locations": [
         "taif"
       ],
-      "movement": false
+      "movement": false,
+      "routeId": "siege-of-taif"
     },
     {
       "id": 92,

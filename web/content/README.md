@@ -64,7 +64,7 @@ integers for timeline spacing only (negative = before the Hijra) and must never 
 dates. `dateCaveat` at the top of `muhammad.ar.json` is the source's own warning about
 Hijri→Gregorian conversion, and belongs anywhere Gregorian dates appear.
 
-**Journeys are routes, not two pins.** Seventeen events carry a `routeId` into `routes.json` —
+**Journeys are routes, not two pins.** Twenty-three events carry a `routeId` into `routes.json` —
 event 51 (the Hijrah, 21 stages) and 100 (the farewell rites, 4 stages) are multi-stage; the rest
 are two-point journeys. A route states the **direction of travel**, which the source's place column
 often does not: `مكة واليمن` for the Year of the Elephant says *Mecca and Yemen*, not that Abrahah's
@@ -74,6 +74,14 @@ source's place column gave them — the route layer never overwrites the source.
 Hijrah's stages are in that state, so they appear in the written itinerary and leave a gap in the
 drawn line rather than getting a guessed pin. The build refuses a route with fewer than two
 locatable waypoints, and cross-checks that each route and its event point at each other.
+
+**Where the place column maps to the wrong pin, the resolution is overridden — the text is not.**
+`LOCATION_OVERRIDES` in `build_content.py` replaces the ids an event resolves to. Event 38's cell
+reads only `مكة`, but the event is the Negus's protection of the migrants, which happened in
+Abyssinia; Mecca is where the pressure came from, not where it took place. `placeText` is never
+altered, so the panel still prints the Arabic cell verbatim and the override changes only what is
+pinned and photographed. Every entry carries its reason, because this is the one place the map
+departs from the source column.
 
 **Where the source declines to locate something, so does the JSON.** `placeText` is always shown;
 `locations` may be empty (Idris, Nuh, Dhul-Kifl), in which case render no map rather than a guess.

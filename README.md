@@ -21,7 +21,7 @@ demand.
 - **Three languages**, switchable without losing your place. Arabic mirrors the
   whole interface to right-to-left; the layout uses logical properties, so there
   is no second stylesheet.
-- **Maps** via OpenStreetMap, with drawn routes for the 17 events that are journeys —
+- **Maps** via OpenStreetMap, with drawn routes for the 23 events that are journeys —
   from the Hijrah's 21 stages to the Year of the Elephant. Departure and arrival are marked
   with different shapes, and named in a legend below the map.
 - **Photographs** of the locations, from Wikimedia Commons under free licences. For a
