@@ -178,7 +178,7 @@
         "quranRefs": {
           "type": "array",
           "description": "Qur'an references quoted in this event, as \"sura:ayah\". Identical across languages.",
-          "items": { "type": "string", "pattern": "^\\d+:\\d+$" }
+          "items": { "type": "string", "pattern": "^\\d+:\\d+(-\\d+)?$" }
         },
         "sources": { "type": "array", "items": { "type": "string" } }
       },

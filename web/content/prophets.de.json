@@ -20,6 +20,9 @@
       "url": "https://quran.com/"
     }
   ],
+  "intro": [
+    "Der Aufruf zur Einheit Gottes ist die Botschaft aller Propheten und Gesandten; die Menschen vor Seiner Strafe und Seinem Feuer zu warnen und ihnen Seinen Lohn und Sein Paradies zu verheißen, ist das Ziel dieser Botschaft. „Alif-Lam-Ra. (Dies ist) ein Buch, dessen Zeichen eindeutig festgefügt und hierauf ausführlich dargelegt sind von Seiten eines Allweisen und Allkundigen: Ihr sollt nur Allah dienen. Gewiß, ich bin euch von Ihm (aus) ein Warner und Frohbote.“ (Hud 11:1-2)"
+  ],
   "prophets": [
     {
       "id": "adam",
@@ -638,6 +641,9 @@
       },
       "detailPage": "muhammad"
     }
+  ],
+  "introQuranRefs": [
+    "11:1-2"
   ],
   "quranTranslation": {
     "title": "Der edle Qur'an — Übersetzung der Bedeutungen",

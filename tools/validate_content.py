@@ -62,6 +62,19 @@ def main() -> int:
                     failures += 1
                     print(f"FAIL {name}: {item.get('id')} references unknown location {loc!r}")
 
+    # An intro must exist in every language, paragraph for paragraph.
+    base_intro = docs.get("prophets.ar.json", {}).get("intro")
+    for lang in ("en", "de"):
+        other = docs.get(f"prophets.{lang}.json")
+        if not other:
+            continue
+        got = other.get("intro")
+        if bool(base_intro) != bool(got) or (base_intro and len(got) != len(base_intro)):
+            failures += 1
+            print(f"FAIL prophets.{lang}.json: intro has "
+                  f"{len(got) if got else 0} paragraph(s), Arabic has "
+                  f"{len(base_intro) if base_intro else 0}")
+
     # Translations must mirror the Arabic exactly in structure.
     for kind, key, id_key in (("prophets", "prophets", "id"), ("muhammad", "events", "id")):
         base = docs.get(f"{kind}.ar.json")

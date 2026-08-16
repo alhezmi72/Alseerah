@@ -20,6 +20,9 @@
       "url": "https://quran.com/"
     }
   ],
+  "intro": [
+    "Calling to the oneness of God is the message of all the prophets and messengers; warning people of His punishment and His Fire, and giving them glad tidings of His reward and His Garden, are the purpose of that message. “Alif. Lam. Ra. (This is) a Scripture the revelations whereof are perfected and then expounded. (It cometh) from One Wise, Informed, (Saying): Serve none but Allah. Lo! I am unto you from Him a warner and a bringer of good tidings.” (Hud 11:1-2)"
+  ],
   "prophets": [
     {
       "id": "adam",
@@ -638,6 +641,9 @@
       },
       "detailPage": "muhammad"
     }
+  ],
+  "introQuranRefs": [
+    "11:1-2"
   ],
   "quranTranslation": {
     "title": "The Meaning of the Glorious Koran",

@@ -74,8 +74,9 @@ rather than flattening them:
 - **No map without a place.** Where `locations` is empty — Idris, Nuh, Dhul-Kifl — the panel
   prints the source's own wording and no map. Where the identification is `traditional` or
   `disputed`, a note says the pin is approximate.
-- **Qur'an attribution** is displayed on any entry that quotes a verse, naming the published
-  edition, as the licence requires.
+- **Qur'an attribution** is displayed on any entry that quotes a verse — and beneath the opening
+  passage when that quotes one — naming the published edition, as the licence requires. It is not
+  shown in Arabic, where the text is the Qur'an itself rather than a translation of it.
 - **Unreviewed translations** carry a banner in English and German while
   `translation.status` is `machine`.
 

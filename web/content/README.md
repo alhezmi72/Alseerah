@@ -106,6 +106,16 @@ into an `en`/`de` file fails the build. Swapping editions is a one-file change; 
 `quranRefs` so the UI can link a quotation to its source. Six verses are registered: 96:1, 5:3,
 19:56, 19:54, 21:85 and the phrase *fath mubin* (48:1).
 
+**The page's opening passage.** Prose written between the heading and the table in
+`prophets-content` becomes the `intro` field: paragraphs shown after the title and before the first
+prophet. English and German go in the `intro` block of `i18n/prophets.json`, paragraph for
+paragraph — the build refuses to produce a half-translated page, and `validate_content.py` checks
+the counts. Verses in the passage follow the same rule as anywhere else: `{{quran:…}}` tokens only,
+and a bracketed verse that is not registered fails the build. A token may name a span
+(`{{quran:11:1-2}}`) where the Arabic quotes consecutive verses as one, and it renders as a single
+quotation with one citation. `introQuranRefs` records what was quoted, and its presence is what
+makes the interface show the published-edition attribution beneath the passage.
+
 **Emphasis handling.** Short label fields (`name`, `people`, `book.text`, `placeText`) are stripped
 of markdown. Long fields (`sinsAndPunishment`, `message`, `summary`) keep inline `**bold**`, which
 marks key terms and quoted verses — render them with an inline-markdown renderer, not `innerHTML`.

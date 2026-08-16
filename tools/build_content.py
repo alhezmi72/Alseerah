@@ -36,7 +36,7 @@ DIR_BY_LANG = {"ar": "rtl", "en": "ltr", "de": "ltr"}
 # presentation form outside this range and is intentionally kept in all
 # languages, as is the Arabic-Indic-free Latin text around it.
 ARABIC_LETTERS = re.compile(r"[؀-ۿ]")
-QURAN_TOKEN = re.compile(r"\{\{quran:(\d+:\d+)\}\}")
+QURAN_TOKEN = re.compile(r"\{\{quran:(\d+:\d+(?:-\d+)?)\}\}")
 QURAN_BRACKETS = re.compile(r"﴿[^﴾]*﴾")
 
 # Quotation marks per language, so a rendered verse reads natively.
@@ -390,8 +390,37 @@ def split_event_cell(cell: str):
 # Builders
 # ---------------------------------------------------------------------------
 
+def intro_paragraphs(block: str) -> list:
+    """Prose between the document's heading and its first table row.
+
+    This is the page's opening passage — it sits after the title and before the
+    first prophet. Everything here is authored Arabic and copied verbatim; blank
+    lines separate paragraphs. Returns [] when the author has written none, and
+    the field is then omitted entirely rather than emitted empty.
+    """
+    lines = []
+    for line in block.splitlines():
+        if line.lstrip().startswith("|"):
+            break                       # the table has begun
+        if line.lstrip().startswith("#"):
+            continue                    # the heading itself is the page title
+        lines.append(line)
+
+    paragraphs, current = [], []
+    for line in lines:
+        if line.strip():
+            current.append(line.strip())
+        elif current:
+            paragraphs.append(" ".join(current))
+            current = []
+    if current:
+        paragraphs.append(" ".join(current))
+    return [norm(p) for p in paragraphs if norm(p)]
+
+
 def build_prophets(md: str) -> dict:
     block = md.split("# ملاحظات مهمة حول الجدول", 1)[0]
+    intro = intro_paragraphs(block)
     out = []
     for num, cells in table_rows(block):
         if len(cells) != 7:
@@ -425,6 +454,8 @@ def build_prophets(md: str) -> dict:
 
     if len(out) != 25:
         raise ValueError(f"expected 25 prophets, parsed {len(out)}")
+    if intro:
+        print(f"  intro: {len(intro)} paragraph(s) before the first prophet")
     return {
         "$schema": "../../schema/prophets.schema.json",
         "version": 1,
@@ -436,6 +467,7 @@ def build_prophets(md: str) -> dict:
             "generatedBy": "tools/build_content.py",
         },
         "sources": QURAN_SOURCE,
+        **({"intro": intro} if intro else {}),
         "prophets": out,
     }
 
@@ -575,6 +607,22 @@ def lookup(table: dict, key: str, lang: str, kind: str) -> str:
     return table[key][lang]
 
 
+def bundle_intro(i18n: dict, lang: str, expected: int) -> list:
+    """The intro in `lang`, checked against the Arabic paragraph for paragraph."""
+    intro = i18n["prophets"].get("intro", {}).get(lang)
+    if intro is None:
+        raise ValueError(
+            f"prophets-content has an intro but i18n/prophets.json has no {lang!r} "
+            f"translation for it. Add an \"intro\" block with {expected} paragraph(s)."
+        )
+    if len(intro) != expected:
+        raise ValueError(
+            f"the {lang!r} intro has {len(intro)} paragraph(s) but the Arabic has "
+            f"{expected}. They must correspond one to one."
+        )
+    return intro
+
+
 def translate_prophets(base: dict, i18n: dict, lang: str) -> dict:
     quran, bundle = i18n["quran"], i18n["prophets"]["prophets"]
     doc = json.loads(json.dumps(base))
@@ -582,6 +630,17 @@ def translate_prophets(base: dict, i18n: dict, lang: str) -> dict:
     doc["dir"] = DIR_BY_LANG[lang]
     doc["translation"] = {"status": "machine", "from": "ar", "reviewedBy": None, "reviewedAt": None}
     doc["quranTranslation"] = quran["editions"][lang]
+
+    if "intro" in doc:
+        translated = bundle_intro(i18n, lang, len(doc["intro"]))
+        paragraphs, refs = [], []
+        for i, para in enumerate(translated):
+            text, used = resolve_quotes(para, quran, lang, f"prophets.{lang}:intro[{i}]")
+            paragraphs.append(text)
+            refs += used
+        doc["intro"] = paragraphs
+        if refs:
+            doc["introQuranRefs"] = list(dict.fromkeys(refs))
 
     for prophet in doc["prophets"]:
         pid = prophet["id"]
@@ -637,6 +696,10 @@ def translate_events(base: dict, i18n: dict, lang: str) -> dict:
 
 def annotate_arabic_quran_refs(prophets: dict, events: dict, quran: dict):
     """Tag the Arabic entries that quote the Qur'an, so the UI can link them."""
+    if prophets.get("intro"):
+        refs = arabic_quran_refs(quran, *prophets["intro"])
+        if refs:
+            prophets["introQuranRefs"] = refs
     for prophet in prophets["prophets"]:
         refs = arabic_quran_refs(quran, prophet["message"], prophet["sinsAndPunishment"],
                                  prophet["book"]["text"])

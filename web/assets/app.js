@@ -115,6 +115,11 @@ async function route() {
   }
   $("#loading").hidden = true;
 
+  // Chrome runs once before the fetch so the header and title switch language
+  // immediately, and again now that the document is in hand — the preamble and
+  // the unreviewed-translation banner both come from it.
+  applyChrome();
+
   if (changedList || !$("#timeline").childElementCount) renderTimeline(doc);
   renderDetail(doc);
   markActive();
@@ -164,10 +169,24 @@ function applyChrome() {
   $('[data-zoom="out"]').disabled = state.zoom === ZOOM_MIN;
   $('[data-zoom="in"]').disabled = state.zoom === ZOOM_MAX;
 
+  const doc = state.data[`${state.view}.${state.lang}`];
+
   $("#pageTitle").textContent = state.view === "prophets" ? s.prophetsTitle : s.muhammadTitle;
   $("#pageIntro").textContent = state.view === "prophets" ? s.prophetsIntro : s.muhammadIntro;
 
-  const doc = state.data[`${state.view}.${state.lang}`];
+  // The authored opening passage, between the page's own strapline and the
+  // first entry on the timeline. Absent unless the source document has one.
+  const preamble = $("#preamble");
+  preamble.replaceChildren();
+  const paragraphs = doc?.intro || [];
+  preamble.hidden = paragraphs.length === 0;
+  for (const p of paragraphs) preamble.append(el("p", {}, inlineMarkdown(p)));
+  // A verse in the passage carries the same obligation as one in a panel: name
+  // the published edition it is quoted from.
+  if (doc?.introQuranRefs?.length && doc.quranTranslation) {
+    preamble.append(el("p", { className: "quran", textContent: doc.quranTranslation.attribution }));
+  }
+
   const notice = $("#translationNotice");
   const unreviewed = doc?.translation?.status === "machine";
   notice.hidden = !unreviewed;

@@ -1,6 +1,5 @@
 {
   "note": "Qur'anic quotations are NOT translated by hand. Every quote in an English or German string is a placeholder token — {{quran:96:1}} — that the build replaces with the wording of the published edition named below. This is the single place a verse rendering exists; changing the edition here changes it everywhere. The Arabic files keep the Qur'anic text itself, which is not a translation and is left exactly as written.",
-
   "editions": {
     "en": {
       "title": "The Meaning of the Glorious Koran",
@@ -20,12 +19,15 @@
       "verifiedAgainst": "https://api.quran.com/api/v4/quran/translations/27"
     }
   },
-
   "quotes": {
     "96:1": {
       "form": "verse",
       "partial": false,
-      "surah": { "ar": "العلق", "en": "Al-'Alaq", "de": "Al-'Alaq" },
+      "surah": {
+        "ar": "العلق",
+        "en": "Al-'Alaq",
+        "de": "Al-'Alaq"
+      },
       "ar": "﴿اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ﴾",
       "en": "Read: In the name of thy Lord Who createth",
       "de": "Lies im Namen deines Herrn, Der erschaffen hat"
@@ -33,7 +35,11 @@
     "5:3": {
       "form": "verse",
       "partial": true,
-      "surah": { "ar": "المائدة", "en": "Al-Ma'idah", "de": "Al-Ma'ida" },
+      "surah": {
+        "ar": "المائدة",
+        "en": "Al-Ma'idah",
+        "de": "Al-Ma'ida"
+      },
       "ar": "﴿الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ...﴾",
       "en": "This day have I perfected your religion for you…",
       "de": "Heute habe Ich euch eure Religion vervollkommnet…"
@@ -41,7 +47,11 @@
     "19:56": {
       "form": "verse",
       "partial": true,
-      "surah": { "ar": "مريم", "en": "Maryam", "de": "Maryam" },
+      "surah": {
+        "ar": "مريم",
+        "en": "Maryam",
+        "de": "Maryam"
+      },
       "ar": "﴿إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا﴾",
       "en": "Lo! he was a saint, a prophet",
       "de": "Er war ein Wahrhaftiger und Prophet"
@@ -49,7 +59,11 @@
     "19:54": {
       "form": "verse",
       "partial": true,
-      "surah": { "ar": "مريم", "en": "Maryam", "de": "Maryam" },
+      "surah": {
+        "ar": "مريم",
+        "en": "Maryam",
+        "de": "Maryam"
+      },
       "ar": "﴿كَانَ صَادِقَ الْوَعْدِ﴾",
       "en": "he was a keeper of his promise",
       "de": "er war wahrhaftig in seinem Versprechen"
@@ -57,7 +71,11 @@
     "21:85": {
       "form": "verse",
       "partial": true,
-      "surah": { "ar": "الأنبياء", "en": "Al-Anbiya", "de": "Al-Anbiya" },
+      "surah": {
+        "ar": "الأنبياء",
+        "en": "Al-Anbiya",
+        "de": "Al-Anbiya"
+      },
       "ar": "﴿كُلٌّ مِنَ الصَّابِرِينَ﴾",
       "en": "All were of the steadfast",
       "de": "Jeder gehörte zu den Standhaften"
@@ -65,11 +83,28 @@
     "48:1": {
       "form": "phrase",
       "partial": true,
-      "surah": { "ar": "الفتح", "en": "Al-Fath", "de": "Al-Fath" },
+      "surah": {
+        "ar": "الفتح",
+        "en": "Al-Fath",
+        "de": "Al-Fath"
+      },
       "ar": "فتح مبين",
       "en": "a signal victory",
       "de": "einen deutlichen Sieg",
       "usageNote": "Used descriptively in event 78 rather than as a bracketed quotation, so it renders as an emphasised phrase with a reference, not as a framed verse."
+    },
+    "11:1-2": {
+      "form": "verse",
+      "partial": false,
+      "surah": {
+        "ar": "هود",
+        "en": "Hud",
+        "de": "Hud"
+      },
+      "ar": "﴿الر كِتٰبٌ أُحكِمَت ءايٰتُهُ ثُمَّ فُصِّلَت مِن لَدُن حَكيمٍ خَبيرٍ۝أَلّا تَعبُدوا إِلَّا اللَّهَ إِنَّنى لَكُم مِنهُ نَذيرٌ وَبَشيرٌ﴾",
+      "en": "Alif. Lam. Ra. (This is) a Scripture the revelations whereof are perfected and then expounded. (It cometh) from One Wise, Informed, (Saying): Serve none but Allah. Lo! I am unto you from Him a warner and a bringer of good tidings.",
+      "de": "Alif-Lam-Ra. (Dies ist) ein Buch, dessen Zeichen eindeutig festgefügt und hierauf ausführlich dargelegt sind von Seiten eines Allweisen und Allkundigen: Ihr sollt nur Allah dienen. Gewiß, ich bin euch von Ihm (aus) ein Warner und Frohbote.",
+      "usageNote": "Two consecutive verses quoted as one span in the Arabic source, so they are registered and rendered as one quotation with a single 11:1-2 citation."
     }
   }
 }

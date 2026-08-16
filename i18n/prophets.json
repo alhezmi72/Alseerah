@@ -1,6 +1,13 @@
 {
   "note": "English and German strings for the 25 prophets, keyed by the stable id from prophets.ar.json. Qur'anic quotations appear as {{quran:sura:ayah}} tokens and are resolved from i18n/quran.json at build time — never translate a verse here. shortName is the timeline-circle label and stays short. Names use the Qur'anic form, with the biblical form in parentheses in `name` for recognition.",
-
+  "intro": {
+    "en": [
+      "Calling to the oneness of God is the message of all the prophets and messengers; warning people of His punishment and His Fire, and giving them glad tidings of His reward and His Garden, are the purpose of that message. {{quran:11:1-2}}"
+    ],
+    "de": [
+      "Der Aufruf zur Einheit Gottes ist die Botschaft aller Propheten und Gesandten; die Menschen vor Seiner Strafe und Seinem Feuer zu warnen und ihnen Seinen Lohn und Sein Paradies zu verheißen, ist das Ziel dieser Botschaft. {{quran:11:1-2}}"
+    ]
+  },
   "prophets": {
     "adam": {
       "en": {

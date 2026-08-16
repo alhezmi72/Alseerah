@@ -57,6 +57,17 @@
         "additionalProperties": false
       }
     },
+    "intro": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Opening passage for the page, shown after the title and before the first prophet. Authored as prose between the heading and the table in prophets-content; omitted entirely when none is written. Paragraphs correspond one to one across languages. Inline markdown; ** marks key terms.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "introQuranRefs": {
+      "type": "array",
+      "description": "Qur'an references quoted in the intro, as \"sura:ayah\" or \"sura:first-last\" for a span. Its presence is what requires the published-edition attribution to be shown with the passage.",
+      "items": { "type": "string", "pattern": "^\\d+:\\d+(-\\d+)?$" }
+    },
     "prophets": {
       "type": "array",
       "minItems": 1,
@@ -166,7 +177,7 @@
         "quranRefs": {
           "type": "array",
           "description": "Qur'an references quoted in this entry, as \"sura:ayah\". Lets the UI link a quotation to its source. Identical across languages.",
-          "items": { "type": "string", "pattern": "^\\d+:\\d+$" }
+          "items": { "type": "string", "pattern": "^\\d+:\\d+(-\\d+)?$" }
         },
         "sources": { "type": "array", "items": { "type": "string" } }
       },
